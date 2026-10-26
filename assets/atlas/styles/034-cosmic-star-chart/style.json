@@ -1,0 +1,75 @@
+{
+  "id": 34,
+  "name": "Cosmic Star Chart",
+  "family": "Cosmic & Psychedelic",
+  "description": "Deep-space illustration crossed with an engraved celestial atlas: fbm nebulae in teal, violet, rose and gold, a lit ringed gas giant with cratered moons, comets and a diffraction-spiked star, overlaid with hairline gold and pale-cyan chart work (dotted orbits with arrowheads, degree rings, ring markers, small-caps serif labels).",
+  "explainerNotes": "Explainer: Told as one celestial chart overlaid on deep space: the model is a ringed planet whose moons are its weights, cat/dog examples arrive as constellation-headed comets, a warp streak changes scene, the guess is a chart beam to a labelled star that turns red with a red ring marker, the weights’ orbit visibly tilts, the camera tilts up to an atlas chart where the accuracy constellation forms and flares at 97%; numbers are big Syne figures over graduated sextant scales.",
+  "motionNotes": "Motion: The sky fades up star by star while the camera drifts in, the key star flares, the planet lights up, then the chart engraves itself over it: degree ring sweeping round, orbits dotting on, markers and labels landing, a comet streaking past.",
+  "folder": "styles/034-cosmic-star-chart",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 106743,
+    "sha256": "ca8e48718ef9459ca631f1c199890467edf31098d6dd8786c0394b7050a45eba",
+    "sourceStyleName": "Cosmic Star Chart",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/cosmic.js",
+      "language": "js",
+      "characters": 69721,
+      "sha256": "28208e8eab9f9804985c11946e515244c8e948e37e3a2d48fb7f673063fc34d2"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-40.889Z-hy4iuRBLzXtY9RACy6ojP4guC2v2iDQeb.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1416772,
+      "sha256": "1eb8a3bdeb43c87ab8dbe5befd16f9527a69ae3c94826af8a7a57a4a3ac8ba0f",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-40.401Z-wS2OIfKrtbjZ10tGM1_fl8vUSIoeegGJu.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 383890,
+      "sha256": "c9cea208d6a1c764c4179b31d085a8ed733113d2da5c7c57588e1bb76901366d",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-40.132Z-aUHxEQDCLX2v09WB9Y4MFJLqHEuy6Q1eL.jpg",
+      "file": "poster.jpg",
+      "bytes": 54346,
+      "sha256": "1bccca7fb48c6bdfa6712066849603cec10010624b5d69eb1f16f5ed80ce8d4c",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

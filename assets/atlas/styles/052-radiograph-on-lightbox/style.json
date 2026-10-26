@@ -1,0 +1,75 @@
+{
+  "id": 52,
+  "name": "Radiograph on Lightbox",
+  "family": "Light & Imaging",
+  "description": "A blue-base X-ray film clipped to a glowing viewer: additive translucent density of a robot hand — hollow-shelled bones, pivot pins, screws, tendons, battery cell and gears — with collimation borders, lead markers, an ID flash, grease-pencil notes, scratches and dust.",
+  "explainerNotes": "Explainer: A radiologist working a lightbox: scenes change by pulling films down and slapping new ones up under the clips, arrows, circles and answers are grease pencil on the glass, the counter is typed by the ID flasher and accuracy is rewritten round by round, with masking-tape labels for the header and takeaway.",
+  "motionNotes": "Motion: The viewer’s fluorescent tubes stutter on one by one, the film develops from milky fog to deep blue-black top-down like it was dipped in the tank, then a grease pencil circles the loose pin and scrawls a note while the camera slowly pushes in.",
+  "folder": "styles/052-radiograph-on-lightbox",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 90245,
+    "sha256": "3246186a6162a0523db11a0c66a7b5f2bd0346f8fcfc3602a1147406914474e3",
+    "sourceStyleName": "Radiograph on Lightbox",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/x-ray.js",
+      "language": "js",
+      "characters": 53503,
+      "sha256": "7f97c4720c755327b7573fdb7f3c9d9f8839e9a6d1c0e4205334d35ac30f605b"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-36.545Z-RESAzRqvVz1RK7nTZyWkkH4TRvw6W1Elo.mp4",
+      "file": "explainer.mp4",
+      "bytes": 612265,
+      "sha256": "efa6f78ba8c8fc149bb82f73d9afb2e9b3180cd11dd88e780c09f0983b181031",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-36.055Z-RJnyuSAJoJDx2I11qmDd0q_AIhwQyuvNN.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 216290,
+      "sha256": "95319d53f9397f39d01805dd79fa295a8a85a790dd0a1e16034688bbbbf904ad",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-35.757Z-YdeSH0KSvf-wRGY4yLJIShap2XDKAH-6D.jpg",
+      "file": "poster.jpg",
+      "bytes": 36917,
+      "sha256": "a405df66f3664596f9e9145f9508d44cb777ce92072365ef27132237fead3753",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

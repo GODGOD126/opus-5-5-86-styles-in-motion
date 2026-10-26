@@ -1,0 +1,75 @@
+{
+  "id": 72,
+  "name": "Vector Arcade 1980",
+  "family": "Retro Digital",
+  "description": "An XY vector monitor cabinet game: hair-thin phosphor beams on pure black, additive bloom, brighter dwell dots where the beam pauses at vertices, dimmer long strokes, wireframe 3D in perspective and a hand-built stroke font.",
+  "explainerNotes": "Explainer: Told as a vector-cabinet HUD: the question shrinks into a red corner readout, labelled wireframe cards stream into a spinning icosahedron core, a hyperspace-style zoom carries us into a lock-on loop (GUESS > CHECK > ADJUST with brackets, red error beam, turning weight dials), and the stroked accuracy graph climbs to a flashing 97%.",
+  "motionNotes": "Motion: Attract-mode build: the beam traces the horizon and mountains, wireframes draw on edge by edge, the AI core flies in from the distance spinning, the saucer slides in with phosphor trails, then the radar, score and title are stroked in letter by letter while everything flickers with beam load.",
+  "folder": "styles/072-vector-arcade-1980",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 80716,
+    "sha256": "fe077003355716d5332ac5a895bca5598f91fbf8b09319170a5e91bd18282f13",
+    "sourceStyleName": "Vector Arcade 1980",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/vector-arcade.js",
+      "language": "js",
+      "characters": 44242,
+      "sha256": "acd1a574fd4e70792a89a01da29d8dfd664d0477d09ceb7be8fb373f6864a7b2"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-39.306Z-DSi1CHmTBIYRsEtHmKLiXEQYze51LW_L9.mp4",
+      "file": "explainer.mp4",
+      "bytes": 998495,
+      "sha256": "2c38f744f552e15c04f43a190bc519ea2e6b3f178a00f2b36a8963aec113d0d1",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-38.820Z-IYgzCiQFaPAPfrD6iDGGh6mKUF5sgxVFz.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 293256,
+      "sha256": "d7fbc73e0597e7c71048a6fd7ba33ba0d25c60377fd2ffa33059c14706e1a073",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-38.556Z-6ibhROZz7rBXcH02Y5rLkkcS46Awyw-lr.jpg",
+      "file": "poster.jpg",
+      "bytes": 51776,
+      "sha256": "cb311bdff68363c9772c6074e98f9b526658c8859c26aa9bf756e98550eedf40",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": 13,
+  "name": "Product Launch Reveal",
+  "family": "Popular Explainer Looks",
+  "description": "A big-tech keynote product film: one glossy hero object on a near-black stage, lit like a studio shot with soft key, rim light, a sweeping specular highlight and a floor reflection, huge tight-tracked sans headlines, gradient key numbers with a soft glow and hairline spec callouts.",
+  "explainerNotes": "Explainer: Told as a keynote launch film around one hero object (the model, a glass-topped chip): one continuous studio camera that orbits and pushes between beats, hairline callouts and arrows for flow, a clean red strike for the wrong guess while the chip’s inner layers light up backwards to adjust, a giant violet-to-orange 97% with a glow bloom and gleam, and a light-sweep wipe to a pristine white stage for the tagline.",
+  "motionNotes": "Motion: Rim light finds the object in the dark, the key light fades up as the camera slowly orbits and pushes in, a highlight glides across the glass, the edge ring ignites, then the headline arrives one word at a time and hairline callouts draw out to their spec labels.",
+  "folder": "styles/013-product-launch-reveal",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 89417,
+    "sha256": "03401a2e7c87a98afc06702d61f76940e60149411e0fcbdc81d50f280c567d0f",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/product-launch.js",
+      "language": "js",
+      "characters": 52586,
+      "sha256": "f7e2e85c03f1f2d528d90987fece378ebd5d29d716b8bc9c3ad9d1d2af6126a8"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-36.175Z-eR8S211l2JodEO09X2LccAgCF3KNiUt3w.mp4",
+      "file": "explainer.mp4",
+      "bytes": 949938,
+      "sha256": "832fb0b7e564bf5329fba65b904851245f21f84d742617a38405ac3b3ab72c11",
+      "duration": 15.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-35.697Z-7R0-hd95tRc4uk852KYQLDHjsVbz0ffsT.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 197183,
+      "sha256": "de6d30add4f62d201e0504c101fc650e5975acfacd4b96865c5a10206aa1110c",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-35.412Z-tJ7otiELc-RyPkKjAmqts0BkrN-ofxaCh.jpg",
+      "file": "poster.jpg",
+      "bytes": 29762,
+      "sha256": "58bc90108337d55cdb1dd328cc08bc0558d62dad598c7bbf29431b15bcbd530b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

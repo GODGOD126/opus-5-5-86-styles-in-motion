@@ -1,0 +1,75 @@
+{
+  "id": 61,
+  "name": "Kinetic Type",
+  "family": "Generative & Type",
+  "description": "A typographic music-video frame: condensed words cropped edge to edge with zero leading, filled vs outlined, strobe echoes, a slice glitch and one word stretched and filled with a halftone dreamscape — strictly two colours.",
+  "explainerNotes": "Explainer: Words slam in on the beat and do the explaining; scenes change with a slice-glitch tear and a whip-pan, arrows are heavy rules with chevrons, labels are inverted mono tags that drop onto their targets, and the counters are huge Anton numerals with a strobe-flash on the key hits.",
+  "motionNotes": "Motion: One word per beat at 120 bpm: THE punches in, MACHINES whips in from the right trailing outline echoes, LEARNED slams up with a one-frame inverted flash, the TO tab wipes up, DREAM springs open and its halftone moon develops; then the slice glitch and echoes pulse on every beat.",
+  "folder": "styles/061-kinetic-type",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 81875,
+    "sha256": "6b9422eae369c4c19323b9fb7d61a1b71e2e175f48a10c7198e11e625ac71923",
+    "sourceStyleName": "Kinetic Type",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/kinetic-type.js",
+      "language": "js",
+      "characters": 45192,
+      "sha256": "da29c0655a20fefa034ee46ed4a8f84c9a6ebacbedea061a16539b0eedf79e86"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-04.866Z-EYoiCQLCrLyGYDWhUWbUZIsqv2oV-oYOE.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1139175,
+      "sha256": "c92a9215ad7165e050bb25b14f17539f3ef792440330adf8a9bae5251402f654",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-04.370Z-muX_wXYTsj9nUThwzvi8ZEfVYZ0Wrw_hj.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 556598,
+      "sha256": "ec88bd104f8b32bb88343d10126544d60f1df9a16483c43783ca7ce2c6ff031e",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-04.083Z-TRYyDyn_sh-Wn7uwYUV09jxuYtYg6y0IH.jpg",
+      "file": "poster.jpg",
+      "bytes": 144707,
+      "sha256": "9f8998db5c1b5a8267cb86e2d3ddb7b2e0ea4678f900357502c11acf922d97f7",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

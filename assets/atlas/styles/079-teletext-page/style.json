@@ -1,0 +1,75 @@
+{
+  "id": 79,
+  "name": "Teletext Page",
+  "family": "Retro UI & Neon",
+  "description": "A broadcast teletext page: strict 40x25 character grid, eight saturated colours, 2x3 sextant mosaic graphics with one colour per cell, double-height headlines and Fastext links, seen through a CRT.",
+  "explainerNotes": "Explainer: Each beat is a new teletext page (P100-P104): the header searches in green while the old page lingers, then the new page overwrites it two rows at a time; arrows, pictures and bar charts are sextant mosaics, numbers count in double-height digits and the key moments use the Flash attribute.",
+  "motionNotes": "Motion: Only the header shows while the page counter rolls in green, then the page lands top-down two rows at a time; mosaic bars step up a sub-block at a time, LATEST and the robot eyes flash, the ticker hops whole characters and the clock ticks.",
+  "folder": "styles/079-teletext-page",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 74829,
+    "sha256": "c577db666067de7566711ae798bed710fc1936285027d0a3c44180638c9efa29",
+    "sourceStyleName": "Teletext Page",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/teletext.js",
+      "language": "js",
+      "characters": 38255,
+      "sha256": "342fedcec195689e463649a50ee10a77908254675952fe0f357bf6aab69a4534"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-00.623Z-e0HjOte4MRDzs6CqWS-vf3EVQrPmLVfJd.mp4",
+      "file": "explainer.mp4",
+      "bytes": 713871,
+      "sha256": "9addc4b93d1a4ad33a06d13ea83b47b389f9f909123a6537b9c80203a649e217",
+      "duration": 14.8,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-00.122Z-gpehupM30exzAEEilrn3fDjy9qhvVbTKk.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 200572,
+      "sha256": "2b24282137445eb32cc80998eebb396ab40e8095b38170ce556acb48f5173649",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-59.835Z-AvU0jfajPgtA2RrowAmoRfMXdwBSZSgRO.jpg",
+      "file": "poster.jpg",
+      "bytes": 115205,
+      "sha256": "0a878dee28194e2d53e78179732eb761f04469e05e770f32948517ee21ecdcd9",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

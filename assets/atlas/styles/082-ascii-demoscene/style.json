@@ -1,0 +1,75 @@
+{
+  "id": 82,
+  "name": "ASCII Demoscene",
+  "family": "Retro Digital",
+  "description": "A ray-marched 3D torus rasterised into a strict monospace character grid via a luminance ramp, colour-coded like a 90s demoscene intro: box-drawn title panel, plasma backdrop, copper bars and a sine scroller.",
+  "explainerNotes": "Explainer: One long ASCII document that the terminal scrolls through row by row: figlet block-letter question, labelled ASCII cat/dog cards stepping along a box-drawing arrow into a MODEL box, a reverse-video GUESS/CHECK/ADJUST loop with a red error path, and block-character bar charts with figlet counters.",
+  "motionNotes": "Motion: Like a demo intro booting: plasma thickens in, the spinning torus is rastered into characters top-to-bottom behind a bright scan row, the block title and nfo panel print, copper bars open and a rainbow sine-scroller glides in from the right.",
+  "folder": "styles/082-ascii-demoscene",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 73303,
+    "sha256": "bad409437835acaa3b6f03eff84b8e7ade9ff8f524c91a60bf6984dbc5d5d6b7",
+    "sourceStyleName": "ASCII Demoscene",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/ascii-render.js",
+      "language": "js",
+      "characters": 36674,
+      "sha256": "9c236ba12fa32ebd4abcb58bea647055bc08e7cd723c965aa5fea0f1ed7af848"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-09.797Z-HC3lDq4q-4kP9zd9CdoCxUl7jcwwKi9J0.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1064383,
+      "sha256": "d2eac6ad165271acecc8c8cbf61cb1b3e8aa7691b056f80d51f80373808ea011",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-09.302Z-WYchEhhmg5_qhmyzfjgTyUtJ30bmZL1Dz.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 497342,
+      "sha256": "de9a67a69b41c11809b9fc226692e77b18f72b5e77337c1084c6b32a1fa6e368",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-09.031Z-76oPcZ-If0sJNHo-cQlMMA-ZDYI9s5-Hh.jpg",
+      "file": "poster.jpg",
+      "bytes": 85988,
+      "sha256": "f107aaa94bb8d6c497151799addf5465e878437933aaaf8fc044816e4db03493",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

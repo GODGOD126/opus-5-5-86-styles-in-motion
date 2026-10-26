@@ -1,0 +1,73 @@
+{
+  "id": 8,
+  "name": "1940s Film Noir",
+  "family": "Light & Imaging",
+  "description": "A high-contrast black-and-white still from a forties detective picture: venetian-blind light slicing across a fedora silhouette, a glowing terminal as the only other light, cigarette smoke hanging in the beams, with heavy nitrate grain, gate weave, dust and scratches.",
+  "explainerNotes": "Explainer: Told as a 1940s newsreel / B-picture montage: spinning-newspaper headlines, iris, wipe and clock-wipe transitions, mugshot booking placards as labels, white newsreel arrows and lettering, a rolling mechanical odometer for numbers and a rubber stamp slammed down as the emphasis, all under heavy grain and gate weave.",
+  "motionNotes": "Motion: Blinds sway and smoke curls in a dark office; the terminal warms up with a CRT flash, its glow rim-lights the detective, a prompt types out, and the title card dissolves in word by word over projector flicker, weave and dirt.",
+  "folder": "styles/008-1940s-film-noir",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 99844,
+    "sha256": "e399662350cb398b42ab0c757fac532aec19a6e3e80b32004bb975f7c0689625",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/film-noir.js",
+      "language": "js",
+      "characters": 62947,
+      "sha256": "45ec7dc3012e380ea1ce6cbfd041eb19da382813649eeea7751ade0e59373d9a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-19.524Z-XdupWSZAGNRf-naKtgpAApW-eloMfDNB2.mp4",
+      "file": "explainer.mp4",
+      "bytes": 5893119,
+      "sha256": "019ebdc0f30f46c3fd010de2c4ecfbad9dfd19d11ba1109fabdb9e7757136c64",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-18.782Z-EeRbajg_aFZwKxPC5HOOq2HGYD_pCnPE2.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2909782,
+      "sha256": "c09fe1e58cb11e80ef9160732f133571c9ed6ea552b99bca5608bd14d69d7878",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-18.443Z-4mMn6gmnz43ovxg49xXsIC61JYnI6zW1G.jpg",
+      "file": "poster.jpg",
+      "bytes": 52179,
+      "sha256": "c27edad1e057f12814641bf55283b2b70fd3da333e80336b9e89f4d51f07d120",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

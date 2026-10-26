@@ -1,0 +1,75 @@
+{
+  "id": 28,
+  "name": "Origami Studio",
+  "family": "Paper & Craft",
+  "description": "Folded-paper models shot on a seamless studio sweep: every form is flat facets with consistent fold shading, crisp crease lines, two-tone paper and soft table shadows.",
+  "explainerNotes": "Explainer: The camera dollies along one long studio table: every prop folds up from flat paper, arrows are creased paper arrows lying on the table with the label printed on them, numbers are printed on tent cards that refold, and the wrong guess gets a camera push-in and a key-light flare.",
+  "motionNotes": "Motion: Models unfold into place crease by crease, the paper crane-drone bobs on spinning paper rotors while the key light slowly orbits the table.",
+  "folder": "styles/028-origami-studio",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 91714,
+    "sha256": "ae4b0f511cf9c473849de0854c41b3231cb1e3db32518dabeb43d620a4c4a0c5",
+    "sourceStyleName": "Origami Studio",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/origami.js",
+      "language": "js",
+      "characters": 55248,
+      "sha256": "c3d997c6b990979ff4dfcf7f4d7fabb7fa9b0e03ed6a3c73397efb68fcd829ed"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-22.671Z-48VujZeV2cMjnCcIgxjO6XbVPJwJjyKyL.mp4",
+      "file": "explainer.mp4",
+      "bytes": 912759,
+      "sha256": "e206dd373385108401194559e627ac6dcfb4fe5994ab8cdde12c7b820dffe00e",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-22.158Z-7xgHvc_XCPjPD0kuxrV7Vo2Yxt7LengZw.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 380176,
+      "sha256": "577a4261609ddc9a3944807b77e2b23930aea3b2dbdfadbe8279280ae6c6e541",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-21.908Z-aGt7Thz8N3IG2ZC-WPFnBxxbIgFqmjBBa.jpg",
+      "file": "poster.jpg",
+      "bytes": 30772,
+      "sha256": "0fdbb6054d928835a26ca0107d3a977bef17cb6f3614fc25822a10a0ea9a24fc",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

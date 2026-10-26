@@ -1,0 +1,75 @@
+{
+  "id": 69,
+  "name": "Op Art Sphere",
+  "family": "Generative & Type",
+  "description": "Hard-edged black/ivory checkerboard that swells into a lens-like sphere and ripples at the margins — Vasarely and Riley optical vibration, flat acrylic on primed canvas.",
+  "explainerNotes": "Explainer: The model is the Vasarely lens: untrained its grid is melted noise, the error travels back as an optical ripple through the checkerboard and each adjustment combs the sphere toward perfect order; scenes change with a Riley fold that crushes the picture into crowded columns, labels are hard-edged black and red slabs, and the numbers are Archivo Black on ivory bands.",
+  "motionNotes": "Motion: A flat checkerboard first ripples into Riley folds, then swells into a lens-sphere that pops past its size and settles; red squares flip in cell by cell from the centre, then the field breathes and the folds drift.",
+  "folder": "styles/069-op-art-sphere",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 68094,
+    "sha256": "9ca31ea6ec0caccc5987d41b6cac913ef3efc0bcc1544bb96f1410ab2337c7b9",
+    "sourceStyleName": "Op Art Sphere",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/op-art.js",
+      "language": "js",
+      "characters": 31465,
+      "sha256": "17f903bd93e7daba8766627825d04ca85e6d3e7d934fec957ea3f8fdee5d89d3"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-30.186Z-RSunCQNfGGoP9dEQ5A1p8XqJOdUbKkht2.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2086670,
+      "sha256": "3a4be952fa4beff421c6a2b65355f46aa65f8d7085cbcf9bba0061df11c25aa7",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-29.685Z--AZ1nEKx1RH_yUtFvNbpacbg6bQqljWoW.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 803054,
+      "sha256": "f172cb2effe34e0e93a05c53aa0fe69ec775b2b4e57bec2a837936423d0a58f1",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-29.390Z-ZUZXhkWOL-J_VGo9AH6f9cJ_ZnMPCzsbi.jpg",
+      "file": "poster.jpg",
+      "bytes": 82841,
+      "sha256": "cbf9440cba226bf48842d3c2a6118cb88604eff09280aa7f17bfebfa8d4ebb5f",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

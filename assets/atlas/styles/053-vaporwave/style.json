@@ -1,0 +1,75 @@
+{
+  "id": 53,
+  "name": "Vaporwave",
+  "family": "Retro UI & Neon",
+  "description": "Pastel-neon dreamscape: sliced sunset sun, glowing grid floor, a glitching marble bust on a checkerboard plinth, palm silhouettes, katakana, and a chewed-up VHS tape finish.",
+  "explainerNotes": "Explainer: Told on a worn VHS tape: scenes change with a tape cut (VCR blue screen, fast-forward, vertical roll), the header lives on as the VCR on-screen menu, the counter is tape-counter digits, labelled polaroids slide along the neon floor into the marble-bust \"model\", a pastel guess.exe pop-up does the guessing and the chart is drawn in neon across the sky.",
+  "motionNotes": "Motion: Tape starts on a blue VCR screen and rolls into lock, the striped sun rises, palms slide in, the bust glitches into existence slice by slice, katakana stamps on with chroma split and a tracking band crawls down.",
+  "folder": "styles/053-vaporwave",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 86175,
+    "sha256": "2dba2cf2d72929a3dc53f315cc7cda11971ee1deb17800a459933d27490e6ea3",
+    "sourceStyleName": "Vaporwave",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/vaporwave.js",
+      "language": "js",
+      "characters": 49540,
+      "sha256": "c1123f432ce519000209f9df4e867b64501daf110a7a9c9fd6e533f5f32fa2f7"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-39.575Z-Em577sLQEXAu3-dq2gf9Gs1n2ucxy7jJ1.mp4",
+      "file": "explainer.mp4",
+      "bytes": 4437270,
+      "sha256": "965cf751d3894695598c658a5cf4011e72c1376589a4e1763d9669f5f70f80ac",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-39.025Z-2-XxyVGSvMGWIAA37Izc_OouFzQYf2gaC.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2623858,
+      "sha256": "4bad359570ae2ffbea569b9ed799fb72fcf9ba355a782534c03a238ffc2e7027",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-38.752Z-GBVHWJ6Ylq3stDmwufplGdKkdJ26BwAhy.jpg",
+      "file": "poster.jpg",
+      "bytes": 104180,
+      "sha256": "5e86fcd59522adad75a46d03b693270228e9108aa3095a93ac9ee84c4cf54649",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

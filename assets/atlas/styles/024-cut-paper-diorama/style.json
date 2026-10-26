@@ -1,0 +1,73 @@
+{
+  "id": 24,
+  "name": "Cut-Paper Diorama",
+  "family": "Paper & Craft",
+  "description": "A layered cardstock shadow-box: every shape is a separate scissor-cut sheet with fibre texture, a lit paper edge and a soft drop shadow onto the sheet behind it; torn edges show the white core of the paper.",
+  "explainerNotes": "Explainer: One long paper diorama the camera pans along on parallax; arrows are cut-paper strips that grow, labels are paper tags dropped onto what they name, numbers are swapped cut-out digit tiles, and emphasis is a paper ring or sunburst popping up behind.",
+  "motionNotes": "Motion: Layers slide in on parallax like a pop-up book, the rocket rises on its wire while paper smoke puffs and the flame tongues flutter.",
+  "folder": "styles/024-cut-paper-diorama",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 96832,
+    "sha256": "548c04433ee75ebecfc0f7ae03d92ff6a3713529cbf6619a37118b05f89bf406",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/cut-paper.js",
+      "language": "js",
+      "characters": 60414,
+      "sha256": "785c42ae5fb5a7c426eb017c3523e1228a8477d85a3506f3633d0c271b3fc30e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-10.707Z-QE9bCsqWu0J2SeoQuNNBmWIh2fvt-Xq9J.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1198131,
+      "sha256": "06c6fa6579980cdafb96f709ee1334d6511ad54cb742ffa079b6bb264493695a",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-10.228Z-SttAA70B40EGLz08V_O5iKhh6R6O59gQ3.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 612047,
+      "sha256": "956fabc6772dd4e120c7c7e30106e7bf8a385d1453cd54f58572702698215e4d",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-09.941Z-n42A4w4HvxLSpK3oYckFf3BIHgWNCZbMR.jpg",
+      "file": "poster.jpg",
+      "bytes": 60010,
+      "sha256": "5ff30a20f73c53f0f5b5b5d297f3aa119d60799df35920dade99fe91efcd73bb",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

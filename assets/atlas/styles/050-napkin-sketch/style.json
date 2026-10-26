@@ -1,0 +1,75 @@
+{
+  "id": 50,
+  "name": "Napkin Sketch",
+  "family": "Hand-Drawn",
+  "description": "A back-of-the-napkin startup pitch in black Sharpie: ink feathering into soft tissue fibers, an embossed napkin border, quarter-fold creases and crumples, a coffee ring, all lying on a warm wooden cafe table.",
+  "explainerNotes": "Explainer: A cafe-table pitch: the camera starts tight on the scrawled question then pulls back to the napkin; when a napkin is full a fresh one is slapped down on top of the pile (with a red Sharpie for the wrong guess and the 97%), arrows and numbers are fast Sharpie scrawls that feather into the tissue.",
+  "motionNotes": "Motion: The marker scrawls each box and arrow in quick confident strokes while ink slowly feathers outward; the napkin breathes slightly as if just set down.",
+  "folder": "styles/050-napkin-sketch",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 102593,
+    "sha256": "2f4c13acbe8f5b4181642dfbfb44b90c1924e33691c583d29041844961f2b34c",
+    "sourceStyleName": "Napkin Sketch",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/napkin-sketch.js",
+      "language": "js",
+      "characters": 66111,
+      "sha256": "60c596bed453ee7fa99de405f5d6ae529d10427dcfecf8390d67ac50acbe9dc0"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-30.426Z-erKveZcMRKiZBvgJbZZpsSEk46dbhZT95.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1145001,
+      "sha256": "fd5e2b21c9e54551f1fb9cdf5915fc79fa2dec5a1cc8f31412b1f664870c6cc5",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-29.960Z-6U7AdxVUZiLh5mP7aKaU7dtdQncjl5rNz.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 165268,
+      "sha256": "fa1c5f32d56441b6dd6d0c0dc1473f916c3a0bf67997fcd2cbb68d39274e0794",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-29.674Z-_7RbqQ-zruSIWQaKtA99e7Et4xo3rTCW8.jpg",
+      "file": "poster.jpg",
+      "bytes": 49529,
+      "sha256": "dc13e31b5f87943424586753d057d2f10e61049a541d8ab69f550a396614ab05",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

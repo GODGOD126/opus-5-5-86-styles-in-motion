@@ -1,0 +1,75 @@
+{
+  "id": 27,
+  "name": "Synthwave Outrun",
+  "family": "Retro UI & Neon",
+  "description": "80s outrun poster: neon grid highway to a striped sunset, wireframe vector mountains, chrome-beveled italic title with a horizon reflection and a hot-pink neon script, all bathed in bloom.",
+  "explainerNotes": "Explainer: A night drive explains it: labelled example cards ride the neon highway into a wireframe AI core, a dashboard HUD holds a rolling odometer counter, synth-knob weights and GUESS/CHECK/ADJUST neon tubes; the camera tilts up into the sky for a glowing accuracy chart and back down for a chrome payoff.",
+  "motionNotes": "Motion: Stars blink on, the horizon line and grid race toward camera, the striped sun rises and wireframe mountains grow, the chrome title slams in with a flash, the script tube flickers on and glints sweep the chrome.",
+  "folder": "styles/027-synthwave-outrun",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 87938,
+    "sha256": "1d9f2f54553c74f9bd148b7c36c6004b271d1c4f603976b676e96f0bd8cfae1b",
+    "sourceStyleName": "Synthwave Outrun",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/synthwave.js",
+      "language": "js",
+      "characters": 51369,
+      "sha256": "53460bbd7ba179a39169bcc3021c7243cb34f8bf951ae2df3794457b03e5ebbb"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-19.724Z-N2-aNsGGvTb0AwbulkUnHk8UZb4KOxIwm.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2166348,
+      "sha256": "8a232e9736d91fcd85250b2d7710201ced775745bdef86349ccc5abe834497c7",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-19.192Z-r9Y-mxoggoOePI7OEKMagvkRxW4VH3FaH.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 941752,
+      "sha256": "65b2741ff168be8e04108cf12c72c2a604f7666dd0e3c71779feaf6f5d9c8f6a",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-18.877Z-jQW70VJTWnMW1jakjqgDOXHH5ckjgOtdz.jpg",
+      "file": "poster.jpg",
+      "bytes": 77036,
+      "sha256": "9a40655ef8080a8a663e887efd8ec97ff5f073668bcdd18e7edf694e5866ecd3",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

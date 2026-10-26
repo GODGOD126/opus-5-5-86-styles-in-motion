@@ -1,0 +1,73 @@
+{
+  "id": 19,
+  "name": "Neon Sign at Night",
+  "family": "Light & Imaging",
+  "description": "Hand-bent glass neon on an old brick wall after rain: white-hot tube cores, saturated colour halos, painted-out blockout tube, clips and electrodes, light spilling across the brickwork and smearing in the wet pavement.",
+  "explainerNotes": "Explainer: One long brick wall the camera whip-pans along: every beat is a new neon sign that buzzes on tube by tube, arrows are segmented chase-light tubes that ignite toward their target, numbers are neon digits re-lit as they change, and the emphasis is a blinking red tube with a ring.",
+  "motionNotes": "Motion: Tubes buzz on letter by letter with a stutter, one failing letter keeps flickering, and the puddle reflection shivers as drops land.",
+  "folder": "styles/019-neon-sign-at-night",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 97775,
+    "sha256": "637bae711dc5c3dfa6d493a91b6a7cf5116bcc7ce4cc15224642f50da4e06dd0",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/neon-sign.js",
+      "language": "js",
+      "characters": 61270,
+      "sha256": "661a98c1fd2471690cf37931d4f776c3b21e578f30c98c7ff0aa1a09f878954c"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-55.409Z-X1m7BuV0Y-kQBTSm-Oj3TOFopF8fnm7Vd.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1062592,
+      "sha256": "14c56cb75e6b52fce0b84811ad51bd5070117d93adf572f3b27e892d75c90fcc",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-54.926Z-ytEaNR8_zS4yro7vQZTWjFKD2s8AR2o2R.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 220832,
+      "sha256": "47ae8c98ac70166efcb325e30e550d59cb66bd89e2d7ef874f3c08108db0f7a4",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-54.610Z-UUe_XvwOffOV8TH3rZFRjD5mgL3P-lr52.jpg",
+      "file": "poster.jpg",
+      "bytes": 59149,
+      "sha256": "0f6e40e946637d81e4db7de27b193de6dc11b71df9589a85fc5b17ef4940b540",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

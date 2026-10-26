@@ -1,0 +1,776 @@
+[
+  {
+    "id": 1,
+    "name": "Flat-Vector Science",
+    "family": "Popular Explainer Looks",
+    "description": "Flat-vector science-explainer illustration: deep navy-to-violet space gradients, chunky outline-free shapes with rich multi-stop gradients, flat crescent shadows and rim highlights, soft radial glows, sparkly star fields, banded ringed planets and cute big-eyed round characters.",
+    "motionNotes": "Motion: Smooth eased motion with gentle overshoot: the camera pulls back through scales, planets drift with parallax, characters bob and pop in, glows pulse.",
+    "explainerNotes": "Explainer: Big smooth camera moves through scale: the model pulls back until a million examples become a spiral galaxy, a foreground planet sweeps across as the wipe, and the camera dives into the glowing brain dome to emerge at a planet whose ring is the accuracy bar; arrows are chunky dotted rounded curves, numbers are big rounded Nunito.",
+    "folder": "styles/001-flat-vector-science"
+  },
+  {
+    "id": 2,
+    "name": "Watercolor Wash",
+    "family": "Painterly",
+    "description": "Transparent pigment glazed in dozens of ragged low-opacity layers on cold-press paper: dark pooled edges, wet-in-wet bleeds, cauliflower blooms, granulation and untouched white paper for the lights, over a faint pencil sketch.",
+    "motionNotes": "Motion: Each wash floods in from its pencil outline, edges darken as the water dries and blooms creep outward; the title is brushed in stroke by stroke.",
+    "explainerNotes": "Explainer: One long sketchbook sheet the camera pans along; arrows are loaded round-brush strokes with pooled edges, labels and the counter are brush-lettered and re-written as they change, and red alizarin circles do the emphasis.",
+    "folder": "styles/002-watercolor-wash"
+  },
+  {
+    "id": 3,
+    "name": "Shadow Puppet Theatre",
+    "family": "Paper & Craft",
+    "description": "Black cut-out silhouettes with punched lace-like cut-work, pinned joints and thin control rods, pressed against a backlit cloth screen glowing amber at the lamp and falling to red-brown at the edges, with coloured gels in the openings.",
+    "motionNotes": "Motion: The oil lamp sputters alight, puppets slide and hop in on their rods with jointed limbs swinging, hanging cards drop and sway on their strings, and the flame keeps the screen gently breathing.",
+    "explainerNotes": "Explainer: Told as a little shadow play: a mechanical owl puppet is fed picture cards on rods, guesses on a hanging tag, a teacher's hand corrects it and its cut-work gears re-set, then it climbs a ladder toward a filling moon; transitions are the medium's own (the owl flies at the lamp so its shadow fills the screen, the lamp is turned down and up, lace curtains close and part), arrows are growing hide vines and labels are punched plaques on strings.",
+    "folder": "styles/003-shadow-puppet-theatre"
+  },
+  {
+    "id": 4,
+    "name": "Whiteboard Explainer",
+    "family": "Hand-Drawn",
+    "description": "Dry-erase marker on a glossy whiteboard: streaky chisel-tip strokes with pooled edges, wobbly double-traced boxes and arrows, a ghost of the last erased lesson, and a soft ceiling-light sheen.",
+    "motionNotes": "Motion: Each stroke draws on in sequence like a hand drawing it live, with labels written letter by letter and the sheen drifting slightly as the camera breathes.",
+    "explainerNotes": "Explainer: A marker in hand draws the diagram while the camera follows it across one big board; the felt eraser wipes the loop away (leaving ghost residue) to make room for the accuracy chart, and numbers are re-scrawled in marker.",
+    "folder": "styles/004-whiteboard-explainer"
+  },
+  {
+    "id": 5,
+    "name": "Psychedelic Poster",
+    "family": "Cosmic & Psychedelic",
+    "description": "1960s San Francisco concert-poster psychedelia: full-strength inks in vibrating complementary pairs, liquid churning ring bands, sunbursts and a mirror-symmetric eye-flower, with bulbous melting Shrikhand lettering on worn poster stock.",
+    "motionNotes": "Motion: Colour ripples out from the centre, petals unfurl and the eye opens, then the lettering melts into place while the liquid bands keep slowly churning.",
+    "explainerNotes": "Explainer: The model is a giant eye-flower whose petals are its weights: examples ride striped ribbons into it, the wrong guess makes the inks clash and jitter, the correction folds the swirl into a symmetric mandala, 97% bursts into a kaleidoscope sunburst; scenes change by kaleidoscope rotation, a liquid melt and an iris ripple.",
+    "folder": "styles/005-psychedelic-poster"
+  },
+  {
+    "id": 6,
+    "name": "Tech Glow Explainer",
+    "family": "Popular Explainer Looks",
+    "description": "The polished AI / tech YouTube motion-graphics look: deep navy-to-indigo space with drifting electric glows and a perspective grid, gradient-stroked icon tiles wired into node diagrams with light pulses racing along the connectors, dark cards with thin neon borders, gradient headline type and bloom on everything bright.",
+    "motionNotes": "Motion: Smooth eased build: glows bloom up, icon tiles pop in with an overshoot and their line icons draw on, connectors trace out and start carrying light pulses, the headline rises word by word and the stat counts up, all under a slow camera push and drifting particles.",
+    "explainerNotes": "Explainer: One continuous camera: the title shrinks to a header while the brain tile flies into place, labelled examples ride glowing lanes into the model, the camera pushes through the brain into its network (light-speed streaks), Guess/Check/Adjust chips light up as light pulses run forward and a red error pulse runs back, then the camera pans to a glowing accuracy chart and pulls back for the takeaway; numbers count up in gradient Space Grotesk with bloom.",
+    "folder": "styles/006-tech-glow-explainer"
+  },
+  {
+    "id": 7,
+    "name": "Papercraft Models",
+    "family": "Popular Explainer Looks",
+    "description": "Printed-cardstock kit models: boxy low-poly robots, cats and charts assembled from flat printed faces with dotted fold lines, glue tabs and hairline seam gaps, Lambert-lit by a warm key light on a green self-healing cutting mat with craft tools at the edges.",
+    "motionNotes": "Motion: Flat printed templates fold themselves up into 3D models on twos with a stop-motion jitter, pieces hop into place and tags fold into tents, while the camera slides smoothly across the mat.",
+    "explainerNotes": "Explainer: One long cutting mat: the camera slides from beat to beat while flat printed templates fold themselves up into the robot, cards, bars and tent labels (on twos); arrows are creased paper strips that unroll along the mat, labels are tent tags dropped onto what they name, counters are printed tent cards re-posed each step, and the wrong guess gets a camera push-in and a red flag that pops and later spins to green.",
+    "folder": "styles/007-papercraft-models"
+  },
+  {
+    "id": 8,
+    "name": "1940s Film Noir",
+    "family": "Light & Imaging",
+    "description": "A high-contrast black-and-white still from a forties detective picture: venetian-blind light slicing across a fedora silhouette, a glowing terminal as the only other light, cigarette smoke hanging in the beams, with heavy nitrate grain, gate weave, dust and scratches.",
+    "motionNotes": "Motion: Blinds sway and smoke curls in a dark office; the terminal warms up with a CRT flash, its glow rim-lights the detective, a prompt types out, and the title card dissolves in word by word over projector flicker, weave and dirt.",
+    "explainerNotes": "Explainer: Told as a 1940s newsreel / B-picture montage: spinning-newspaper headlines, iris, wipe and clock-wipe transitions, mugshot booking placards as labels, white newsreel arrows and lettering, a rolling mechanical odometer for numbers and a rubber stamp slammed down as the emphasis, all under heavy grain and gate weave.",
+    "folder": "styles/008-1940s-film-noir"
+  },
+  {
+    "id": 9,
+    "name": "Manim-Style Math",
+    "family": "Popular Explainer Looks",
+    "description": "The math-explainer look of Manim, the open-source library behind 3Blue1Brown: pure black, crisp anti-aliased vector lines, a restrained palette of Manim blue, teal, yellow, red and green, LaTeX-like serif math with italic variables, axes with tick marks, curves, arrows, braces and surrounding rectangles.",
+    "motionNotes": "Motion: Manim's own vocabulary on a smooth sigmoid ease: equations Write on (glyph outlines trace, then fill), axes and curves Create, a dot slides down the graph in gradient-descent hops, then a SurroundingRectangle draws round the key term and it Indicates with a yellow pulse.",
+    "explainerNotes": "Explainer: One MovingCameraScene: the question Writes on and Transforms into the header, a neural net Creates (edges blue/red by weight sign), pixel pictures fly into the input neurons as a counter climbs, a forward pass runs as ShowPassingFlash, the wrong \"dog?\" gets a red SurroundingRectangle, the camera pans to a loss curve where a dot descends while edges re-colour, then the axes relabel to accuracy, the curve climbs and the number Transforms into a 97% that Indicates.",
+    "folder": "styles/009-manim-style-math"
+  },
+  {
+    "id": 10,
+    "name": "Illuminated Manuscript",
+    "family": "Illustration",
+    "description": "A Book of Hours folio: mottled vellum with ruling and pricking, textura in iron-gall ink with vermilion rubrics, a historiated initial on raised burnished gold, lapis, rose and malachite with white-lead filigree, ivy-leaf rinceaux with gold bezants, and drolleries in the margins.",
+    "motionNotes": "Motion: The scribe works the page: gold leaf is laid square by square and burnished to a travelling glint, pigments flood into the pen outlines, and the quill writes the text line by line.",
+    "explainerNotes": "Explainer: Three folios of a manuscript, the leaf turning between them: champ initials bloom in gold, the examples are bestiary roundels flowing along a penwork arrow into a Brazen Head, the learning loop is a wheel of Guess, Check and Adjust where a marginal beast points out the error and the scribe corrects it in red, and accuracy rises as gilded bars until 97% turns to burnished gold.",
+    "folder": "styles/010-illuminated-manuscript"
+  },
+  {
+    "id": 11,
+    "name": "Editorial Essay Collage",
+    "family": "Popular Explainer Looks",
+    "description": "The editorial \"animated essay\" collage: warm grainy paper, archival halftone prints with torn white borders and soft shadows, newspaper clippings in serif type with a translucent yellow highlighter sweep, masking tape, flat colour blocks and big cut-out condensed headlines.",
+    "motionNotes": "Motion: Cutouts drop and slide in on 12 fps hand-animated steps while the camera pushes smoothly through parallax layers; the highlighter sweeps left to right and a red marker rings the key detail.",
+    "explainerNotes": "Explainer: Scenes are joined by fast blurred camera whips that hide the cut, plus a new paper sheet slid up on steps; arrows are thin ink route lines and red marker, numbers are re-cut condensed numerals on paper strips, and the emphasis is the yellow highlighter sweep (plus a red marker ring and cross on the wrong guess).",
+    "folder": "styles/011-editorial-essay-collage"
+  },
+  {
+    "id": 12,
+    "name": "Bioluminescent Deep Sea",
+    "family": "Light & Imaging",
+    "description": "The midnight zone: near-black water with parallax marine snow, and nothing lit but living light — a jellyfish whose nerve net glows like a neural network, a siphonophore chain, a rainbow-rippling comb jelly and an anglerfish lure. Additive cyan, teal and electric-blue glow with magenta and amber accents; type is bioluminescent.",
+    "motionNotes": "Motion: The camera sinks (marine snow streams upward) as animals switch on one by one: bell rims pulse, nerve-net nodes flicker alight, the siphonophore lights segment by segment, the lure blinks on, and the words form out of gathering plankton.",
+    "explainerNotes": "Explainer: A descent through the midnight zone: the question forms from gathering plankton, cat and dog swarms ride a glowing current into a jellyfish model whose nerve net is its weights, the error ripples back through the net in magenta, accuracy climbs a siphonophore chain to a plankton bloom-burst, and transitions are a descent, a sweeping plankton bloom and an anglerfish lure lighting new water.",
+    "folder": "styles/012-bioluminescent-deep-sea"
+  },
+  {
+    "id": 13,
+    "name": "Product Launch Reveal",
+    "family": "Popular Explainer Looks",
+    "description": "A big-tech keynote product film: one glossy hero object on a near-black stage, lit like a studio shot with soft key, rim light, a sweeping specular highlight and a floor reflection, huge tight-tracked sans headlines, gradient key numbers with a soft glow and hairline spec callouts.",
+    "motionNotes": "Motion: Rim light finds the object in the dark, the key light fades up as the camera slowly orbits and pushes in, a highlight glides across the glass, the edge ring ignites, then the headline arrives one word at a time and hairline callouts draw out to their spec labels.",
+    "explainerNotes": "Explainer: Told as a keynote launch film around one hero object (the model, a glass-topped chip): one continuous studio camera that orbits and pushes between beats, hairline callouts and arrows for flow, a clean red strike for the wrong guess while the chip’s inner layers light up backwards to adjust, a giant violet-to-orange 97% with a glow bloom and gleam, and a light-sweep wipe to a pristine white stage for the tagline.",
+    "folder": "styles/013-product-launch-reveal"
+  },
+  {
+    "id": 14,
+    "name": "Halftone Pop Panel",
+    "family": "Print",
+    "description": "A Lichtenstein-style blown-up comic panel: fat tapering black brush outlines, mechanical Ben-Day dot fields in red and blue, flat primary yellow, a tearful close-up and hand-lettered balloon.",
+    "motionNotes": "Motion: Blue dots pop on in a wave, the robot head springs up into frame, red skin dots wash down the face, caption and balloon slam in word by word, then a single tear wells up and rolls down during a slow push-in.",
+    "explainerNotes": "Explainer: Told as a comic strip the camera reads panel by panel (pulling back to the gutters on each move), with fat yellow comic arrows, captions and balloons, Bangers counters bursting out of explosion balloons, and a WRONG! burst with shake as the emphasis.",
+    "folder": "styles/014-halftone-pop-panel"
+  },
+  {
+    "id": 15,
+    "name": "Isometric Pastel",
+    "family": "Dimensional",
+    "description": "Clean vector isometric illustration: true 30° projection, flat three-tone face shading, soft pastel palette with a single coral accent, tiny people for scale and long soft shadows on a floating tile.",
+    "motionNotes": "Motion: The floating tile rises into frame, buildings, tanks and racks pop up one by one on springy overshoot, then LEDs blink, fans spin, data cubes stream up and tiny workers stroll during a slow camera push.",
+    "explainerNotes": "Explainer: One long isometric factory floor (data shelves → conveyor → glass-top neural machine → monitor → bar chart) that the camera glides along beat to beat, with white label tags pinned to objects, curved dashed connectors, a counting billboard and an accuracy tag riding the newest bar.",
+    "folder": "styles/015-isometric-pastel"
+  },
+  {
+    "id": 16,
+    "name": "Oscilloscope Vector Art",
+    "family": "Retro Digital",
+    "description": "Oscilloscope-music XY art on an analogue lab scope: one P31 green beam draws everything, bright where it slows at turns and dim on fast retrace lines, with bloom and halation behind an internal 8x10 graticule, framed by a moulded CRT bezel and a knobbed instrument front panel.",
+    "motionNotes": "Motion: Power-on: the dot blooms, the timebase pulls it into a sine sweep, the X-Y button snaps in and the waveform folds into a circle that winds itself into a spinning spiral-sphere while the beam writes the vector text.",
+    "explainerNotes": "Explainer: Everything is drawn by one scope beam: transitions are the instrument's own (picture collapses to a dot and re-expands, X gain to zero then the timebase sweep, Y gain to zero back to X-Y), arrows and Hershey-style labels are beam strokes, counters are redrawn vector numerals, and the wrong guess shudders amber while the 97% flares the bloom.",
+    "folder": "styles/016-oscilloscope-vector-art"
+  },
+  {
+    "id": 17,
+    "name": "Risograph Zine",
+    "family": "Print",
+    "description": "Three fluorescent spot inks (pink, medium blue, yellow) laid down as separate drum passes and multiplied on off-white stock — misregistered plates, grainy patchy solids, dotted tints and roller streaks.",
+    "motionNotes": "Motion: The sheet goes through the drum three times — yellow, then pink, then blue roll down the page and slide into misregistration — then the print boils at 8 fps while the rocket creeps upward and its flame flickers in the screen.",
+    "explainerNotes": "Explainer: Scenes change by re-registering the plates — yellow, pink and blue slide off and the next scene's plates slide in one drum pass at a time — with dotted blue flow arrows, pink error arrows and scribbled circles, and counters set in big two-plate zine type.",
+    "folder": "styles/017-risograph-zine"
+  },
+  {
+    "id": 18,
+    "name": "Claymation Set",
+    "family": "Paper & Craft",
+    "description": "A plasticine stop-motion still: chunky hand-squished characters and props with soft waxy subsurface shading, thumbprints, tool marks and lumpy silhouettes on a sculpted clay set, shot with shallow depth of field.",
+    "motionNotes": "Motion: Animated on twos: the character boils subtly between frames, fingerprints shift, the waving arm snaps pose-to-pose and the chat-bubble dots pop like little clay balls.",
+    "explainerNotes": "Explainer: Animated on twos on one clay set: every piece is a baked plasticine lump that the \"animator\" pops on with squash-and-stretch, slides along the table or knocks off so it falls out of frame; arrows are rolled clay coils, labels and the counter are pressed clay letters re-sculpted each time the number changes, and the wrong guess gets a red clay X slapped on with a shake.",
+    "folder": "styles/018-claymation-set"
+  },
+  {
+    "id": 19,
+    "name": "Neon Sign at Night",
+    "family": "Light & Imaging",
+    "description": "Hand-bent glass neon on an old brick wall after rain: white-hot tube cores, saturated colour halos, painted-out blockout tube, clips and electrodes, light spilling across the brickwork and smearing in the wet pavement.",
+    "motionNotes": "Motion: Tubes buzz on letter by letter with a stutter, one failing letter keeps flickering, and the puddle reflection shivers as drops land.",
+    "explainerNotes": "Explainer: One long brick wall the camera whip-pans along: every beat is a new neon sign that buzzes on tube by tube, arrows are segmented chase-light tubes that ignite toward their target, numbers are neon digits re-lit as they change, and the emphasis is a blinking red tube with a ring.",
+    "folder": "styles/019-neon-sign-at-night"
+  },
+  {
+    "id": 20,
+    "name": "Kawaii Anime",
+    "family": "Popular Explainer Looks",
+    "description": "Flat 2D kawaii anime illustration: chibi characters with big glossy anime eyes and blush marks, chunky rounded shapes in strawberry-milk pink, mint, butter, lavender and sky, soft plum outlines of even weight, one cel-shadow tone and a small highlight, on polka-dot and star patterns.",
+    "motionNotes": "Motion: Everything pops in on twos with bouncy squash-and-stretch, characters bob and wiggle, sparkles twinkle, and scenes change through star and heart iris wipes.",
+    "explainerNotes": "Explainer: A chibi robot mascot acts the lesson out with anime reaction grammar (swirl eyes, sweat drop and \"!?\" on the wrong guess, star eyes and confetti at 97%); scenes change through star and heart iris wipes, connectors are dotted candy arrows, and the counters are bouncing outlined numerals.",
+    "folder": "styles/020-kawaii-anime"
+  },
+  {
+    "id": 21,
+    "name": "Ukiyo-e Woodblock",
+    "family": "Art & Design Movements",
+    "description": "An Edo-period woodblock print in the manner of Hokusai: Prussian-blue bokashi gradients, a towering wave with claw-like foam whose spray breaks into data cubes, a cargo ship stacked with server racks in the trough, flat colour blocks with carved keyblock outlines, wood grain and washi fibre, a vertical-text cartouche and vermilion seal.",
+    "motionNotes": "Motion: Printed like a real woodblock: the black keyblock lands first, then each colour block is pressed in turn (sky ochre, pale blue, mid blue, vermilion, Prussian) and the bokashi sky is wiped on last, while the wave swells, its claws lean and data-cube spray tumbles onto the rolling ship.",
+    "explainerNotes": "Explainer: An emaki handscroll unrolled right-to-left: golden kasumi clouds divide the scenes, a river of labelled prints floats to an Edo karakuri automaton, flow is drawn as currents with claw-foam heads, the learning loop is a Naruto whirlpool, numbers sit in paper cartouches and every judgement is a vermilion seal stamp.",
+    "folder": "styles/021-ukiyo-e-woodblock"
+  },
+  {
+    "id": 22,
+    "name": "16-Bit Pixel Odyssey",
+    "family": "Retro Digital",
+    "description": "A SNES-era cutscene: 320x180 hand-placed pixels blown up 4x, a strict ~40-colour palette, banded sky with checkerboard dither transitions, layered parallax and an RPG dialog box.",
+    "motionNotes": "Motion: A SNES cutscene opening: 16-step brightness fade-in, parallax layers rise into place in whole-pixel steps, the hero walks on with a 2-frame cycle, the drone flies in, hearts pop, the window snaps open and dialog types out.",
+    "explainerNotes": "Explainer: Tells it as a SNES RPG: the question is a dialog line whose window snaps up into a quest header, a mosaic transition opens a training hall where labelled CAT/DOG cards ride a chevron conveyor into the MODEL while an EXAMPLES window counts, a wavy battle-swirl starts a turn-based fight (GUESS/CHECK/ADJUST command menu, MISS! damage pop and screen flash, red error trail, weight stat bars), and an iris wipe lands on a LEVEL UP accuracy screen.",
+    "folder": "styles/022-16-bit-pixel-odyssey"
+  },
+  {
+    "id": 23,
+    "name": "Chalkboard Lesson",
+    "family": "Hand-Drawn",
+    "description": "Dusty chalk on a green slate: grainy, broken strokes that skip over the board tooth, colored chalk accents, cloudy eraser smears from past lessons, and a worn oak frame with a dusty chalk tray.",
+    "motionNotes": "Motion: Chalk lines scratch on with a little dust fall, the ball hops down the curve step by step, and old eraser clouds slowly drift as the board is wiped.",
+    "explainerNotes": "Explainer: A teacher-style lesson on one long slate: a chalk stick writes and draws while the camera tracks along the board (the hook is left behind, the chart is on the next stretch of board), arrows are dusty chalk strokes, numbers are re-chalked as they count, and pink chalk rings the key moments.",
+    "folder": "styles/023-chalkboard-lesson"
+  },
+  {
+    "id": 24,
+    "name": "Cut-Paper Diorama",
+    "family": "Paper & Craft",
+    "description": "A layered cardstock shadow-box: every shape is a separate scissor-cut sheet with fibre texture, a lit paper edge and a soft drop shadow onto the sheet behind it; torn edges show the white core of the paper.",
+    "motionNotes": "Motion: Layers slide in on parallax like a pop-up book, the rocket rises on its wire while paper smoke puffs and the flame tongues flutter.",
+    "explainerNotes": "Explainer: One long paper diorama the camera pans along on parallax; arrows are cut-paper strips that grow, labels are paper tags dropped onto what they name, numbers are swapped cut-out digit tiles, and emphasis is a paper ring or sunburst popping up behind.",
+    "folder": "styles/024-cut-paper-diorama"
+  },
+  {
+    "id": 25,
+    "name": "Cathedral Glass",
+    "family": "Painterly",
+    "description": "A leaded Gothic window: hand-cut pieces of streaky, seedy antique glass held in thick dark came, painted grisaille details, and light blazing through into a dim stone interior with dusty rays.",
+    "motionNotes": "Motion: Daylight sweeps slowly across the window so pieces brighten in turn, the rays drift with floating dust, and the chip in the saint's hands pulses.",
+    "explainerNotes": "Explainer: Told as a cycle of three leaded windows along a nave, the camera walking from window to window; arrows are strips of glass in lead came with glass arrowheads, labels and the counters are grisaille painted on pale banner glass, and emphasis is ruby glass rings and light flaring through the pieces.",
+    "folder": "styles/025-cathedral-glass"
+  },
+  {
+    "id": 26,
+    "name": "Editorial Chart",
+    "family": "Data & Information",
+    "description": "A prestige-newspaper data graphic on FT salmon: serif headline and dek, hairline grid, one claret highlight series against quiet greys, direct labels and hand-annotated callouts, small-caps source line.",
+    "motionNotes": "Motion: Headline sets, gridlines rule across, grey context lines settle, then the claret line draws left to right with its wash filling behind it and handwritten notes inking in as the line reaches them; a slow push and a soft pulse on the end point hold the shot.",
+    "explainerNotes": "Explainer: Told as a scrolling newspaper story: the page scrolls panel to panel under a sticky serif header, hand-drawn Caveat arrows and rings carry the cause and emphasis, a waffle chart and set numerals count the data, and the accuracy line draws itself like the still.",
+    "folder": "styles/026-editorial-chart"
+  },
+  {
+    "id": 27,
+    "name": "Synthwave Outrun",
+    "family": "Retro UI & Neon",
+    "description": "80s outrun poster: neon grid highway to a striped sunset, wireframe vector mountains, chrome-beveled italic title with a horizon reflection and a hot-pink neon script, all bathed in bloom.",
+    "motionNotes": "Motion: Stars blink on, the horizon line and grid race toward camera, the striped sun rises and wireframe mountains grow, the chrome title slams in with a flash, the script tube flickers on and glints sweep the chrome.",
+    "explainerNotes": "Explainer: A night drive explains it: labelled example cards ride the neon highway into a wireframe AI core, a dashboard HUD holds a rolling odometer counter, synth-knob weights and GUESS/CHECK/ADJUST neon tubes; the camera tilts up into the sky for a glowing accuracy chart and back down for a chrome payoff.",
+    "folder": "styles/027-synthwave-outrun"
+  },
+  {
+    "id": 28,
+    "name": "Origami Studio",
+    "family": "Paper & Craft",
+    "description": "Folded-paper models shot on a seamless studio sweep: every form is flat facets with consistent fold shading, crisp crease lines, two-tone paper and soft table shadows.",
+    "motionNotes": "Motion: Models unfold into place crease by crease, the paper crane-drone bobs on spinning paper rotors while the key light slowly orbits the table.",
+    "explainerNotes": "Explainer: The camera dollies along one long studio table: every prop folds up from flat paper, arrows are creased paper arrows lying on the table with the label printed on them, numbers are printed on tent cards that refold, and the wrong guess gets a camera push-in and a key-light flare.",
+    "folder": "styles/028-origami-studio"
+  },
+  {
+    "id": 29,
+    "name": "Linocut Relief Print",
+    "family": "Print",
+    "description": "A hand-carved two-colour relief print: tapering white gouge strokes cut from dense black, parallel carving for tone, a red reduction layer, salty uneven ink on cream rice paper, signed and numbered in pencil.",
+    "motionNotes": "Motion: The proof is pulled twice — the red sheet peels back diagonally, then the black key — then the edition number, title and signature are pencilled in while a raking glint slides across the wet ink and the camera eases in.",
+    "explainerNotes": "Explainer: Each beat is a newly carved block pulled as a fresh proof that peels back over the last one; arrows are gouged channels (the error path printed red), counters are carved numerals re-cut on twos, and emphasis is the printmaker's own pencil circle and margin note.",
+    "folder": "styles/029-linocut-relief-print"
+  },
+  {
+    "id": 30,
+    "name": "Holographic Foil Card",
+    "family": "Light & Imaging",
+    "description": "A holo-rare trading card and die-cut sticker: cracked-ice foil whose rainbow diffraction shifts with angle and surface normals, embossed robot, sunburst and lettering catching specular glints, printed ink sitting on top, glitter flecks and rainbow spill on the desk.",
+    "motionNotes": "Motion: The card is dealt in and settles onto the desk, the sticker slaps down and holo confetti scatters, then the card slowly tilts toward the light so the rainbow band and specular glints sweep across the cracked-ice foil and embossed lettering.",
+    "explainerNotes": "Explainer: Told with holo trading cards on a desk: examples are dealt as CAT/DOG cards onto a pile, arrows and answers are die-cut foil stickers slapped down with an overshoot, the model card’s stat bars are its weights, scene changes are card flips to the stats side and back, and numbers are foil-embossed digits with a glint sweep for emphasis.",
+    "folder": "styles/030-holographic-foil-card"
+  },
+  {
+    "id": 31,
+    "name": "Voxel Diorama",
+    "family": "Dimensional",
+    "description": "MagicaVoxel-style diorama: a floating voxel island with a waving robot, chunky trees and a pond — three-tone cube faces, per-vertex ambient occlusion in the creases, ray-marched soft shadows and a warm toy palette.",
+    "motionNotes": "Motion: Voxels rain down and stack layer by layer from the island’s rocky underside up to the robot’s antenna while the camera orbits; the robot’s eyes flicker on, it starts waving, and the pixel title drops in block by block.",
+    "explainerNotes": "Explainer: One long voxel island the camera trucks along while each zone is rebuilt from falling voxels; arrows are chains of little cubes, cards and the ✗/✓ verdict are real voxel pixel-art, the robot’s chest equaliser re-levels as its weights adjust, and numbers tick in Silkscreen on extruded block tags.",
+    "folder": "styles/031-voxel-diorama"
+  },
+  {
+    "id": 32,
+    "name": "Sumi-e Ink Wash",
+    "family": "Painterly",
+    "description": "Monochrome Japanese ink painting on fibrous rice paper: dilute grey washes that bleed and fade into mist, a few confident loaded-brush strokes that split into dry bristle tracks, vast negative space, a vertical calligraphy column and a vermilion seal.",
+    "motionNotes": "Motion: Mist drifts sideways across the peaks while each brush stroke is laid down in one sweep, bristles running dry as it travels; the tiny device on the ledge pulses with light.",
+    "explainerNotes": "Explainer: Told along a handscroll the camera unrolls, with mist drifting across between scenes; arrows and the chart are single loaded brush strokes that run dry, labels and numbers are ink-written in place, and vermilion strokes and seal stamps do the emphasis.",
+    "folder": "styles/032-sumi-e-ink-wash"
+  },
+  {
+    "id": 33,
+    "name": "Etch A Sketch Toy",
+    "family": "Hand-Drawn",
+    "description": "The classic red line-drawing toy: glossy rounded red plastic with hard specular streaks, two white knurled knobs, and a grainy silver aluminium-powder screen where everything is one thin dark line that never lifts: crisp horizontals and verticals, stair-stepped diagonals and curves, and visible travel lines joining every letter and shape.",
+    "motionNotes": "Motion: A shake clears the last doodle in patchy streaks, then the single line crawls out at time-lapse speed while the left knob turns with every horizontal move and the right knob with every vertical one.",
+    "explainerNotes": "Explainer: Every word and picture is one continuous stylus line with the knobs turning to match; the scene transition is shaking the toy so the drawing fades in streaks (leaving a faint ghost), arrows and labels are part of the same line (labels ride arrows and bubble edges), and numbers grow as they are written: 1,000,000 gains a zero at a time and the accuracy staircase writes 61%, 70%, 77%, 90% on its treads before a double-traced, boxed 97%.",
+    "folder": "styles/033-etch-a-sketch-toy"
+  },
+  {
+    "id": 34,
+    "name": "Cosmic Star Chart",
+    "family": "Cosmic & Psychedelic",
+    "description": "Deep-space illustration crossed with an engraved celestial atlas: fbm nebulae in teal, violet, rose and gold, a lit ringed gas giant with cratered moons, comets and a diffraction-spiked star, overlaid with hairline gold and pale-cyan chart work (dotted orbits with arrowheads, degree rings, ring markers, small-caps serif labels).",
+    "motionNotes": "Motion: The sky fades up star by star while the camera drifts in, the key star flares, the planet lights up, then the chart engraves itself over it: degree ring sweeping round, orbits dotting on, markers and labels landing, a comet streaking past.",
+    "explainerNotes": "Explainer: Told as one celestial chart overlaid on deep space: the model is a ringed planet whose moons are its weights, cat/dog examples arrive as constellation-headed comets, a warp streak changes scene, the guess is a chart beam to a labelled star that turns red with a red ring marker, the weights’ orbit visibly tilts, the camera tilts up to an atlas chart where the accuracy constellation forms and flares at 97%; numbers are big Syne figures over graduated sextant scales.",
+    "folder": "styles/034-cosmic-star-chart"
+  },
+  {
+    "id": 35,
+    "name": "Punk Zine Collage",
+    "family": "Paper & Craft",
+    "description": "A photocopied cut-and-paste zine spread: torn halftone scraps, ransom-note letters cut from mismatched magazines, masking tape and staples, crushed to high-contrast black toner with one fluoro-pink spot ink overprinted off-register.",
+    "motionNotes": "Motion: Scraps slam onto the page one per beat with a copier-flash flicker, ransom letters jitter in stop-motion, toner noise boils every frame.",
+    "explainerNotes": "Explainer: Shot on 8 fps steps, each beat is a new photocopied sheet slapped down over the last (copier flash on impact); arrows are marker scrawls, labels are typed strips and ransom letters pasted onto the thing they name, the counter is re-cut from magazine letters every time it ticks, and the wrong guess gets slashed with the pink spot ink.",
+    "folder": "styles/035-punk-zine-collage"
+  },
+  {
+    "id": 36,
+    "name": "Thermal Camera",
+    "family": "Light & Imaging",
+    "description": "A handheld IR camera frame in ironbow: soft low-res heat field, cold glasses and warm breath, hot coffee and GPU racks, edge-enhanced outlines, sensor noise and the camera’s own HUD with spot meter, box measurement and scale bar.",
+    "motionNotes": "Motion: Camera clicks through its shutter calibration, the auto-gain settles, coffee is hot-poured and steam rises, rack bands heat up bottom to top while the spot meter glides onto the mug and the readouts tick live.",
+    "explainerNotes": "Explainer: Everything is filmed through the IR camera: scenes change with the shutter-calibration (NUC) click, heat is activity and a cold wave is the error signal, while the camera’s own HUD does the explaining with spot-meter arrows, measurement-box emphasis, tag labels riding on objects and live readouts.",
+    "folder": "styles/036-thermal-camera"
+  },
+  {
+    "id": 37,
+    "name": "Engineering Blueprint",
+    "family": "Hand-Drawn",
+    "description": "A drafted cyanotype: white line-work bleeding slightly into mottled, sun-faded Prussian-blue paper, orthographic front/side views with a hatched section, dimension chains, a zoned border, title block and worn fold creases.",
+    "motionNotes": "Motion: Construction and projection lines sweep across first, object lines ink in view by view, then dimensions and lettering pop in as the camera slowly pans along the sheet.",
+    "explainerNotes": "Explainer: One large drafting sheet: a plotter head inks crisp white line-work and stencilled lettering while the camera tracks across and then down the sheet to the chart detail; the model is a gear-and-knob mechanism whose dials turn, arrows are drafted leaders, and numbers tick over in mono lettering inside dimension-style callouts.",
+    "folder": "styles/037-engineering-blueprint"
+  },
+  {
+    "id": 38,
+    "name": "Impasto Night",
+    "family": "Painterly",
+    "description": "Thick oil paint in short loaded strokes that follow a swirling flow field, Post-Impressionist night-sky style; every stroke stands off the canvas with a lit ridge and a shadowed edge, colour broken within each stroke.",
+    "motionNotes": "Motion: The sky's strokes slowly rotate along their swirl and the halos around the moon and stars pulse ring by ring, as if the paint itself were turning.",
+    "explainerNotes": "Explainer: The camera travels along one long swirling night-sky canvas; arrows, rings, labels and numbers are all laid on as fat lit daubs of paint (shadow edge, body, highlight ridge) in chrome yellow and vermilion against the blues.",
+    "folder": "styles/038-impasto-night"
+  },
+  {
+    "id": 39,
+    "name": "Win95 Desktop",
+    "family": "Retro UI & Neon",
+    "description": "A mid-90s beige-box desktop at 2x pixel scale: teal wallpaper, 2-pixel bevelled grey chrome, navy title bars, aliased system text and a trail of frozen error dialogs.",
+    "motionNotes": "Motion: Icons pop onto the desktop, windows open with outline-zoom rectangles, the install bar ticks in blocks then freezes, and the hung error box is dragged, smearing a stair of copies.",
+    "explainerNotes": "Explainer: An \"AI Trainer\" app explains it: the question dialog zooms into the title bar, beats are property-sheet tabs clicked by the cursor, dotted pixel arrows carry examples and the error signal, trackbar \"weights\" slide, counters live in status bars and group boxes, and the payoff is a classic message box.",
+    "folder": "styles/039-win95-desktop"
+  },
+  {
+    "id": 40,
+    "name": "Low-Poly Faceted",
+    "family": "Dimensional",
+    "description": "Faceted low-poly 3D: a triangulated noise terrain with flat per-face Lambert shading, atmospheric depth fog, cone trees and a faceted rocket lifting off into a dawn gradient sky.",
+    "motionNotes": "Motion: Terrain facets flip into place from the camera out to the horizon, trees and the launch pad pop up, then the rocket ignites and lifts off on a faceted flame and smoke column while the camera dollies forward.",
+    "explainerNotes": "Explainer: A continuous camera flight through one faceted valley (overview → river of labelled example cards → floating crystal model whose facets realign → pillar chart on a plateau → pull back), with angular two-tone ribbon arrows, cut-corner tags pinned to objects and Space Grotesk counters.",
+    "folder": "styles/040-low-poly-faceted"
+  },
+  {
+    "id": 41,
+    "name": "Manga Page",
+    "family": "Illustration",
+    "description": "A black-and-white manga page: slanted panel gutters, brush-tapered ink, radiating focus lines, true halftone screentone gradients, katakana sound effects with white knock-out borders and hand-lettered speech balloons.",
+    "motionNotes": "Motion: Panels land one after another with a camera shake; focus lines \"boil\" every couple of frames and the ゴゴゴ letters tremble.",
+    "explainerNotes": "Explainer: A three-page manga: panels slam in on twos, page turns carry the story, bold outlined arrows and katakana SFX (ドドド, ブー, カチカチ, ピンポーン, グングン) mark cause and effect, numbers count in narration boxes, and focus-line bursts hit the key beats.",
+    "folder": "styles/041-manga-page"
+  },
+  {
+    "id": 42,
+    "name": "Wood Type Letterpress",
+    "family": "Print",
+    "description": "A two-ink wood-type broadside on cream stock: mixed display faces set block by block, each letter inked a little differently, wood grain and worn edges in the solids, ink squeezed to the rims and the whole forme bitten into the paper.",
+    "motionNotes": "Motion: The forme is proofed block by block — rules first, then each wood letter lands with a heavy kiss of the platen, red and black alternating down the sheet — and the gears keep turning as the impression deepens.",
+    "explainerNotes": "Explainer: Every beat is a new proof: the finished sheet is lifted off the press and a fresh one is laid down, then wood type, stock cuts of a cat and a dog, and arrows set from short rule pieces lock up block by block with a kiss of the platen; counters are re-set and re-stamped six times a second, and the wrong guess gets a red rubber-stamp WRONG.",
+    "folder": "styles/042-wood-type-letterpress"
+  },
+  {
+    "id": 43,
+    "name": "Light Painting",
+    "family": "Light & Imaging",
+    "description": "A 30-second exposure in a dark field: a neural network drawn in the air with an LED wand and a twisting rainbow light-tube ribbon, hand-jittered trails with hot cores and coloured falloff, a ghost of the painter, pinpoint stars, horizon bokeh and colour spill on the grass.",
+    "motionNotes": "Motion: Shot as a live-composite exposure: the wand traces node after node and fans out each layer of connections, the RGB tube sweeps the twisting ribbon around it, the word is written last, while the ghost painter slowly accumulates and star trails lengthen.",
+    "explainerNotes": "Explainer: Each beat is a fresh live long exposure: the wand traces doodles, arrows and handwriting with its glowing tip, orbs leave arcing light trails into the network, numbers come from an LED pixel-stick, the emphasis is a traced ring with a spark burst, and between beats the camera whip-pans so every trail smears into streaks.",
+    "folder": "styles/043-light-painting"
+  },
+  {
+    "id": 44,
+    "name": "Felt & Patchwork",
+    "family": "Paper & Craft",
+    "description": "A cosy patchwork quilt of cotton prints with puffy quilted squares, topped with fuzzy felt appliqué edged in blanket stitch, button \"nodes\" sewn on and joined by running-stitch thread, plus an embroidered label.",
+    "motionNotes": "Motion: Thread draws itself stitch by stitch between the buttons, felt pieces drop on with a soft squash, and the quilt breathes with a slow puff of the padding.",
+    "explainerNotes": "Explainer: The camera pans along one long patchwork quilt; felt pieces drop on with a lifted shadow and soft squash, arrows and emphasis rings are thread sewn on stitch by stitch, labels are woven tags stitched onto what they name, the counter is cut felt digits swapped as it climbs, and the model's weights are buttons whose thread-X turns when it adjusts.",
+    "folder": "styles/044-felt-patchwork"
+  },
+  {
+    "id": 45,
+    "name": "Phosphor Terminal",
+    "family": "Retro Digital",
+    "description": "A green P1-phosphor CRT: VT323 boot log with bloom and halation, curved scanlines, true per-pixel barrel distortion with RGB fringing at the edges, tube vignette, hum bar, and a glass face catching the room light inside a plastic bezel.",
+    "motionNotes": "Motion: The tube powers on (dot, then a bright line that snaps open into a flashing raster that settles as the phosphor warms), then the boot log types at terminal speed, the trace sweeps, the greeting prints and the cursor blinks while a hum bar rolls.",
+    "explainerNotes": "Explainer: Explains as a live terminal session: the typed question scrolls away and lives on in the inverse-video status line, a labelled data log streams into a box-drawn MODEL, V-hold rolls carry us between screens, arrows and the error path are phosphor line-drawings, and counters are big VT323 numerals that flip in inverse video for emphasis.",
+    "folder": "styles/045-phosphor-terminal"
+  },
+  {
+    "id": 46,
+    "name": "Glassmorphism UI",
+    "family": "Dimensional",
+    "description": "Frosted-glass UI: translucent panels that genuinely blur the vivid gradient blobs and orbs behind them, with 1px light borders, a diagonal specular sheen, fine frost grain and crisp Inter type.",
+    "motionNotes": "Motion: Color blobs bloom up under the glass, the frosted card rises in, then the chat plays out (user bubble pops, the AI reply types itself line by line) while stat chips float in glass-over-glass and their ring and sparkline draw on; blobs keep drifting so the frost shimmers.",
+    "explainerNotes": "Explainer: The camera glides and zooms across one big frosted dashboard (data feed → network card → output chat → accuracy chart → pull back) while the live colour blobs drift behind, so every panel re-frosts as it moves; connectors are glowing gradient lines with travelling light dots, labels are glass pills, numbers count in big Inter 800.",
+    "folder": "styles/046-glassmorphism-ui"
+  },
+  {
+    "id": 47,
+    "name": "Tarot Card",
+    "family": "Illustration",
+    "description": "An aged art-nouveau tarot trump on crushed velvet: bold even outlines, flat muted lithograph colours, gold-foil halos and borders, celestial symbols and a worn, foxed cardstock with frayed corners.",
+    "motionNotes": "Motion: The card is dealt and flips onto the velvet; a sheen of light slides across the gold foil while the orbiting planets drift around the automaton.",
+    "explainerNotes": "Explainer: Told as a tarot reading: cards are dealt, flipped and gathered off the velvet as the scene changes, gold filigree arrows link the spread, brass plaques count the examples and the accuracy, and a burst of gold light marks the wrong guess and the 97%.",
+    "folder": "styles/047-tarot-card"
+  },
+  {
+    "id": 48,
+    "name": "Transit Map",
+    "family": "Data & Information",
+    "description": "A Beck-style metro diagram of an AI pipeline: fat coloured lines locked to 0/45/90 degrees with rounded bends, line-colour station ticks, black-ringed interchanges, a river and a boxed legend, all in clean sans lettering.",
+    "motionNotes": "Motion: Title and key settle, then each line draws out from its terminus in turn with stations ticking on and interchanges popping as the line passes; once the network is complete, small trains glide along every route.",
+    "explainerNotes": "Explainer: The lesson is a journey on the network: the camera rides along a Data Line into the Model interchange, round a Training Loop line (Guess, Check, Adjust stations) and out along an Accuracy Line, while an amber dot-matrix departure board counts examples and accuracy and finally flips to the takeaway.",
+    "folder": "styles/048-transit-map"
+  },
+  {
+    "id": 49,
+    "name": "Gouache Travel Poster",
+    "family": "Painterly",
+    "description": "Mid-century travel poster hand-painted in gouache: six flat, opaque, matte colours stacked in receding layers, dry-brush streaks where the paint thins at each edge, and a bold hand-lettered block.",
+    "motionNotes": "Motion: Layers slide in parallax like stacked paper cut-outs, the sun rises behind the ridges, steam puffs bob from the cooling towers and server windows blink on in rows.",
+    "explainerNotes": "Explainer: A run of hand-painted posters: each scene change is a fresh coat of cream swept across the board before the next poster is painted flat colour by flat colour; arrows are flat poster arrow shapes, numbers are repainted in the lettering band, and an orange starburst stamps the key moments.",
+    "folder": "styles/049-gouache-travel-poster"
+  },
+  {
+    "id": 50,
+    "name": "Napkin Sketch",
+    "family": "Hand-Drawn",
+    "description": "A back-of-the-napkin startup pitch in black Sharpie: ink feathering into soft tissue fibers, an embossed napkin border, quarter-fold creases and crumples, a coffee ring, all lying on a warm wooden cafe table.",
+    "motionNotes": "Motion: The marker scrawls each box and arrow in quick confident strokes while ink slowly feathers outward; the napkin breathes slightly as if just set down.",
+    "explainerNotes": "Explainer: A cafe-table pitch: the camera starts tight on the scrawled question then pulls back to the napkin; when a napkin is full a fresh one is slapped down on top of the pile (with a red Sharpie for the wrong guess and the 97%), arrows and numbers are fast Sharpie scrawls that feather into the tissue.",
+    "folder": "styles/050-napkin-sketch"
+  },
+  {
+    "id": 51,
+    "name": "Art Deco Foil",
+    "family": "Art & Design Movements",
+    "description": "A 1920s Art Deco poster in black lacquer and stamped gold foil: a symmetrical stepped ziggurat skyscraper built from server racks, sunburst fans radiating behind it, a stepped geometric border, and Limelight / Poiret One lettering with cream accents.",
+    "motionNotes": "Motion: Like a gilded title sequence: the stepped border inscribes itself, the server ziggurat rises floor by floor with its LEDs waking, halo arcs close symmetrically and the sunburst fans open, the spire extends and its beacon ignites, the title is foil-stamped letter by letter, then one slow glint sweeps across the gold.",
+    "explainerNotes": "Explainer: A gilded picture-palace sequence: scenes change behind closing and opening gold elevator doors, cameos glide on a gold rail with cream name plaques, arrows are stepped chevron arrows, numbers roll on an odometer and fill a sunburst gauge, and the key moments get a spotlight ring or a beacon glint.",
+    "folder": "styles/051-art-deco-foil"
+  },
+  {
+    "id": 52,
+    "name": "Radiograph on Lightbox",
+    "family": "Light & Imaging",
+    "description": "A blue-base X-ray film clipped to a glowing viewer: additive translucent density of a robot hand — hollow-shelled bones, pivot pins, screws, tendons, battery cell and gears — with collimation borders, lead markers, an ID flash, grease-pencil notes, scratches and dust.",
+    "motionNotes": "Motion: The viewer’s fluorescent tubes stutter on one by one, the film develops from milky fog to deep blue-black top-down like it was dipped in the tank, then a grease pencil circles the loose pin and scrawls a note while the camera slowly pushes in.",
+    "explainerNotes": "Explainer: A radiologist working a lightbox: scenes change by pulling films down and slapping new ones up under the clips, arrows, circles and answers are grease pencil on the glass, the counter is typed by the ID flasher and accuracy is rewritten round by round, with masking-tape labels for the header and takeaway.",
+    "folder": "styles/052-radiograph-on-lightbox"
+  },
+  {
+    "id": 53,
+    "name": "Vaporwave",
+    "family": "Retro UI & Neon",
+    "description": "Pastel-neon dreamscape: sliced sunset sun, glowing grid floor, a glitching marble bust on a checkerboard plinth, palm silhouettes, katakana, and a chewed-up VHS tape finish.",
+    "motionNotes": "Motion: Tape starts on a blue VCR screen and rolls into lock, the striped sun rises, palms slide in, the bust glitches into existence slice by slice, katakana stamps on with chroma split and a tracking band crawls down.",
+    "explainerNotes": "Explainer: Told on a worn VHS tape: scenes change with a tape cut (VCR blue screen, fast-forward, vertical roll), the header lives on as the VCR on-screen menu, the counter is tape-counter digits, labelled polaroids slide along the neon floor into the marble-bust \"model\", a pastel guess.exe pop-up does the guessing and the chart is drawn in neon across the sky.",
+    "folder": "styles/053-vaporwave"
+  },
+  {
+    "id": 54,
+    "name": "Ebru Paper Marbling",
+    "family": "Generative & Type",
+    "description": "Turkish ebru on laid paper: a battal stone ground of floated pigments raked into gel-git chevrons and combed, then suminagashi ring-drops pulled by a stylus into tulips — built with the exact drop and tine transforms.",
+    "motionNotes": "Motion: Colour drops rain onto the size and bloom, shoving earlier drops into veins; the rake drags the stone into gel-git flames; ring after ring is dropped at one point; then the stylus pulls the rings into a tulip, and a wet sheen glides over the finished bath.",
+    "explainerNotes": "Explainer: The bath is the model: examples land as colour drops, a new picture is a red probe drop that the flow drags toward its guess, the error is a stylus counter-stroke and the adjustment a comb pass that puts the pattern in order; scenes change by lifting the printed sheet off the bath, labels are bookbinder paper labels and arrows are inked stylus strokes.",
+    "folder": "styles/054-ebru-paper-marbling"
+  },
+  {
+    "id": 55,
+    "name": "ISOTYPE Pictograms",
+    "family": "Data & Information",
+    "description": "Vienna Method pictorial statistics: rows of identical flat pictograms where each symbol is a fixed quantity, partial symbols for remainders, three muted litho inks on a strict grid with geometric sans lettering.",
+    "motionNotes": "Motion: Title and key set first, the year column drops in, then symbols are stamped out row by row from the centre in stepped, rubber-stamp timing, the 2025 row of machines racing ahead; the litho paper breathes in the hold.",
+    "explainerNotes": "Explainer: A Vienna-Method picture-statistic told across one long chart sheet the camera pans along: symbols are stamped in stepped 12 fps timing, flat Isotype arrows show flow, numerals are stamped and re-stamped, and accuracy is counted in rows of tick symbols with partial symbols for fractions.",
+    "folder": "styles/055-isotype-pictograms"
+  },
+  {
+    "id": 56,
+    "name": "Soft 3D Clay",
+    "family": "Dimensional",
+    "description": "Dribbble-style “puffy” 3D icons: pastel matte-clay objects with chunky rounded extrusions, soft core shadows, bright bounce-light rims, glossy specular blobs and blurry contact shadows on a seamless pastel sweep.",
+    "motionNotes": "Motion: Clay icons drop in one by one on springy squash-and-stretch with their contact shadows growing beneath them, the bulb flickers on, then the cursor flies in and taps the bubble while everything bobs at different depths.",
+    "explainerNotes": "Explainer: The camera dollies across one wide pastel set with parallax depth-of-field (cards → clay chip with weight sliders → answer bubble → clay bar chart → pull back), arrows are puffy clay tubes with blobby heads, labels are squishy pills that spring onto objects, and numbers count inside butter-yellow clay badges.",
+    "folder": "styles/056-soft-3d-clay"
+  },
+  {
+    "id": 57,
+    "name": "Cross-Stitch Sampler",
+    "family": "Paper & Craft",
+    "description": "Pixel art worked as real counted cross-stitch on cream aida: every cell is an X of two-strand floss with sheen and twist, top legs all leaning the same way, dark backstitch outlines, all stretched in a wooden hoop.",
+    "motionNotes": "Motion: The design fills in stitch by stitch in chart order, the needle hopping row to row trailing its floss, while the hoop drifts gently.",
+    "explainerNotes": "Explainer: One long sampler slides through the hoop from motif to motif; everything is stitched cell by cell with the needle chasing the newest stitch, arrows and outlines are backstitch laid one hole at a time, numbers are re-stitched in a 3x5 sampler font, and the wrong guess gets a red running-stitch ring.",
+    "folder": "styles/057-cross-stitch-sampler"
+  },
+  {
+    "id": 58,
+    "name": "Constructivist Propaganda",
+    "family": "Art & Design Movements",
+    "description": "A 1920s Rodchenko / El Lissitzky agitprop poster: red, black and cream only, a halftone photomontage robot bellowing through a megaphone, beams radiating from its voice, a red disc and hard diagonal bars, and heavy condensed lettering set on the slant — litho ink mottle on cheap paper.",
+    "motionNotes": "Motion: Agitprop staccato: the red disc rolls in, the halftone robot slides up the diagonal, beams punch out of the megaphone two frames at a time, the slogan bars shoot across and the words slam down on the beat; in the hold the beam fan pulses with each shout.",
+    "explainerNotes": "Explainer: Agitprop sequence: Lissitzky's red wedge drives across the sheet between scenes, slogans and labels slam onto slanted bars on twos, arrows are heavy bars with wedge heads, the counter is stencil-tall Anton, and the key moments get a stamped red cross or a burst of beams.",
+    "folder": "styles/058-constructivist-propaganda"
+  },
+  {
+    "id": 59,
+    "name": "Pocket Monochrome",
+    "family": "Retro Digital",
+    "description": "An original DMG handheld frame: 160x144 pixels in exactly four pea-soup greens, a visible LCD pixel grid with each pixel casting a faint shadow on the reflective backing, motion ghosting, and the purple-grey bezel with its striped DOT MATRIX label.",
+    "motionNotes": "Motion: A handheld boot: the logo scrolls down one LCD pixel per frame and smears, the palette steps to white, the overworld steps back in through the 4 shades, the hero walks on 1 px per frame with a 2-frame cycle, and the window pops up and prints text.",
+    "explainerNotes": "Explainer: Explains as a handheld monster-battle RPG in four LCD shades: the question text box slides up the window layer into a header, palette fades act as door transitions, labelled cards march an arrow-tile path into CHIP the model, a flash-and-stripes battle intro starts a GUESS/CHECK/ADJUST fight (hit flash, dotted error trail, weight bars), and a LEVEL UP stats screen counts accuracy to an inverted 97%.",
+    "folder": "styles/059-pocket-monochrome"
+  },
+  {
+    "id": 60,
+    "name": "Botanical Plate",
+    "family": "Illustration",
+    "description": "A hand-coloured copperplate natural-history plate: swelling engraved hatching that follows every form, loose transparent watercolour tints laid over the print, numbered figures, Latin italic captions and foxed rag paper with a pressed plate mark.",
+    "motionNotes": "Motion: The circuit-flower sways on its stem while the copper beetle flexes its antennae; tints bleed in a beat after the engraved lines appear.",
+    "explainerNotes": "Explainer: Three plates from a naturalist's folio, each pulled fresh under the press roller: engraved specimens of cats and dogs feed the circuit-lily \"model\", a life-cycle plate with fletched engraved arrows shows Guess, Check and Adjust, and a growth-stage plate counts accuracy in an engraved cartouche, with the colourist's red wash ringing the key moments.",
+    "folder": "styles/060-botanical-plate"
+  },
+  {
+    "id": 61,
+    "name": "Kinetic Type",
+    "family": "Generative & Type",
+    "description": "A typographic music-video frame: condensed words cropped edge to edge with zero leading, filled vs outlined, strobe echoes, a slice glitch and one word stretched and filled with a halftone dreamscape — strictly two colours.",
+    "motionNotes": "Motion: One word per beat at 120 bpm: THE punches in, MACHINES whips in from the right trailing outline echoes, LEARNED slams up with a one-frame inverted flash, the TO tab wipes up, DREAM springs open and its halftone moon develops; then the slice glitch and echoes pulse on every beat.",
+    "explainerNotes": "Explainer: Words slam in on the beat and do the explaining; scenes change with a slice-glitch tear and a whip-pan, arrows are heavy rules with chevrons, labels are inverted mono tags that drop onto their targets, and the counters are huge Anton numerals with a strobe-flash on the key hits.",
+    "folder": "styles/061-kinetic-type"
+  },
+  {
+    "id": 62,
+    "name": "Byzantine Mosaic",
+    "family": "Illustration",
+    "description": "A Byzantine wall mosaic built from thousands of hand-cut tesserae laid in rows that echo every contour (andamento), with mortar grout, bevelled tile edges, per-tile colour variation and a glinting gold-smalti ground.",
+    "motionNotes": "Motion: Light rakes across the wall so individual gold smalti flash in turn; tiles could be laid row by row outward from the figure.",
+    "explainerNotes": "Explainer: Every scene is a fresh andamento-tessellated wall: tiles are laid element by element (arrows tile by tile along their length), scene changes pry the old tesserae up and re-lay the wall in a sweeping front, counters are live tesserae re-set on a grid, and gold smalti flash on the key moments.",
+    "folder": "styles/062-byzantine-mosaic"
+  },
+  {
+    "id": 63,
+    "name": "Y2K Liquid Chrome",
+    "family": "Retro UI & Neon",
+    "description": "Millennium-futurist liquid chrome: environment-mapped metaball blobs and inflated chrome bubble letters with thin-film iridescence, soap bubbles, starburst glints and frosted pill UI in silver, ice-blue and lilac.",
+    "motionNotes": "Motion: Mercury droplets fly in, overshoot and merge into one blob, chrome letters inflate one by one with a springy pop, frosted pills glide up, and reflections, bubbles and glints keep sliding and twinkling.",
+    "explainerNotes": "Explainer: A glossy millennium interface explains it: the model is a living mercury blob that liquid-morphs to a new spot at every scene change while frosted-glass panels swoosh in and out, arrows are iridescent ribbons, labels are glossy pills, and the counter and 97% are inflated chrome bubble digits.",
+    "folder": "styles/063-y2k-liquid-chrome"
+  },
+  {
+    "id": 64,
+    "name": "Sticky-Note Wall",
+    "family": "Illustration",
+    "description": "A brainstorming cork board: curling Post-its with adhesive bands and lifted-corner shadows, marker handwriting and doodles, a taped index card, push pins and red yarn connecting the ideas.",
+    "motionNotes": "Motion: Notes slap onto the board one by one with a tiny bounce, then red yarn unspools from pin to pin linking the ideas.",
+    "explainerNotes": "Explainer: A detective-board camera move across one big cork wall: notes slap in on cue, marker arrows and red yarn draw the flow, numbers are crossed out and rewritten by hand, and red marker circles the key moments.",
+    "folder": "styles/064-sticky-note-wall"
+  },
+  {
+    "id": 65,
+    "name": "Vintage Newsprint",
+    "family": "Print",
+    "description": "A 1950s broadsheet front page: blackletter masthead, condensed banner headline, dense justified greeked columns and a coarse halftone wire photo, printed in thin uneven ink on yellowed pulp with show-through from the reverse.",
+    "motionNotes": "Motion: The classic spinning-newspaper reveal: the page whirls up out of the dark and slaps flat to fill the frame, then the camera creeps in on the headline while the console lamps blink and the tape reels turn in the halftone photo.",
+    "explainerNotes": "Explainer: The viewer reads the paper: the camera tracks from the banner headline down to a By-the-Numbers infographic, the page physically turns to an inside Science spread whose diagram, chart and pull quote carry the rest; arrows are crisp newspaper-diagram rules, numbers are set in Oswald, and emphasis is a reader's red grease-pencil ring.",
+    "folder": "styles/065-vintage-newsprint"
+  },
+  {
+    "id": 66,
+    "name": "Hidden-Line Wireframe",
+    "family": "Dimensional",
+    "description": "Vector-display 3D: a perspective wire-mesh landscape with true hidden-line removal (back-to-front quads filled with the night before stroking), a wireframe moon, phosphor-cyan lines with bloom on deep navy, and HUD coordinate labels.",
+    "motionNotes": "Motion: HUD brackets snap on, the wireframe moon traces itself, then the hidden-line mesh is scanned in row by row from the camera to the horizon behind a bright scan front; markers lock on and labels type out while the camera glides forward and the scan keeps sweeping.",
+    "explainerNotes": "Explainer: Learning is shown as descent over the hidden-line “loss landscape”: the camera flies the mesh from a data-feed HUD streaming into the wireframe-sphere model, down to an amber “model weights” marker whose error becomes a dashed downhill vector, then follows it into the glowing basin; labels are bracketed HUD tags that type on, numbers are big Space Mono readouts.",
+    "folder": "styles/066-hidden-line-wireframe"
+  },
+  {
+    "id": 67,
+    "name": "Memphis Group",
+    "family": "Art & Design Movements",
+    "description": "Early-80s Memphis Milano maximalism: pastel grounds clashing with bold primaries, thick black outlines and hard offset shadows, squiggles, zigzags, dot grids, terrazzo chips and confetti triangles, all orbiting a chunky tilted chat-bubble headline.",
+    "motionNotes": "Motion: Cut-out cel timing on twos: the mint wedge slides in, shapes pop on one by one with springy overshoot, squiggles and zigzags draw themselves, the chat bubble squash-and-stretches in, the words pop on the beat, confetti bursts out and the sticker slaps on; then everything bobs off-beat and the typing dots bounce.",
+    "explainerNotes": "Explainer: Memphis cut-out animation on twos: examples hop into a funnel-topped totem computer, scenes change with a striped polka-dot band that swipes across, arrows are fat outlined shapes with hard shadows, counters are stickers that pop on each tick, and the key moments get a spinning starburst.",
+    "folder": "styles/067-memphis-group"
+  },
+  {
+    "id": 68,
+    "name": "Ballpoint Notebook",
+    "family": "Hand-Drawn",
+    "description": "A blue Bic doodle in the back of a college-ruled notebook: dense crosshatching for darks, pressure-varied lines with ink blobs where strokes start, bubble lettering with a hatched drop shadow and compulsive margin doodles.",
+    "motionNotes": "Motion: Lines scratch on stroke by stroke, then layers of crosshatching build up the shadows pass by pass, while the margin doodles get traced over and over.",
+    "explainerNotes": "Explainer: Doodled down one long college-ruled page: the pen draws while the camera scrolls along and then down the page, headings are bubble letters with crosshatched shadows, boxes get hatched drop-shadows, a red pen marks the wrong guess, and counters are re-inked in bubble numerals.",
+    "folder": "styles/068-ballpoint-notebook"
+  },
+  {
+    "id": 69,
+    "name": "Op Art Sphere",
+    "family": "Generative & Type",
+    "description": "Hard-edged black/ivory checkerboard that swells into a lens-like sphere and ripples at the margins — Vasarely and Riley optical vibration, flat acrylic on primed canvas.",
+    "motionNotes": "Motion: A flat checkerboard first ripples into Riley folds, then swells into a lens-sphere that pops past its size and settles; red squares flip in cell by cell from the centre, then the field breathes and the folds drift.",
+    "explainerNotes": "Explainer: The model is the Vasarely lens: untrained its grid is melted noise, the error travels back as an optical ripple through the checkerboard and each adjustment combs the sphere toward perfect order; scenes change with a Riley fold that crushes the picture into crowded columns, labels are hard-edged black and red slabs, and the numbers are Archivo Black on ivory bands.",
+    "folder": "styles/069-op-art-sphere"
+  },
+  {
+    "id": 70,
+    "name": "Topographic Survey",
+    "family": "Data & Information",
+    "description": "A vintage survey quadrangle of a \"loss landscape\": brown contour lines with heavier labelled index contours, soft hillshade and woodland tint, a water-lined lake, a red dashed switchback trail and a full printed collar with scale bar and north arrow.",
+    "motionNotes": "Motion: Printed plate by plate: the black frame and collar, then the grey hillshade, the green woodland sliding into register, the blue lake, then brown contours rising from the shore like a tide; streams trace downhill, names land, and the red trail walks itself down the switchbacks while the camera eases in.",
+    "explainerNotes": "Explainer: The loss landscape is literally the map: survey points (examples) raise the terrain, a red hiker guesses, checks the slope and steps down a dashed switchback trail while the camera pans along it, and accuracy is lettered in a map cartouche like an elevation figure.",
+    "folder": "styles/070-topographic-survey"
+  },
+  {
+    "id": 71,
+    "name": "Pointillist Afternoon",
+    "family": "Painterly",
+    "description": "Neo-Impressionist divisionism: every form is built from small dabs of unmixed pigment — complementary hues side by side that blend optically — with the canvas weave peeking between the dots and a dotted painted border.",
+    "motionNotes": "Motion: Dots shimmer as individual dabs re-pick their hue each frame while the overall colour holds, like light vibrating on the water; the sailboat drifts and the parasol sways.",
+    "explainerNotes": "Explainer: Every frame re-dabs one fixed field of pure-pigment dots against the current scene, so moving things shimmer as dots re-pick their hue; scene changes are the canvas being re-dabbed in a diagonal sweep, and lettering, arrows, counters and the emphasis rings are all fine dabs.",
+    "folder": "styles/071-pointillist-afternoon"
+  },
+  {
+    "id": 72,
+    "name": "Vector Arcade 1980",
+    "family": "Retro Digital",
+    "description": "An XY vector monitor cabinet game: hair-thin phosphor beams on pure black, additive bloom, brighter dwell dots where the beam pauses at vertices, dimmer long strokes, wireframe 3D in perspective and a hand-built stroke font.",
+    "motionNotes": "Motion: Attract-mode build: the beam traces the horizon and mountains, wireframes draw on edge by edge, the AI core flies in from the distance spinning, the saucer slides in with phosphor trails, then the radar, score and title are stroked in letter by letter while everything flickers with beam load.",
+    "explainerNotes": "Explainer: Told as a vector-cabinet HUD: the question shrinks into a red corner readout, labelled wireframe cards stream into a spinning icosahedron core, a hyperspace-style zoom carries us into a lock-on loop (GUESS > CHECK > ADJUST with brackets, red error beam, turning weight dials), and the stroked accuracy graph climbs to a flashing 97%.",
+    "folder": "styles/072-vector-arcade-1980"
+  },
+  {
+    "id": 73,
+    "name": "Patent Drawing",
+    "family": "Illustration",
+    "description": "A 1930s US patent sheet: ruling-pen black ink line art with shade lines, parallel-line and stipple shading, section hatching, reference numerals on curved leaders, typeset header and inked signatures on yellowed paper.",
+    "motionNotes": "Motion: Lines are inked one stroke at a time like a draughtsman at work — outlines first, then hatching, then numerals — while the FIG. 3 gear train slowly turns.",
+    "explainerNotes": "Explainer: The camera travels along one long patent sheet as FIG. 4–6 are inked stroke by stroke: ruled arrows and leader lines tie labels to parts, odometer drums count the examples and the accuracy, and an examiner's red pencil rings the wrong guess and the 97%.",
+    "folder": "styles/073-patent-drawing"
+  },
+  {
+    "id": 74,
+    "name": "Bauhaus Poster",
+    "family": "Art & Design Movements",
+    "description": "A 1920s Bauhaus exhibition poster: primary red, yellow and blue plus black on aged cream stock, a robot face built only from circles, squares, semicircles and triangles on a strict grid, with constructed geometric lettering and lithographic ink mottle.",
+    "motionNotes": "Motion: Built like a workshop paste-up: grid rules draw out, the halo and head drop in and snap with a little overshoot, features stamp on one by one, then the constructed letters are set block by block and the type follows; in the hold the pupils swivel and the antenna waves pulse.",
+    "explainerNotes": "Explainer: Told as one long Bayer-style info-design sheet the camera tracks along and finally pulls back from, with thick bar-and-triangle arrows, tags that drop onto what they name, stamped Space Grotesk counters and a red ring drawn round the key moment.",
+    "folder": "styles/074-bauhaus-poster"
+  },
+  {
+    "id": 75,
+    "name": "Bitmap Paint Doodle",
+    "family": "Retro UI & Neon",
+    "description": "A proudly crude early-2000s bitmap painting: aliased pencil lines, real flood fills that leak through gaps, airbrush speckle, double-drawn rectangles and an opaque text-tool box, all inside a grey paint-program window.",
+    "motionNotes": "Motion: Strokes appear as if dragged by a mouse in real time, the bucket floods regions in one instant pop (and leaks), the airbrush speckles accumulate while held, and the text cursor blinks.",
+    "explainerNotes": "Explainer: Someone paints the explanation live on one wide bitmap: the camera move is the canvas scrolling (scrollbar thumb sliding), arrows are line/curve-tool strokes, examples pile up via Ctrl+V pastes, numbers are retyped in a text box, and emphasis is a fat red brush X and an ellipse-tool circle.",
+    "folder": "styles/075-bitmap-paint-doodle"
+  },
+  {
+    "id": 76,
+    "name": "Nail & Thread String Art",
+    "family": "Generative & Type",
+    "description": "Taut cotton threads strung between brass nails on a stained walnut board; every curve is an envelope of straight chords, with thread translucency, sheen and cast shadows, plus pyrography lettering.",
+    "motionNotes": "Motion: Nails are tapped in around the outline, then thread is wound chord by chord so the glowing envelopes emerge, the filament and base are laced, the rays snap taut, and the title is burned in with a travelling ember while the camera slowly pushes in.",
+    "explainerNotes": "Explainer: The network is literally strung on the board — nails are neurons, a weight is how many wraps of thread a connection has — and learning is re-winding; the camera travels along one long walnut board between scenes, labels are kraft tags nailed on, arrows are threads with nail barbs, counters are nail-and-thread 7-segment digits, and emphasis is a red thread wound round a ring of nails.",
+    "folder": "styles/076-nail-thread-string-art"
+  },
+  {
+    "id": 77,
+    "name": "Ridgeline",
+    "family": "Data & Information",
+    "description": "Sixty stacked traces of noisy signal, each filled black so it occludes the one behind, drawn as thin white lines in a perfectly centred block with a tiny typographic caption.",
+    "motionNotes": "Motion: Traces are plotted one after another from the top, each swept left to right like a pen recorder and occluding the ones behind; once the stack is complete the peaks ripple like a live signal and the caption types in.",
+    "explainerNotes": "Explainer: Each white trace is one training round: a recorder tape feeds labelled pulses into the empty stack, three magnified traces act out guess / check / adjust (the peak lands on \"dog\", a dashed target shows \"cat\", the peak slides over), then the camera pulls back and sixty rounds plot themselves as the noisy peaks align into one clean ridge, captioned in Space Mono.",
+    "folder": "styles/077-ridgeline"
+  },
+  {
+    "id": 78,
+    "name": "Sketchbook Graphite",
+    "family": "Hand-Drawn",
+    "description": "A graphite study in a spiral sketchbook: faint construction circles and axes under confident darker contours, directional hatching that breaks on the paper tooth, smudged tones, kneaded-eraser highlights and a margin note.",
+    "motionNotes": "Motion: Construction lines ghost in first, contours firm up over them, then hatching sweeps across the shadow side while the eraser lifts the highlight.",
+    "explainerNotes": "Explainer: A pencil works across a wide sketchbook spread (faint construction pass first, then a firm contour, crescent hatching for form) while the camera follows, then the page physically turns to a fresh sheet for the progress chart; numbers are pencilled and re-pencilled as they count.",
+    "folder": "styles/078-sketchbook-graphite"
+  },
+  {
+    "id": 79,
+    "name": "Teletext Page",
+    "family": "Retro UI & Neon",
+    "description": "A broadcast teletext page: strict 40x25 character grid, eight saturated colours, 2x3 sextant mosaic graphics with one colour per cell, double-height headlines and Fastext links, seen through a CRT.",
+    "motionNotes": "Motion: Only the header shows while the page counter rolls in green, then the page lands top-down two rows at a time; mosaic bars step up a sub-block at a time, LATEST and the robot eyes flash, the ticker hops whole characters and the clock ticks.",
+    "explainerNotes": "Explainer: Each beat is a new teletext page (P100-P104): the header searches in green while the old page lingers, then the new page overwrites it two rows at a time; arrows, pictures and bar charts are sextant mosaics, numbers count in double-height digits and the key moments use the Flash attribute.",
+    "folder": "styles/079-teletext-page"
+  },
+  {
+    "id": 80,
+    "name": "Silkscreen Grid",
+    "family": "Print",
+    "description": "A Warhol-style repeat portrait: the same robot pulled eight times through a grainy black photo screen over loose, hand-cut flat colour plates in garish combinations, each pull misregistered and streaked by the squeegee.",
+    "motionNotes": "Motion: Panels are printed one after another across the grid — background flood, then the loose colour shapes slap down, then the squeegee drags the black photo screen across with a wet ink bead — before a slow push-in on the finished wall.",
+    "explainerNotes": "Explainer: Each beat is its own silkscreened panel, pulled in order (flood, loose colour shapes, squeegee drags the black screen) while the camera travels the grid; black arrows are painted across the gutters between panels, counters are stencil type, emphasis is a colourway flicker, and the final pull-back reveals all six beats as one Warhol grid.",
+    "folder": "styles/080-silkscreen-grid"
+  },
+  {
+    "id": 81,
+    "name": "Guilloché Security Print",
+    "family": "Generative & Type",
+    "description": "Banknote-grade lathe work: hairline hypotrochoid rosettes and woven sine-ring meshes in split-fountain iris inks on fibred security paper, with engraved serif lettering, microtext and red serials.",
+    "motionNotes": "Motion: Like a geometric lathe plotting the plate: the underprint waves and border ropes trace on, each rosette band is drawn pen-pass by pen-pass, the engraved title is wiped in, the red serials are stamped digit by digit; then the meshes slowly counter-rotate into shimmering moiré and a light glint crosses the note.",
+    "explainerNotes": "Explainer: A sheet of five security-printed notes the camera pans across; the model is a lathe rosette whose passes start out of register and are brought into register by each correction, with engraved double-rule arrows, red numbering-machine counters and rubber cancellation stamps for WRONG / VERIFIED / CERTIFIED.",
+    "folder": "styles/081-guilloch-security-print"
+  },
+  {
+    "id": 82,
+    "name": "ASCII Demoscene",
+    "family": "Retro Digital",
+    "description": "A ray-marched 3D torus rasterised into a strict monospace character grid via a luminance ramp, colour-coded like a 90s demoscene intro: box-drawn title panel, plasma backdrop, copper bars and a sine scroller.",
+    "motionNotes": "Motion: Like a demo intro booting: plasma thickens in, the spinning torus is rastered into characters top-to-bottom behind a bright scan row, the block title and nfo panel print, copper bars open and a rainbow sine-scroller glides in from the right.",
+    "explainerNotes": "Explainer: One long ASCII document that the terminal scrolls through row by row: figlet block-letter question, labelled ASCII cat/dog cards stepping along a box-drawing arrow into a MODEL box, a reverse-video GUESS/CHECK/ADJUST loop with a red error path, and block-character bar charts with figlet counters.",
+    "folder": "styles/082-ascii-demoscene"
+  },
+  {
+    "id": 83,
+    "name": "International Typographic Style",
+    "family": "Art & Design Movements",
+    "description": "A 1960s Zürich-school concert-style poster: strict 12-column modular grid, enormous flush-left grotesk set tight, an asymmetric field of rotating concentric arc segments over a red disc, and small precise info blocks hung from the grid — red, black and white only.",
+    "motionNotes": "Motion: Rules draw out along the grid, the red disc opens and the ring segments spin in and decelerate until they lock onto a 22.5° module; the headline rises line by line out of its baseline masks and the info blocks step in column by column, then the rings drift like a slow mechanical score.",
+    "explainerNotes": "Explainer: A Zürich-school information sequence on the same 12-column grid: the headline shrinks into a running header, pages change with a column-by-column red wipe, hairline rules with solid heads carry cause and flow, numbers count in Inter 800 and the key result gets a red block slammed behind it.",
+    "folder": "styles/083-international-typographic-style"
+  },
+  {
+    "id": 84,
+    "name": "Flow Field",
+    "family": "Data & Information",
+    "description": "Thousands of hairline streamlines traced through a curl-noise field that parts around an unseen core; additive colour from a refined gradient builds luminous braids on dark paper.",
+    "motionNotes": "Motion: The dark core appears first, then particles are released in a wave from left to right and trace their streamlines outward until the braids glow; in the hold the field slowly breathes while bright sparks ride the currents.",
+    "explainerNotes": "Explainer: The model is the dark core of a flow field: labelled particles spiral into it as data, the camera pushes in as a new particle is carried out the wrong exit (\"dog?\"), a coral counter-current carries the error back, the circulation re-combs the whole field so the next one exits \"cat\", and training is shown as the turbulent field combing into smooth order, all captioned in hairline Space Mono.",
+    "folder": "styles/084-flow-field"
+  },
+  {
+    "id": 85,
+    "name": "MacPaint 1984",
+    "family": "Retro Digital",
+    "description": "Pure 1-bit black & white at the original 72-dpi grain: real Atkinson-dithered grayscale (blown-out highlights, crunchy shadows), 8x8 fill patterns, striped title bars, marching ants and bitmap type.",
+    "motionNotes": "Motion: Built the way a 1984 user would: the dithered image scans in row by row, then pencil, line, bucket, rectangle and text tools each switch on in the palette and lay down their marks in snappy, unanimated 1-bit steps, ending on crawling marching ants.",
+    "explainerNotes": "Explainer: Explains with the 1984 desktop itself: an alert asks the question and, once OK is clicked, zoom-rects turn it into the window title; labelled Finder icons are dragged into a Model icon while the item count climbs; a Model window cycles Guess/Check/Adjust buttons with a stop alert and menu-bar beep flash, dashed error arrow and Control-Panel weight sliders; a pattern-filled chart climbs to 97% inside marching ants.",
+    "folder": "styles/085-macpaint-1984"
+  },
+  {
+    "id": 86,
+    "name": "Multi-scale Truchet",
+    "family": "Generative & Type",
+    "description": "Bold two-ink multi-scale Truchet tiling of winged quarter-circle tiles whose paths flow continuously across three scales; a third ink fills only the closed regions that fall inside the letters \"AI\", so the word surfaces from the maze.",
+    "motionNotes": "Motion: Big tiles are laid in a diagonal sweep, then each scale subdivides in turn (paths re-routing as detail arrives); then the accent screen is pulled across and slides into register, revealing AI.",
+    "explainerNotes": "Explainer: The model is a Truchet maze whose tiles are its weights: an input band routes to the wrong output, the error runs back along the path and two tiles quarter-turn to re-route it; scenes change by re-laying the tiles in a diagonal sweep, labels are printed blocks with misregistered accent, and the accuracy chart is built from stacked tiles.",
+    "folder": "styles/086-multi-scale-truchet"
+  }
+]

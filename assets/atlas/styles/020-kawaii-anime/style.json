@@ -1,0 +1,73 @@
+{
+  "id": 20,
+  "name": "Kawaii Anime",
+  "family": "Popular Explainer Looks",
+  "description": "Flat 2D kawaii anime illustration: chibi characters with big glossy anime eyes and blush marks, chunky rounded shapes in strawberry-milk pink, mint, butter, lavender and sky, soft plum outlines of even weight, one cel-shadow tone and a small highlight, on polka-dot and star patterns.",
+  "explainerNotes": "Explainer: A chibi robot mascot acts the lesson out with anime reaction grammar (swirl eyes, sweat drop and \"!?\" on the wrong guess, star eyes and confetti at 97%); scenes change through star and heart iris wipes, connectors are dotted candy arrows, and the counters are bouncing outlined numerals.",
+  "motionNotes": "Motion: Everything pops in on twos with bouncy squash-and-stretch, characters bob and wiggle, sparkles twinkle, and scenes change through star and heart iris wipes.",
+  "folder": "styles/020-kawaii-anime",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 99145,
+    "sha256": "680ed865fa64d17b7b8fe84b72b969908fd3f77c3faed97a7bf4667cf1146957",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/kawaii.js",
+      "language": "js",
+      "characters": 62520,
+      "sha256": "368f8fe7f74668e32d568a49d6e2085b46a5d4eeacae97ea2308fe8d12fa4c30"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-58.472Z-hkyxGVF8bxeSgM99xgzly3wWsHVUAqYMN.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1493626,
+      "sha256": "141220f4715274ec77a031e47ea8d4efa156305cd3243e936d9b12318fc0350e",
+      "duration": 15.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-57.949Z-DnA67G7oMtCOIf5yy1qSYbwxNUbPK71gi.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 391147,
+      "sha256": "8ca9ce9917a07d6ceab336266c9fe3c3f4e1b193a807e2797846beebf1c55838",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-57.660Z---Du4Zm4cBUwtGysnrY44PPI_gYAprmKX.jpg",
+      "file": "poster.jpg",
+      "bytes": 54766,
+      "sha256": "8a1d6f1a7aba778072a3284e3b66364ab380a0656d0a9f457b9da12491b6c014",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

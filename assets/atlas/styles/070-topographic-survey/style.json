@@ -1,0 +1,75 @@
+{
+  "id": 70,
+  "name": "Topographic Survey",
+  "family": "Data & Information",
+  "description": "A vintage survey quadrangle of a \"loss landscape\": brown contour lines with heavier labelled index contours, soft hillshade and woodland tint, a water-lined lake, a red dashed switchback trail and a full printed collar with scale bar and north arrow.",
+  "explainerNotes": "Explainer: The loss landscape is literally the map: survey points (examples) raise the terrain, a red hiker guesses, checks the slope and steps down a dashed switchback trail while the camera pans along it, and accuracy is lettered in a map cartouche like an elevation figure.",
+  "motionNotes": "Motion: Printed plate by plate: the black frame and collar, then the grey hillshade, the green woodland sliding into register, the blue lake, then brown contours rising from the shore like a tide; streams trace downhill, names land, and the red trail walks itself down the switchbacks while the camera eases in.",
+  "folder": "styles/070-topographic-survey",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 92232,
+    "sha256": "31fbb87a39377511c9832974d06ec06843f93b974ba5a56ca68a3aa2f9f0b551",
+    "sourceStyleName": "Topographic Survey",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/topographic.js",
+      "language": "js",
+      "characters": 55490,
+      "sha256": "623ae861630ba113e7e6fcea8defc2ad4591ce5a836ccc265e3f1df7af02e94e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-33.204Z-um3i-2BiBWQo4D_rDE5e9MdS09olLxu44.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1687973,
+      "sha256": "22ce6db3d3fc4bfb2d28c718990d47587cac2395d6c9e3da5bdb84c678f8fca1",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-32.716Z-ZN6WaMSQFCtamSaUaeCPBDGnQPaEaV68y.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 924980,
+      "sha256": "9f2f93715071a791035b2dc1f271a8b9ddd0e464b812a0beed47982f4c8d0877",
+      "duration": 7.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-32.410Z-3UGbjfMTejNEmsX0-kUi8diN6lKE2Wzrz.jpg",
+      "file": "poster.jpg",
+      "bytes": 92964,
+      "sha256": "c6370fdf60879bd168e5043917848a0fc9346d59d9f0e7d19ec8edd8297ac386",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

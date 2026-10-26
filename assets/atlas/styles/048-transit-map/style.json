@@ -1,0 +1,77 @@
+{
+  "id": 48,
+  "name": "Transit Map",
+  "family": "Data & Information",
+  "description": "A Beck-style metro diagram of an AI pipeline: fat coloured lines locked to 0/45/90 degrees with rounded bends, line-colour station ticks, black-ringed interchanges, a river and a boxed legend, all in clean sans lettering.",
+  "explainerNotes": "Explainer: The lesson is a journey on the network: the camera rides along a Data Line into the Model interchange, round a Training Loop line (Guess, Check, Adjust stations) and out along an Accuracy Line, while an amber dot-matrix departure board counts examples and accuracy and finally flips to the takeaway.",
+  "motionNotes": "Motion: Title and key settle, then each line draws out from its terminus in turn with stations ticking on and interchanges popping as the line passes; once the network is complete, small trains glide along every route.",
+  "folder": "styles/048-transit-map",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 82064,
+    "sha256": "349a93a3d6a43d7968615fe814a96ee23599ef85f84eb7688812016103cf33c7",
+    "sourceStyleName": "Data Line",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/transit-map.js",
+      "language": "js",
+      "characters": 45408,
+      "sha256": "94b75014e127842a1852f4ba76950c06a80bcf495299ef561d0e21068c9fd631"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-24.430Z-omT0hLlw_GnSqcbHfrzLHwPNQ7JnybKnf.mp4",
+      "file": "explainer.mp4",
+      "bytes": 743670,
+      "sha256": "fb33c3b76fec04133add784ca3cc1ba17a3655907df2f0fecd4c0e6d7737a0ac",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-23.963Z-YdS7tZr-pu9H8XlMZ8K3qFzWgW0ZF48y8.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 106147,
+      "sha256": "fe29d3da7210834514074a0cffd784e4339bf69cf22509d4ad24bff5c87590ae",
+      "duration": 7.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-23.687Z-IS3P2ydo1NCtQBVrqiNyBcdhWS7s-KSYq.jpg",
+      "file": "poster.jpg",
+      "bytes": 52552,
+      "sha256": "b87ba8af807161a2e9ff69e5c8c5c0780818f990718a44d3839961be2f0a70ed",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": [
+    "Card name differs from the original copied prompt; original text retained."
+  ]
+}

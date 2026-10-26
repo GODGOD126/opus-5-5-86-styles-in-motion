@@ -1,0 +1,75 @@
+{
+  "id": 33,
+  "name": "Etch A Sketch Toy",
+  "family": "Hand-Drawn",
+  "description": "The classic red line-drawing toy: glossy rounded red plastic with hard specular streaks, two white knurled knobs, and a grainy silver aluminium-powder screen where everything is one thin dark line that never lifts: crisp horizontals and verticals, stair-stepped diagonals and curves, and visible travel lines joining every letter and shape.",
+  "explainerNotes": "Explainer: Every word and picture is one continuous stylus line with the knobs turning to match; the scene transition is shaking the toy so the drawing fades in streaks (leaving a faint ghost), arrows and labels are part of the same line (labels ride arrows and bubble edges), and numbers grow as they are written: 1,000,000 gains a zero at a time and the accuracy staircase writes 61%, 70%, 77%, 90% on its treads before a double-traced, boxed 97%.",
+  "motionNotes": "Motion: A shake clears the last doodle in patchy streaks, then the single line crawls out at time-lapse speed while the left knob turns with every horizontal move and the right knob with every vertical one.",
+  "folder": "styles/033-etch-a-sketch-toy",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 82061,
+    "sha256": "08590139cb09e8e6c113d4e72e350088c32ccafc9e6b3ff3a460aee47c1ed046",
+    "sourceStyleName": "Etch A Sketch Toy",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/etch-sketch.js",
+      "language": "js",
+      "characters": 45471,
+      "sha256": "4e61cc63051da0c23d0c28c01aab0a7107eb1d6013826c5ef57a9ee1353d927f"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-38.126Z-QneNMhebGM6sO3OA5zusGDbrkXiTS8ZDO.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1559491,
+      "sha256": "7a94d729d7b52813565774f01ccaad96e42f5d9db18052529415e0ceb42ff417",
+      "duration": 17.2,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-37.621Z-9JRHYveqleD6iZIf8X8wXDgflU9CXtEP_.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 395399,
+      "sha256": "6bc56646d1164695788087d060b204f0489058411ad04c84f9744100159dbce3",
+      "duration": 7.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-37.266Z-KfoxXwNa-5Fb2J4Vj5l7lr3X5rMvDJRlL.jpg",
+      "file": "poster.jpg",
+      "bytes": 49053,
+      "sha256": "91314c9ef9ab644284e7ad5ad9569b566c0ce0aecdbc52197c6942cb26f6dcf5",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

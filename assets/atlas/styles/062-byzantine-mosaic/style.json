@@ -1,0 +1,75 @@
+{
+  "id": 62,
+  "name": "Byzantine Mosaic",
+  "family": "Illustration",
+  "description": "A Byzantine wall mosaic built from thousands of hand-cut tesserae laid in rows that echo every contour (andamento), with mortar grout, bevelled tile edges, per-tile colour variation and a glinting gold-smalti ground.",
+  "explainerNotes": "Explainer: Every scene is a fresh andamento-tessellated wall: tiles are laid element by element (arrows tile by tile along their length), scene changes pry the old tesserae up and re-lay the wall in a sweeping front, counters are live tesserae re-set on a grid, and gold smalti flash on the key moments.",
+  "motionNotes": "Motion: Light rakes across the wall so individual gold smalti flash in turn; tiles could be laid row by row outward from the figure.",
+  "folder": "styles/062-byzantine-mosaic",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 86570,
+    "sha256": "f55c808f640869ad65762bcc334090ce403675cf76d2635be269e5dbb575bc63",
+    "sourceStyleName": "Byzantine Mosaic",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/mosaic.js",
+      "language": "js",
+      "characters": 50002,
+      "sha256": "4ace3c3226c9ef7930a815dc3cf07afc8566f451428cca431f81b04564fdded2"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-07.928Z--wMQEs48juj1IZ465JspHGUBDscelz9Gc.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2659019,
+      "sha256": "f533a227819b05a37e566bda3253d5dd2b6e8695561669e2d231edca0acf4420",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-07.365Z-So1TVPt4reiUg4pOOEyOv8PaMiz61XLP8.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 880194,
+      "sha256": "88d89c27ec27d149563a696546d48ef60978b111ad87bc7a11f7e1aa5081e0a8",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-07.074Z-i37eF1ZRTfhgvYaULGRfS_f4X_w1CjGIt.jpg",
+      "file": "poster.jpg",
+      "bytes": 226437,
+      "sha256": "78836b44b2a5cc924d08c46015e1e1856383c5c9ff44fc45c9a1a88388fdc8e8",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

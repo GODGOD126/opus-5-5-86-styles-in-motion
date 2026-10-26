@@ -1,0 +1,73 @@
+{
+  "id": 12,
+  "name": "Bioluminescent Deep Sea",
+  "family": "Light & Imaging",
+  "description": "The midnight zone: near-black water with parallax marine snow, and nothing lit but living light — a jellyfish whose nerve net glows like a neural network, a siphonophore chain, a rainbow-rippling comb jelly and an anglerfish lure. Additive cyan, teal and electric-blue glow with magenta and amber accents; type is bioluminescent.",
+  "explainerNotes": "Explainer: A descent through the midnight zone: the question forms from gathering plankton, cat and dog swarms ride a glowing current into a jellyfish model whose nerve net is its weights, the error ripples back through the net in magenta, accuracy climbs a siphonophore chain to a plankton bloom-burst, and transitions are a descent, a sweeping plankton bloom and an anglerfish lure lighting new water.",
+  "motionNotes": "Motion: The camera sinks (marine snow streams upward) as animals switch on one by one: bell rims pulse, nerve-net nodes flicker alight, the siphonophore lights segment by segment, the lure blinks on, and the words form out of gathering plankton.",
+  "folder": "styles/012-bioluminescent-deep-sea",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 107597,
+    "sha256": "505ead1579a1303f26d61577f260e358bfd1235912478ba7db6f0fc744df2694",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/deep-sea.js",
+      "language": "js",
+      "characters": 70652,
+      "sha256": "d24f6ff174a16ce4940aa6545ecd3c974b97e106a20263af6ea195578f600e8c"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-33.072Z-IR40tDdmj-K5Ut5CIit8En6zmkekRO1ie.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1313937,
+      "sha256": "e5448a9fbc47d2a9b16be43d28a5651914b98f2dd0bbca31dd9dfec0216462dc",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-32.557Z-A7zfzwUIr0LXxY10m8M76uNpb_exQ0zB0.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 669432,
+      "sha256": "e89ab83bf9abdd57cb938f7b2d611049aa884c4b10708256b1e3aeca193c359d",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-32.270Z-LwlBzDVnX8d0NmrDMooBuX8aO5kkLJLQ4.jpg",
+      "file": "poster.jpg",
+      "bytes": 41203,
+      "sha256": "995a597ba2aa44000d460fb34e929f7642da77d600f5184e95a25ae2f8f02d21",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

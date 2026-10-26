@@ -1,0 +1,75 @@
+{
+  "id": 85,
+  "name": "MacPaint 1984",
+  "family": "Retro Digital",
+  "description": "Pure 1-bit black & white at the original 72-dpi grain: real Atkinson-dithered grayscale (blown-out highlights, crunchy shadows), 8x8 fill patterns, striped title bars, marching ants and bitmap type.",
+  "explainerNotes": "Explainer: Explains with the 1984 desktop itself: an alert asks the question and, once OK is clicked, zoom-rects turn it into the window title; labelled Finder icons are dragged into a Model icon while the item count climbs; a Model window cycles Guess/Check/Adjust buttons with a stop alert and menu-bar beep flash, dashed error arrow and Control-Panel weight sliders; a pattern-filled chart climbs to 97% inside marching ants.",
+  "motionNotes": "Motion: Built the way a 1984 user would: the dithered image scans in row by row, then pencil, line, bucket, rectangle and text tools each switch on in the palette and lay down their marks in snappy, unanimated 1-bit steps, ending on crawling marching ants.",
+  "folder": "styles/085-macpaint-1984",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 88220,
+    "sha256": "18ca1877838cbd9c74f2fd7fb14374bf5b9bcdf52fce581e6348667cc6cce812",
+    "sourceStyleName": "MacPaint 1984",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/mac-1bit.js",
+      "language": "js",
+      "characters": 51426,
+      "sha256": "57c9ff8431b708b8ca3bbcba5644efcf9fc4a0d8eb1146cc285b435325bb86f6"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-18.834Z-y3L-ZAutvKknif_R1P71jmInEGMJ4EW4i.mp4",
+      "file": "explainer.mp4",
+      "bytes": 882316,
+      "sha256": "843bedd80b918a387ffcff200328aa6632775ea7566b83516f13ff2b375fb22e",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-18.339Z-BZgA_ktvyk78H9iRnHyunVz1esfXmTCvC.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 494938,
+      "sha256": "96017e6bf740e5340008d47707c63140bb72f749bc2b1ceb1b813289add958fc",
+      "duration": 6.2,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-18.017Z-e_ZOSKgsdcC-RPb_1Mw_P17_ktQCdOOvR.jpg",
+      "file": "poster.jpg",
+      "bytes": 159916,
+      "sha256": "6dc3d40a461ff58c9e3e88a6791700a0bb0d5addaba44d6b52e3b6dd519beb08",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

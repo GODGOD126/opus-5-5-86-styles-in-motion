@@ -1,0 +1,75 @@
+{
+  "id": 57,
+  "name": "Cross-Stitch Sampler",
+  "family": "Paper & Craft",
+  "description": "Pixel art worked as real counted cross-stitch on cream aida: every cell is an X of two-strand floss with sheen and twist, top legs all leaning the same way, dark backstitch outlines, all stretched in a wooden hoop.",
+  "explainerNotes": "Explainer: One long sampler slides through the hoop from motif to motif; everything is stitched cell by cell with the needle chasing the newest stitch, arrows and outlines are backstitch laid one hole at a time, numbers are re-stitched in a 3x5 sampler font, and the wrong guess gets a red running-stitch ring.",
+  "motionNotes": "Motion: The design fills in stitch by stitch in chart order, the needle hopping row to row trailing its floss, while the hoop drifts gently.",
+  "folder": "styles/057-cross-stitch-sampler",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 83426,
+    "sha256": "2b95146d29f4df62a71967de04fba8ce2c3acf9fdea89908d62b9a018783f608",
+    "sourceStyleName": "Cross-Stitch Sampler",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/cross-stitch.js",
+      "language": "js",
+      "characters": 47154,
+      "sha256": "13b49f3c0eeca8f09fa9b9a6885153e4c16bd1d87568f801b77ba350c8b8ab58"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-52.904Z-wqu3suLg1isMCtgeofOOFblwXksEBHgWM.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1298527,
+      "sha256": "42d59fc806a31a3c02a0b078044d8b85aa5e481b3d1170b5ba6353a6fe25b6f3",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-52.426Z-QcEQE4k5NfP2mGAtgSNQy7vFSgmc60OaK.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 327911,
+      "sha256": "a1e13518dcea6640f5c4596fc0c9095d534e92c116da4d8dca482aaad7e0a0e1",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-52.136Z-b27x4BKiWTeEyGW4qBQq0IIgyvQeuReKI.jpg",
+      "file": "poster.jpg",
+      "bytes": 110152,
+      "sha256": "5af43738b80f3dd2769b947c26bb3785cf37d9e3038c7f90492b9d56293d6509",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

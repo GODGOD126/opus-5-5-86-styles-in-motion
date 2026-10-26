@@ -1,0 +1,75 @@
+{
+  "id": 35,
+  "name": "Punk Zine Collage",
+  "family": "Paper & Craft",
+  "description": "A photocopied cut-and-paste zine spread: torn halftone scraps, ransom-note letters cut from mismatched magazines, masking tape and staples, crushed to high-contrast black toner with one fluoro-pink spot ink overprinted off-register.",
+  "explainerNotes": "Explainer: Shot on 8 fps steps, each beat is a new photocopied sheet slapped down over the last (copier flash on impact); arrows are marker scrawls, labels are typed strips and ransom letters pasted onto the thing they name, the counter is re-cut from magazine letters every time it ticks, and the wrong guess gets slashed with the pink spot ink.",
+  "motionNotes": "Motion: Scraps slam onto the page one per beat with a copier-flash flicker, ransom letters jitter in stop-motion, toner noise boils every frame.",
+  "folder": "styles/035-punk-zine-collage",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 84758,
+    "sha256": "e519c180775c5489883a3ef3916c94cce05f6f661d32f9badb56f3d4f5989995",
+    "sourceStyleName": "Punk Zine Collage",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/collage-zine.js",
+      "language": "js",
+      "characters": 47569,
+      "sha256": "133a60431fea3714966bcd65389884e5daf1d265068ebd9068e47df051fbd5d7"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-43.938Z-2_tgJsCxsK03l876liWqnYC8CL00wGt6D.mp4",
+      "file": "explainer.mp4",
+      "bytes": 4492092,
+      "sha256": "c308eecce3a1757062326abf3c95b390fa9c47c101df63573c9aea774747331a",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-43.420Z-clNIgw36RdyZUWJseqEWWlhREeSB3Tr7O.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2200788,
+      "sha256": "de3b6b9bc327328cbf363da0d6c78fe6a9f3c5c17708c8883fd22fba74365c17",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-43.134Z-gbtocxaMYyBZV1MEHPPwxIIJyJd378zd4.jpg",
+      "file": "poster.jpg",
+      "bytes": 110374,
+      "sha256": "af7151416d7d7cfffee197892116b673eefb0494f263be4c35d1d1613263d1a4",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

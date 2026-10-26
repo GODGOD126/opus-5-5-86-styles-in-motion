@@ -1,0 +1,75 @@
+{
+  "id": 75,
+  "name": "Bitmap Paint Doodle",
+  "family": "Retro UI & Neon",
+  "description": "A proudly crude early-2000s bitmap painting: aliased pencil lines, real flood fills that leak through gaps, airbrush speckle, double-drawn rectangles and an opaque text-tool box, all inside a grey paint-program window.",
+  "explainerNotes": "Explainer: Someone paints the explanation live on one wide bitmap: the camera move is the canvas scrolling (scrollbar thumb sliding), arrows are line/curve-tool strokes, examples pile up via Ctrl+V pastes, numbers are retyped in a text box, and emphasis is a fat red brush X and an ellipse-tool circle.",
+  "motionNotes": "Motion: Strokes appear as if dragged by a mouse in real time, the bucket floods regions in one instant pop (and leaks), the airbrush speckles accumulate while held, and the text cursor blinks.",
+  "folder": "styles/075-bitmap-paint-doodle",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 89283,
+    "sha256": "3db7f9b2b23fe9c4f26dcfc65e47d5f1cb35d85ffb2ac1c2bd11cd67c565e7a7",
+    "sourceStyleName": "Bitmap Paint Doodle",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/ms-paint.js",
+      "language": "js",
+      "characters": 52711,
+      "sha256": "7524f89cdc21872bcbea18be39be6170ba4dbf9a6d9c3cd91176a913e1620c10"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-48.510Z-0Q6edLRh990AJew6PTeMzXD-tVF09SC9d.mp4",
+      "file": "explainer.mp4",
+      "bytes": 621770,
+      "sha256": "62607de548e4c535c60e33dd2ac89fa81e534ed0093e88613e40540a0f6a4c24",
+      "duration": 14.6,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-48.026Z-2EXjlh9GQ72bI2iWsH4rPJkc3jUEVyRrd.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 146987,
+      "sha256": "81e0e5a924cb6efa2fbc5d29db0a21cc2ebf2cfbdd6b9459eff564c55e8c39cb",
+      "duration": 8.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-47.752Z-BF4XeGoOOo7I-0fTzElEnngHPIBMtVbft.jpg",
+      "file": "poster.jpg",
+      "bytes": 86698,
+      "sha256": "cf4e88314fbca440e68f5acd0153737d4e6e22f67900620d0a4aa7ca231c92c9",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

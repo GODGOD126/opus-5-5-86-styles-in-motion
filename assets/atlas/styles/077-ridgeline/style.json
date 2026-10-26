@@ -1,0 +1,75 @@
+{
+  "id": 77,
+  "name": "Ridgeline",
+  "family": "Data & Information",
+  "description": "Sixty stacked traces of noisy signal, each filled black so it occludes the one behind, drawn as thin white lines in a perfectly centred block with a tiny typographic caption.",
+  "explainerNotes": "Explainer: Each white trace is one training round: a recorder tape feeds labelled pulses into the empty stack, three magnified traces act out guess / check / adjust (the peak lands on \"dog\", a dashed target shows \"cat\", the peak slides over), then the camera pulls back and sixty rounds plot themselves as the noisy peaks align into one clean ridge, captioned in Space Mono.",
+  "motionNotes": "Motion: Traces are plotted one after another from the top, each swept left to right like a pen recorder and occluding the ones behind; once the stack is complete the peaks ripple like a live signal and the caption types in.",
+  "folder": "styles/077-ridgeline",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 68347,
+    "sha256": "9a8db9fc1e5d24c99de4b209ca2d919b8193583748682649b7fdb4c5873a4e7d",
+    "sourceStyleName": "Ridgeline",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/ridgeline.js",
+      "language": "js",
+      "characters": 31761,
+      "sha256": "5d47a14c54e164e7bb1d215a552a5ec68d1b9cc85457d9319f40261d6e403aea"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-54.909Z-dZr3tuXT-m-o2X_GiG4gbjvU0CJrSuU4E.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1454666,
+      "sha256": "8877121dc2383e8d50fa3657b37b4f035770e827021b71675ff6b9e8e2e8209b",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-54.415Z-SZEnHTbXAckfTd9BqLEJ9KKRoXEFVeIhS.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1152228,
+      "sha256": "8c5ae5f6962ace7eb1ab6329580cb34d23060ee85c28125bedeb75c5c9488b70",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-54.074Z-gU5JzfplyP7Y-SsfPnyah86kCL4I_VaK2.jpg",
+      "file": "poster.jpg",
+      "bytes": 34409,
+      "sha256": "46caaabbcb6288e2212d91ae68d1feba523559921a3a86155de6c53668392157",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

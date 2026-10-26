@@ -1,0 +1,75 @@
+{
+  "id": 63,
+  "name": "Y2K Liquid Chrome",
+  "family": "Retro UI & Neon",
+  "description": "Millennium-futurist liquid chrome: environment-mapped metaball blobs and inflated chrome bubble letters with thin-film iridescence, soap bubbles, starburst glints and frosted pill UI in silver, ice-blue and lilac.",
+  "explainerNotes": "Explainer: A glossy millennium interface explains it: the model is a living mercury blob that liquid-morphs to a new spot at every scene change while frosted-glass panels swoosh in and out, arrows are iridescent ribbons, labels are glossy pills, and the counter and 97% are inflated chrome bubble digits.",
+  "motionNotes": "Motion: Mercury droplets fly in, overshoot and merge into one blob, chrome letters inflate one by one with a springy pop, frosted pills glide up, and reflections, bubbles and glints keep sliding and twinkling.",
+  "folder": "styles/063-y2k-liquid-chrome",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 85642,
+    "sha256": "3e75893f0e857b06adc4fe5b9f4f4cab8b0b42d2c0d76676653857ada9d164c0",
+    "sourceStyleName": "Y2K Liquid Chrome",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/y2k-chrome.js",
+      "language": "js",
+      "characters": 49004,
+      "sha256": "3f411a0ca6f460df99b01052fe21f965dd564244ae6793642c2a0039e419ea62"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-10.947Z-p16a6I9G40YMMuC7BU8oPZyw-SObnopmu.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1091632,
+      "sha256": "26c86fd757e5adb0d1bc87fa548423d866bd22f7be745bae0831d37dd16f0940",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-10.476Z-abOYFFEHYZPghDwarXYgIHFCjfCqJdA8g.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 299003,
+      "sha256": "30b667ea5c5604182265a4d5af40df016d59bde3d3404e81f88ab35e431f10c3",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-10.116Z-aDZmcYJ2qDyLOeNi7rD7EDE9IusLpjgqx.jpg",
+      "file": "poster.jpg",
+      "bytes": 42034,
+      "sha256": "261192f6f61bb671899f99f17f312a8ca0355eab9c82f6d7a2b67ca74414c7cc",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

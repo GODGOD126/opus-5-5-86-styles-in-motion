@@ -1,0 +1,75 @@
+{
+  "id": 67,
+  "name": "Memphis Group",
+  "family": "Art & Design Movements",
+  "description": "Early-80s Memphis Milano maximalism: pastel grounds clashing with bold primaries, thick black outlines and hard offset shadows, squiggles, zigzags, dot grids, terrazzo chips and confetti triangles, all orbiting a chunky tilted chat-bubble headline.",
+  "explainerNotes": "Explainer: Memphis cut-out animation on twos: examples hop into a funnel-topped totem computer, scenes change with a striped polka-dot band that swipes across, arrows are fat outlined shapes with hard shadows, counters are stickers that pop on each tick, and the key moments get a spinning starburst.",
+  "motionNotes": "Motion: Cut-out cel timing on twos: the mint wedge slides in, shapes pop on one by one with springy overshoot, squiggles and zigzags draw themselves, the chat bubble squash-and-stretches in, the words pop on the beat, confetti bursts out and the sticker slaps on; then everything bobs off-beat and the typing dots bounce.",
+  "folder": "styles/067-memphis-group",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 81121,
+    "sha256": "bc2b1023538d91e6edbefd980db406a26deaa0c02f3bbbf0d397cf821896219c",
+    "sourceStyleName": "Memphis Group",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/memphis.js",
+      "language": "js",
+      "characters": 44387,
+      "sha256": "2fb12374c578d70c0911d9bb22be45c4a396293d28b46af804545e03d64c46a9"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-24.255Z-5ocKzIh-UglM206GPWfPIaK7zgh2_UhB9.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1162854,
+      "sha256": "3aa05fbac88d93b31b185fb1e9bdc8ed4c3fd98dbf1915d2510e2357d3619258",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-23.741Z-HGlp1mXGkXBY74CPKuAhivvlq_izO-c3H.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 589505,
+      "sha256": "ba5b8eda13106b44d264faf3ecce04c4095ea6903b0b968651348117a5027459",
+      "duration": 4.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-23.461Z-LXZnvukM-TOwSSxZaMVa0KAAH63fukuXY.jpg",
+      "file": "poster.jpg",
+      "bytes": 97851,
+      "sha256": "7cb7dbc75d277ba9dea2b80c3b5a4e7f20ba2e23e1b061fa1aeb98f76b35e84e",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

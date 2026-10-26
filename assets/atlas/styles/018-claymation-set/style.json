@@ -1,0 +1,73 @@
+{
+  "id": 18,
+  "name": "Claymation Set",
+  "family": "Paper & Craft",
+  "description": "A plasticine stop-motion still: chunky hand-squished characters and props with soft waxy subsurface shading, thumbprints, tool marks and lumpy silhouettes on a sculpted clay set, shot with shallow depth of field.",
+  "explainerNotes": "Explainer: Animated on twos on one clay set: every piece is a baked plasticine lump that the \"animator\" pops on with squash-and-stretch, slides along the table or knocks off so it falls out of frame; arrows are rolled clay coils, labels and the counter are pressed clay letters re-sculpted each time the number changes, and the wrong guess gets a red clay X slapped on with a shake.",
+  "motionNotes": "Motion: Animated on twos: the character boils subtly between frames, fingerprints shift, the waving arm snaps pose-to-pose and the chat-bubble dots pop like little clay balls.",
+  "folder": "styles/018-claymation-set",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 90031,
+    "sha256": "a75f5651df4752622f55b4b81dc4ab74658b6d19f35c1400b67248d5de96e0b4",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/claymation.js",
+      "language": "js",
+      "characters": 53448,
+      "sha256": "ed72e3eac87824856886c04bb5c003219f424650177f9a0c138ccb6b93e47ba7"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-52.636Z-lfdsGkqd5xHNorvYcmVBZjihsBZMNr6vb.mp4",
+      "file": "explainer.mp4",
+      "bytes": 898203,
+      "sha256": "96ae48c924cefb0a3be804616e35a73fdb61d30dbdfac21b34bea41992a271fe",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-52.140Z-NJ0EccxTIVLGs5gfUNf9ARu84b991Xa1U.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 315560,
+      "sha256": "60c5b5b720c0967a1a815aa65e9be18b676b13d6c9166c28808d861a2efd0112",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-51.776Z-D7BP4aXq6kwj6T0W_TMY1orQ9vLVImyJi.jpg",
+      "file": "poster.jpg",
+      "bytes": 41884,
+      "sha256": "c329fda84ce862e3933f3ac96d9b94dfeb2a768a9713035b1c4edc702dfafa61",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

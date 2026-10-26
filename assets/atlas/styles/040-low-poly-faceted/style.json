@@ -1,0 +1,75 @@
+{
+  "id": 40,
+  "name": "Low-Poly Faceted",
+  "family": "Dimensional",
+  "description": "Faceted low-poly 3D: a triangulated noise terrain with flat per-face Lambert shading, atmospheric depth fog, cone trees and a faceted rocket lifting off into a dawn gradient sky.",
+  "explainerNotes": "Explainer: A continuous camera flight through one faceted valley (overview → river of labelled example cards → floating crystal model whose facets realign → pillar chart on a plateau → pull back), with angular two-tone ribbon arrows, cut-corner tags pinned to objects and Space Grotesk counters.",
+  "motionNotes": "Motion: Terrain facets flip into place from the camera out to the horizon, trees and the launch pad pop up, then the rocket ignites and lifts off on a faceted flame and smoke column while the camera dollies forward.",
+  "folder": "styles/040-low-poly-faceted",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 94020,
+    "sha256": "72c59ea490de2610ec4a52cf9b7b97511eb7d516a44d0a2e96f165305bbf5670",
+    "sourceStyleName": "Low-Poly Faceted",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/low-poly.js",
+      "language": "js",
+      "characters": 57557,
+      "sha256": "5ace146100481c24cc34ebb6cfe30a10b2dd34fab35128a80a28f8e2b073960a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-59.074Z-m47HiKrv9fNuXo61FYjTP1Zu1zJkoc7Lo.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1604864,
+      "sha256": "6c8b62708a48d30ca38c81c85d49f8eeeb6073a1fe4c5ce48df3fb3829c0dd11",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-58.562Z-oEd5HSBhJz4Wa5sEfBvspN_wymLVxAn8C.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 453683,
+      "sha256": "cd0abaf79be306ce8212153ceae826e68d80eba03ada6d62a36c68dcc8a55f76",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-58.291Z-g5qzTInNHPbIkgPHokcc8tPFKedarxMyE.jpg",
+      "file": "poster.jpg",
+      "bytes": 54050,
+      "sha256": "ced80fcd38c675cd5c74e423a3e96d25c0c574db4effa25a4c9bdc87a6eecf2b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

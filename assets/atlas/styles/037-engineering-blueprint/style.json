@@ -1,0 +1,75 @@
+{
+  "id": 37,
+  "name": "Engineering Blueprint",
+  "family": "Hand-Drawn",
+  "description": "A drafted cyanotype: white line-work bleeding slightly into mottled, sun-faded Prussian-blue paper, orthographic front/side views with a hatched section, dimension chains, a zoned border, title block and worn fold creases.",
+  "explainerNotes": "Explainer: One large drafting sheet: a plotter head inks crisp white line-work and stencilled lettering while the camera tracks across and then down the sheet to the chart detail; the model is a gear-and-knob mechanism whose dials turn, arrows are drafted leaders, and numbers tick over in mono lettering inside dimension-style callouts.",
+  "motionNotes": "Motion: Construction and projection lines sweep across first, object lines ink in view by view, then dimensions and lettering pop in as the camera slowly pans along the sheet.",
+  "folder": "styles/037-engineering-blueprint",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 91683,
+    "sha256": "b96c8e6561f2b3c68912e5ea6f4bc0cfe9733bbfaedb06356158907fe6c8e380",
+    "sourceStyleName": "Engineering Blueprint",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/blueprint.js",
+      "language": "js",
+      "characters": 55077,
+      "sha256": "1fb4ff6fe384c5f6dc6647ec3b3e7868373e09b0849bfb75103ef2c5c0ca807c"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-50.015Z-OVayMRXYmEqK5PXYKr3woD5VrM27G8hzt.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1130914,
+      "sha256": "5a95ea54820c9aa0b6ae2215b33f8f8c8c64772bf2018a12eaddf59412b57728",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-49.541Z-yygNR7hSxStDDfQ_j8WIGq5i_BuJw1D8B.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 362617,
+      "sha256": "fe709ffd6bc762775a330438880bdf8c28b58619d97d9da05cc24970a4880c68",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-49.237Z-cXbKaiCZgYEB3a4L2VypmzZ-I272G0jq7.jpg",
+      "file": "poster.jpg",
+      "bytes": 67384,
+      "sha256": "01373a341b2b7259e851d837f72d3b3ac13fce9d57955283694b55be6a3c4d80",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

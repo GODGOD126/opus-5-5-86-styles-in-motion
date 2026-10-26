@@ -1,0 +1,75 @@
+{
+  "id": 64,
+  "name": "Sticky-Note Wall",
+  "family": "Illustration",
+  "description": "A brainstorming cork board: curling Post-its with adhesive bands and lifted-corner shadows, marker handwriting and doodles, a taped index card, push pins and red yarn connecting the ideas.",
+  "explainerNotes": "Explainer: A detective-board camera move across one big cork wall: notes slap in on cue, marker arrows and red yarn draw the flow, numbers are crossed out and rewritten by hand, and red marker circles the key moments.",
+  "motionNotes": "Motion: Notes slap onto the board one by one with a tiny bounce, then red yarn unspools from pin to pin linking the ideas.",
+  "folder": "styles/064-sticky-note-wall",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 86311,
+    "sha256": "b253abad54cb6457d1848aaef713c8a9501ab04574456a4c1ceb8d1d821df1ee",
+    "sourceStyleName": "Sticky-Note Wall",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/sticky-notes.js",
+      "language": "js",
+      "characters": 49825,
+      "sha256": "af7e363f16defd41aad6e9ba8e6c1c7a1c88a8aa7b56fcd5976eb2ca51bf54b4"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-13.950Z-txkvZedOypzcjreVXKUPkpTciudu1MJYD.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2064790,
+      "sha256": "04c10df925bd43966665a1d6b54424edfd59dc9da8de857dd6f24618379f97db",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-13.436Z-GHqCs4lHZtdgXoEOPnKW86IGtlMvl4rln.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 466418,
+      "sha256": "16db4210bb709c9f21ac50d13190dd08a3174c3de4e38fcc0caf9d387c36f98d",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-13.142Z-XRGR5p5W16fzWL21uFQ7tOHIy9Y3SK9SL.jpg",
+      "file": "poster.jpg",
+      "bytes": 87508,
+      "sha256": "dc8c4d37deb420bab12a3f502d67c6ec010c2b325ab10e596c3ff060e704c183",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

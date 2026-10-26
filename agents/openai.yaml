@@ -1,0 +1,4 @@
+interface:
+  display_name: "Opus 5.5 — 86 Styles in Motion"
+  short_description: "内置86种风格，直接看三张示例图并弹窗选择，再确认20秒样片与完整HTML视频"
+  default_prompt: "使用 $claude-opus-5-5-new 制作一期讲解奥卡姆剃刀的视频。"

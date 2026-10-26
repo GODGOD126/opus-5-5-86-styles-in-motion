@@ -1,0 +1,73 @@
+{
+  "id": 9,
+  "name": "Manim-Style Math",
+  "family": "Popular Explainer Looks",
+  "description": "The math-explainer look of Manim, the open-source library behind 3Blue1Brown: pure black, crisp anti-aliased vector lines, a restrained palette of Manim blue, teal, yellow, red and green, LaTeX-like serif math with italic variables, axes with tick marks, curves, arrows, braces and surrounding rectangles.",
+  "explainerNotes": "Explainer: One MovingCameraScene: the question Writes on and Transforms into the header, a neural net Creates (edges blue/red by weight sign), pixel pictures fly into the input neurons as a counter climbs, a forward pass runs as ShowPassingFlash, the wrong \"dog?\" gets a red SurroundingRectangle, the camera pans to a loss curve where a dot descends while edges re-colour, then the axes relabel to accuracy, the curve climbs and the number Transforms into a 97% that Indicates.",
+  "motionNotes": "Motion: Manim's own vocabulary on a smooth sigmoid ease: equations Write on (glyph outlines trace, then fill), axes and curves Create, a dot slides down the graph in gradient-descent hops, then a SurroundingRectangle draws round the key term and it Indicates with a yellow pulse.",
+  "folder": "styles/009-manim-style-math",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 91509,
+    "sha256": "e8b5625cc63f0ddd5f85a7796cb8c82bad2fb40b749baaf1f64364368f272c7d",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/math-anim.js",
+      "language": "js",
+      "characters": 54588,
+      "sha256": "48658c17b4e5ef479b149b4c379d969025c1a55285a5e9c33f9ae1a9a5c5bf4a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-23.326Z-2aP9fScsYmI9NyYK2cbqCtrw3aDsgqKEi.mp4",
+      "file": "explainer.mp4",
+      "bytes": 829522,
+      "sha256": "3be3a4b3ca73cbb169ae91633d803bae0cb9abed9b612bb5ff618b3c21411d24",
+      "duration": 16.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-22.860Z-K4CtoOXK48NBdoixjF4bZIecZJGjuW7dK.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 83593,
+      "sha256": "5b4c41ba5e23a116a3607a8474b2c1653bb9f96cefd5d5e69ef9be1ce78aabcf",
+      "duration": 6.8,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-22.496Z-4EaGwT4BPxquRqJrIqugxaJxk8DCoBB4U.jpg",
+      "file": "poster.jpg",
+      "bytes": 30145,
+      "sha256": "e46dfb2d98439fae3f552e3756aa41a0d17286d36016b0d435016b8ecf82e2a5",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

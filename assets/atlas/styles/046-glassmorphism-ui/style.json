@@ -1,0 +1,75 @@
+{
+  "id": 46,
+  "name": "Glassmorphism UI",
+  "family": "Dimensional",
+  "description": "Frosted-glass UI: translucent panels that genuinely blur the vivid gradient blobs and orbs behind them, with 1px light borders, a diagonal specular sheen, fine frost grain and crisp Inter type.",
+  "explainerNotes": "Explainer: The camera glides and zooms across one big frosted dashboard (data feed → network card → output chat → accuracy chart → pull back) while the live colour blobs drift behind, so every panel re-frosts as it moves; connectors are glowing gradient lines with travelling light dots, labels are glass pills, numbers count in big Inter 800.",
+  "motionNotes": "Motion: Color blobs bloom up under the glass, the frosted card rises in, then the chat plays out (user bubble pops, the AI reply types itself line by line) while stat chips float in glass-over-glass and their ring and sparkline draw on; blobs keep drifting so the frost shimmers.",
+  "folder": "styles/046-glassmorphism-ui",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 83991,
+    "sha256": "c379cab4953fb9238ff11ef30a58309573b5bee44a55307438df308ef3c0570f",
+    "sourceStyleName": "Glassmorphism UI",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/glassmorphism.js",
+      "language": "js",
+      "characters": 47404,
+      "sha256": "17efc788c95d288c45d498c4469dc55bba3184be7f8798f2c24201a1581d425f"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-18.341Z-kCO0pzKCidzsPpcugNQ3Edf7yWu-Z1vpr.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1331239,
+      "sha256": "774a5363cc83e7001d6ece14a6d4e06de7db5ecbc19cd3a9289dc7f5d4e20990",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-17.822Z-M1kPDdCxE1uoxEUTeTeIL0ENjhtamsctr.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 221525,
+      "sha256": "c1e33b565317bb58d7bb119d52267f2b445aa3f3e22ed2bff66adc45f2e41aa4",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-17.550Z--gh39TPFIkRoBqLGrnsgh4yVFamTvtZdw.jpg",
+      "file": "poster.jpg",
+      "bytes": 52182,
+      "sha256": "7650f5c6a33de5e5156e0e1d75fc3c8879738d184cafb8fe4222f181cb3498ef",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

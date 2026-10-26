@@ -1,0 +1,75 @@
+{
+  "id": 51,
+  "name": "Art Deco Foil",
+  "family": "Art & Design Movements",
+  "description": "A 1920s Art Deco poster in black lacquer and stamped gold foil: a symmetrical stepped ziggurat skyscraper built from server racks, sunburst fans radiating behind it, a stepped geometric border, and Limelight / Poiret One lettering with cream accents.",
+  "explainerNotes": "Explainer: A gilded picture-palace sequence: scenes change behind closing and opening gold elevator doors, cameos glide on a gold rail with cream name plaques, arrows are stepped chevron arrows, numbers roll on an odometer and fill a sunburst gauge, and the key moments get a spotlight ring or a beacon glint.",
+  "motionNotes": "Motion: Like a gilded title sequence: the stepped border inscribes itself, the server ziggurat rises floor by floor with its LEDs waking, halo arcs close symmetrically and the sunburst fans open, the spire extends and its beacon ignites, the title is foil-stamped letter by letter, then one slow glint sweeps across the gold.",
+  "folder": "styles/051-art-deco-foil",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 87116,
+    "sha256": "7db0a05c67590cd32079f574fcc5808db12f41868f07e77d7a460cf8ffb379ba",
+    "sourceStyleName": "Art Deco Foil",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/art-deco.js",
+      "language": "js",
+      "characters": 50387,
+      "sha256": "a1bd1a593ba56f81a55d52011c7f08405d4d6ed2091f50d72de52da5ecd40491"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-33.495Z-WVnQmcgE3MCUc9s76plCgY0sr9GSe6YJE.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1258961,
+      "sha256": "439231e6b2d6056bd5d17ff82c5369cb7327c55102adf647f532f91082d9d179",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-33.002Z-etbADtcwGJI2Gdn_OAbF8xUEleQk1EnRP.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 296902,
+      "sha256": "265949cae92aff1f53c9992572f586360cf2f68dcb7f29a062c4e1950479e5ce",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-32.718Z-23liY10-TDIDMg2V-mUdBBBLThXFHE8xT.jpg",
+      "file": "poster.jpg",
+      "bytes": 93048,
+      "sha256": "8503b27da388e408e54a19f5733c294ba3a5f1ba78e687462b74ad6fb7186ae9",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

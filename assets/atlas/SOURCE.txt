@@ -1,0 +1,7 @@
+Source: https://www.futurepedia.io/resources/ai-style-atlas/view
+Archived: 2026-10-26
+Copyright: Futurepedia LLC, as displayed on source site.
+86 styles; original media, prompts and code retained for local reference.
+Original prompt settings: No voiceover; Storyboard first.
+Bundling is not a claim of ownership or permission to redistribute.
+Downloaded reference code has not been executed by this skill installer.

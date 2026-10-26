@@ -1,0 +1,75 @@
+{
+  "id": 78,
+  "name": "Sketchbook Graphite",
+  "family": "Hand-Drawn",
+  "description": "A graphite study in a spiral sketchbook: faint construction circles and axes under confident darker contours, directional hatching that breaks on the paper tooth, smudged tones, kneaded-eraser highlights and a margin note.",
+  "explainerNotes": "Explainer: A pencil works across a wide sketchbook spread (faint construction pass first, then a firm contour, crescent hatching for form) while the camera follows, then the page physically turns to a fresh sheet for the progress chart; numbers are pencilled and re-pencilled as they count.",
+  "motionNotes": "Motion: Construction lines ghost in first, contours firm up over them, then hatching sweeps across the shadow side while the eraser lifts the highlight.",
+  "folder": "styles/078-sketchbook-graphite",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 116936,
+    "sha256": "92272aa896830f7f762fbd2945a1725309daccdb72d84b87561dff89daa4b4c3",
+    "sourceStyleName": "Sketchbook Graphite",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/sketchbook-pencil.js",
+      "language": "js",
+      "characters": 80404,
+      "sha256": "f3e37f5e068ac8687eaeb2154250a8251dc8142bce6a2166952db08b8ee888f5"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-57.585Z-QFYscONNMNlfdFD0K1quzeNG8b-P1fuUl.mp4",
+      "file": "explainer.mp4",
+      "bytes": 846303,
+      "sha256": "d898ea1378e7f02d9dc1d5e20d0c1df7171bfc62a3c48f32402e781ea60981d5",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-57.080Z-y0w_7fbb6AcvlKQ6cSCP5r_uW1VYcvfad.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 324845,
+      "sha256": "68e38ede4e4508f9e4d0e84290dc3c5e8dc3cf3770bc576a337317ce4ca5c001",
+      "duration": 6.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-56.803Z-H5VACMb-8ow5UvXDbX4qzev0Y_nrLVsy5.jpg",
+      "file": "poster.jpg",
+      "bytes": 38132,
+      "sha256": "48a1e5824570cf841c5b9138463d33c030a67c2d8f40e234cbc4df89d735a397",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

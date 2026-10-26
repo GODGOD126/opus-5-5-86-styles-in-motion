@@ -1,0 +1,73 @@
+{
+  "id": 25,
+  "name": "Cathedral Glass",
+  "family": "Painterly",
+  "description": "A leaded Gothic window: hand-cut pieces of streaky, seedy antique glass held in thick dark came, painted grisaille details, and light blazing through into a dim stone interior with dusty rays.",
+  "explainerNotes": "Explainer: Told as a cycle of three leaded windows along a nave, the camera walking from window to window; arrows are strips of glass in lead came with glass arrowheads, labels and the counters are grisaille painted on pale banner glass, and emphasis is ruby glass rings and light flaring through the pieces.",
+  "motionNotes": "Motion: Daylight sweeps slowly across the window so pieces brighten in turn, the rays drift with floating dust, and the chip in the saint's hands pulses.",
+  "folder": "styles/025-cathedral-glass",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 91350,
+    "sha256": "076477752d21c3f859bb275d1de1e885bee398a049df7e4b92ca9eb55129b608",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/stained-glass.js",
+      "language": "js",
+      "characters": 54807,
+      "sha256": "95dbbcf25f1fa616d7de585384f953b85c75e888efa205ccc1642ebfe68e02c0"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-13.566Z-O_T5y7gYllbAQkkxaRz1k139FCnqbhv6O.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1377254,
+      "sha256": "401a1692ebc60d62961ec9a15ff11fc9c3d66eb24c6cad6fe2757456ae0d7c99",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-13.063Z-z7rqkw9xP8R-sgn0y4Y_zreMnB4_4yiYY.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 376843,
+      "sha256": "6afa01f2cef0cccddde141e89dcb3da2dd4dce186e152241c3c3c1128370798c",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-12.789Z-38gvyMItXbjqtiaZs2Ytt6VdD7sVrUAZF.jpg",
+      "file": "poster.jpg",
+      "bytes": 73187,
+      "sha256": "898a6f956ab066f5b75d4c1bd1a3eaaf8c08e8a218a378046e9b3ea773233184",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

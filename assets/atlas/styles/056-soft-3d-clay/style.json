@@ -1,0 +1,75 @@
+{
+  "id": 56,
+  "name": "Soft 3D Clay",
+  "family": "Dimensional",
+  "description": "Dribbble-style “puffy” 3D icons: pastel matte-clay objects with chunky rounded extrusions, soft core shadows, bright bounce-light rims, glossy specular blobs and blurry contact shadows on a seamless pastel sweep.",
+  "explainerNotes": "Explainer: The camera dollies across one wide pastel set with parallax depth-of-field (cards → clay chip with weight sliders → answer bubble → clay bar chart → pull back), arrows are puffy clay tubes with blobby heads, labels are squishy pills that spring onto objects, and numbers count inside butter-yellow clay badges.",
+  "motionNotes": "Motion: Clay icons drop in one by one on springy squash-and-stretch with their contact shadows growing beneath them, the bulb flickers on, then the cursor flies in and taps the bubble while everything bobs at different depths.",
+  "folder": "styles/056-soft-3d-clay",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 86420,
+    "sha256": "5ed299ac295f393b4a4c0d1996a9f99e37e1e421c7cec4e20c9324c3a7c62db8",
+    "sourceStyleName": "Soft 3D Clay",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/soft-3d.js",
+      "language": "js",
+      "characters": 49903,
+      "sha256": "fab37086fa7874d6d9eb36a2223b49f2d777bb6ec3f91f00c37881bfb242f51e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-49.613Z-rtJlAnxUClES-IiMSbLXihOOmoYMd7iu0.mp4",
+      "file": "explainer.mp4",
+      "bytes": 816420,
+      "sha256": "396c1c8d4ce9ad4170422b0cd104f5b5bfb3ca55c6f3d802c26d3c019b8357bb",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-49.130Z-badX3NJZwK65EurrKsLs-SWin9i9OAkeq.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 147712,
+      "sha256": "489426a992656a84ced6fba6fde0e92e512024e49823787a28b12cd0e237e0c8",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-48.872Z-1rYJJ41bKoysttMnzd4OayoFeqK_lquVj.jpg",
+      "file": "poster.jpg",
+      "bytes": 22706,
+      "sha256": "a1973ecd0b32fbfbba2fd2823bfaa59fee8aa0de67cf84b603354ae0974925a0",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

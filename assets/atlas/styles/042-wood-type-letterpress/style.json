@@ -1,0 +1,75 @@
+{
+  "id": 42,
+  "name": "Wood Type Letterpress",
+  "family": "Print",
+  "description": "A two-ink wood-type broadside on cream stock: mixed display faces set block by block, each letter inked a little differently, wood grain and worn edges in the solids, ink squeezed to the rims and the whole forme bitten into the paper.",
+  "explainerNotes": "Explainer: Every beat is a new proof: the finished sheet is lifted off the press and a fresh one is laid down, then wood type, stock cuts of a cat and a dog, and arrows set from short rule pieces lock up block by block with a kiss of the platen; counters are re-set and re-stamped six times a second, and the wrong guess gets a red rubber-stamp WRONG.",
+  "motionNotes": "Motion: The forme is proofed block by block — rules first, then each wood letter lands with a heavy kiss of the platen, red and black alternating down the sheet — and the gears keep turning as the impression deepens.",
+  "folder": "styles/042-wood-type-letterpress",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 73892,
+    "sha256": "4c7100d1d197c134fbe3e44fa2c1c4ec79a8ee481fd8ce2114565856e86633b5",
+    "sourceStyleName": "Wood Type Letterpress",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/letterpress.js",
+      "language": "js",
+      "characters": 37195,
+      "sha256": "273c98034cb9166450f6e18e7ce78c05540af0eadbb81de5026eaca2d5297272"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-05.396Z-pIoUf9MFSxFCdRU8DnC7tpa2i7FqZgdDo.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1061034,
+      "sha256": "06f307559e11c0d292af3549ae7dff810a25786caf13af63f512e0ec61ef44dc",
+      "duration": 15.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-04.668Z-97peS_0g5PvxADnN9B3DqlzKJ5D-TufyX.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 303500,
+      "sha256": "c6f1e08a00ea6c4b37fd10fd8b8a37da8a93337f5fa4f7afd7c90b2f10e6dd2a",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-04.382Z-nSu3mxc33EceLeIN67FQ4Si_jZ3dGvimS.jpg",
+      "file": "poster.jpg",
+      "bytes": 71185,
+      "sha256": "e9b548f3326c88deb035f5056fa9a41d9b640ede18df567820df99d7059928e4",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

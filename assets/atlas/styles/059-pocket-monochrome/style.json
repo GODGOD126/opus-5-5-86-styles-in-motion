@@ -1,0 +1,75 @@
+{
+  "id": 59,
+  "name": "Pocket Monochrome",
+  "family": "Retro Digital",
+  "description": "An original DMG handheld frame: 160x144 pixels in exactly four pea-soup greens, a visible LCD pixel grid with each pixel casting a faint shadow on the reflective backing, motion ghosting, and the purple-grey bezel with its striped DOT MATRIX label.",
+  "explainerNotes": "Explainer: Explains as a handheld monster-battle RPG in four LCD shades: the question text box slides up the window layer into a header, palette fades act as door transitions, labelled cards march an arrow-tile path into CHIP the model, a flash-and-stripes battle intro starts a GUESS/CHECK/ADJUST fight (hit flash, dotted error trail, weight bars), and a LEVEL UP stats screen counts accuracy to an inverted 97%.",
+  "motionNotes": "Motion: A handheld boot: the logo scrolls down one LCD pixel per frame and smears, the palette steps to white, the overworld steps back in through the 4 shades, the hero walks on 1 px per frame with a 2-frame cycle, and the window pops up and prints text.",
+  "folder": "styles/059-pocket-monochrome",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 74523,
+    "sha256": "0d7b017697224ffbf14c3b515c237e8ae7ae27abe913a6c119576dc10d9adc72",
+    "sourceStyleName": "Pocket Monochrome",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/gameboy.js",
+      "language": "js",
+      "characters": 37752,
+      "sha256": "6a80f5cff4080fc0191ac7f6fc5ea11797035cc7eb89fe1fc982e73379261fb8"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-58.773Z-PYD3aFmGqubpwo8UkMrC3N9heafueKX9H.mp4",
+      "file": "explainer.mp4",
+      "bytes": 924560,
+      "sha256": "202ca33bf78089601592497429fcc840f3b282e2837cae29efd29efe397f5f5c",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-58.286Z-JqhDq7U9tMHiiYdRjkIMZKQ0M4a3ocUnC.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 199830,
+      "sha256": "2f9a2272fd043ecae46cade3cc19352cd5b22dbe9851b10ab37d5c7139270dce",
+      "duration": 6.2,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-58.003Z-JG1BisnKbZsB5iMNwhhXVpvoIrZAEP8tv.jpg",
+      "file": "poster.jpg",
+      "bytes": 61228,
+      "sha256": "ff8e5cc5830a7859306e17b3df62f509c7d75ac5b7ec9ee69884abab24cbd3e2",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

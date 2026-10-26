@@ -1,0 +1,75 @@
+{
+  "id": 71,
+  "name": "Pointillist Afternoon",
+  "family": "Painterly",
+  "description": "Neo-Impressionist divisionism: every form is built from small dabs of unmixed pigment — complementary hues side by side that blend optically — with the canvas weave peeking between the dots and a dotted painted border.",
+  "explainerNotes": "Explainer: Every frame re-dabs one fixed field of pure-pigment dots against the current scene, so moving things shimmer as dots re-pick their hue; scene changes are the canvas being re-dabbed in a diagonal sweep, and lettering, arrows, counters and the emphasis rings are all fine dabs.",
+  "motionNotes": "Motion: Dots shimmer as individual dabs re-pick their hue each frame while the overall colour holds, like light vibrating on the water; the sailboat drifts and the parasol sways.",
+  "folder": "styles/071-pointillist-afternoon",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 80229,
+    "sha256": "c6e29fa4c6421f711da1f0c1f21feea33780c5c797f68cd64f07b8ce8306e22e",
+    "sourceStyleName": "Pointillist Afternoon",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/pointillism.js",
+      "language": "js",
+      "characters": 43697,
+      "sha256": "ef5b3571dc5a8eec470f02797cd1a3660d072bfa166af6c1c04aa0f197426b1e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-36.420Z-7of3k87_YXndYFGm0QAcjrBXYDol1JOP9.mp4",
+      "file": "explainer.mp4",
+      "bytes": 4847752,
+      "sha256": "54609baa1af1405a93e9707945110f103029ce4550dc772f844aa12c24d5495f",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-35.904Z-GafvKHWyWEOs3X8xb9R_abahfU2BxF21I.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1925891,
+      "sha256": "ee393fa29b9450cfd8b4f7501db726fa9cf2a03d282ec514b53425ebb4066eb5",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-35.576Z-WOPFIDVZunnHiZ2OeOVU1jp8lsW3vdeZV.jpg",
+      "file": "poster.jpg",
+      "bytes": 359869,
+      "sha256": "dddaf83b45e4d5c0fafecec23a937cb10cc2d7b5f0296d5e22a67f10226149cb",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": 45,
+  "name": "Phosphor Terminal",
+  "family": "Retro Digital",
+  "description": "A green P1-phosphor CRT: VT323 boot log with bloom and halation, curved scanlines, true per-pixel barrel distortion with RGB fringing at the edges, tube vignette, hum bar, and a glass face catching the room light inside a plastic bezel.",
+  "explainerNotes": "Explainer: Explains as a live terminal session: the typed question scrolls away and lives on in the inverse-video status line, a labelled data log streams into a box-drawn MODEL, V-hold rolls carry us between screens, arrows and the error path are phosphor line-drawings, and counters are big VT323 numerals that flip in inverse video for emphasis.",
+  "motionNotes": "Motion: The tube powers on (dot, then a bright line that snaps open into a flashing raster that settles as the phosphor warms), then the boot log types at terminal speed, the trace sweeps, the greeting prints and the cursor blinks while a hum bar rolls.",
+  "folder": "styles/045-phosphor-terminal",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 73958,
+    "sha256": "0aa6ce13a825e48429da3beb5096f8c61dcc5ea56db69354cb681ecb83f5c9ce",
+    "sourceStyleName": "Phosphor Terminal",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/crt-terminal.js",
+      "language": "js",
+      "characters": 37277,
+      "sha256": "7a319ff96491f2ee72dc31890cae4548f6ea81258e7cd88fd84a5f51def4b641"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-15.535Z-kJiBI68yiHI4METHz4vHbpl_OcsWhW37q.mp4",
+      "file": "explainer.mp4",
+      "bytes": 722022,
+      "sha256": "91d68a27f24df86a0f6e19c8f694058ea58de385a71b1b24cbc31663bb6e7c53",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-15.007Z-IjKI2ywm76p4Ay6t5Mhixc7hT2GTw-xo9.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 220593,
+      "sha256": "7df664c5675475a7c6a0b4856aeb3c50d3ac682f3537e973d45ad9748b04876a",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-14.736Z-xJWE5tFKYvyY-LhFCtd5tuK2l_JC2rTUr.jpg",
+      "file": "poster.jpg",
+      "bytes": 50126,
+      "sha256": "f832b1014958cbddfe99040b0ef3b2532084ec019064c3140491741416b2e9d7",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

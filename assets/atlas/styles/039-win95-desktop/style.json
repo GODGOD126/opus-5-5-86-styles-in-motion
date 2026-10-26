@@ -1,0 +1,75 @@
+{
+  "id": 39,
+  "name": "Win95 Desktop",
+  "family": "Retro UI & Neon",
+  "description": "A mid-90s beige-box desktop at 2x pixel scale: teal wallpaper, 2-pixel bevelled grey chrome, navy title bars, aliased system text and a trail of frozen error dialogs.",
+  "explainerNotes": "Explainer: An \"AI Trainer\" app explains it: the question dialog zooms into the title bar, beats are property-sheet tabs clicked by the cursor, dotted pixel arrows carry examples and the error signal, trackbar \"weights\" slide, counters live in status bars and group boxes, and the payoff is a classic message box.",
+  "motionNotes": "Motion: Icons pop onto the desktop, windows open with outline-zoom rectangles, the install bar ticks in blocks then freezes, and the hung error box is dragged, smearing a stair of copies.",
+  "folder": "styles/039-win95-desktop",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 95056,
+    "sha256": "0021d5b842a255f5e349c7c74f5ed182d83ef07a666056664a6c621cd7bd8549",
+    "sourceStyleName": "Win95 Desktop",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/win95.js",
+      "language": "js",
+      "characters": 58580,
+      "sha256": "0da661387e886e16e14dddd64728a6585b73678e7e14579d3f98675a118d7311"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-56.007Z-sIZcSenO27TJTYoxp6b6TvBGuF6z_FPeD.mp4",
+      "file": "explainer.mp4",
+      "bytes": 972303,
+      "sha256": "0ed369d54314e0285e94f413b78d0496640cb10ca29354f522a7655e8d7b3a00",
+      "duration": 14.6,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-55.524Z-iJe5X9PDXtZeaSmJSPAHXhN4MomWnETcE.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 138329,
+      "sha256": "37133924a9c9321a9b0ce910215176cc5d708a7cef6542cdbc1833d427edc39a",
+      "duration": 6.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-55.245Z-Twg1Klss4JYtnxPCFaNQ-oALZ7JLUHksY.jpg",
+      "file": "poster.jpg",
+      "bytes": 83090,
+      "sha256": "1f2d34d80df0212d77ba4a95d7ef982aabf7acf107de6c31ace43cab59e44eb5",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": 44,
+  "name": "Felt & Patchwork",
+  "family": "Paper & Craft",
+  "description": "A cosy patchwork quilt of cotton prints with puffy quilted squares, topped with fuzzy felt appliqué edged in blanket stitch, button \"nodes\" sewn on and joined by running-stitch thread, plus an embroidered label.",
+  "explainerNotes": "Explainer: The camera pans along one long patchwork quilt; felt pieces drop on with a lifted shadow and soft squash, arrows and emphasis rings are thread sewn on stitch by stitch, labels are woven tags stitched onto what they name, the counter is cut felt digits swapped as it climbs, and the model's weights are buttons whose thread-X turns when it adjusts.",
+  "motionNotes": "Motion: Thread draws itself stitch by stitch between the buttons, felt pieces drop on with a soft squash, and the quilt breathes with a slow puff of the padding.",
+  "folder": "styles/044-felt-patchwork",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 95590,
+    "sha256": "fc207a5d15f1f1508a48800a4c286885caa74e444182f584c80a786d4b6118bc",
+    "sourceStyleName": "Felt & Patchwork",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/felt-quilt.js",
+      "language": "js",
+      "characters": 59042,
+      "sha256": "c107ad1c7cba732a57ab0d2627b0ebfa3f32a0ab08c3ca557de45408037872b5"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-12.306Z-xOgpzDcITl3zS5PuXpNf_BWDxkHtbjDf_.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1517576,
+      "sha256": "82a76938b690db966d3fb9ba479e1e9384662a17cfff3c5d3b254ff762029fd8",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-11.815Z-1YiChScowk9Gily8o6L2rwHudPZkaZH0e.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 304633,
+      "sha256": "4b9b3f9269f4aceb0b18f233c24b0df6c4136d44be24a417220b0bc699dbb5a7",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-11.517Z-a_du0wcmZzbRjH0KHVnMz2LxpmqcYVjX7.jpg",
+      "file": "poster.jpg",
+      "bytes": 99063,
+      "sha256": "efd18cfbc02498056822a9f58286edcf86f77dd4275f7cf92c61b0cfd01ef313",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

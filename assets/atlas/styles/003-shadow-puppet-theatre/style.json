@@ -1,0 +1,73 @@
+{
+  "id": 3,
+  "name": "Shadow Puppet Theatre",
+  "family": "Paper & Craft",
+  "description": "Black cut-out silhouettes with punched lace-like cut-work, pinned joints and thin control rods, pressed against a backlit cloth screen glowing amber at the lamp and falling to red-brown at the edges, with coloured gels in the openings.",
+  "explainerNotes": "Explainer: Told as a little shadow play: a mechanical owl puppet is fed picture cards on rods, guesses on a hanging tag, a teacher's hand corrects it and its cut-work gears re-set, then it climbs a ladder toward a filling moon; transitions are the medium's own (the owl flies at the lamp so its shadow fills the screen, the lamp is turned down and up, lace curtains close and part), arrows are growing hide vines and labels are punched plaques on strings.",
+  "motionNotes": "Motion: The oil lamp sputters alight, puppets slide and hop in on their rods with jointed limbs swinging, hanging cards drop and sway on their strings, and the flame keeps the screen gently breathing.",
+  "folder": "styles/003-shadow-puppet-theatre",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 95196,
+    "sha256": "a2a24a7f5a058cdfa614428f93f46aa0426895be7b95aae857d68bdde891823d",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/shadow-puppet.js",
+      "language": "js",
+      "characters": 58395,
+      "sha256": "3c847fda013140bf11d6c1250d0b3ece733aff43c948762959af0ddb705b2e73"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-24.141Z-WmiwnQzn_6rhoWeTbeB8ibvt2vRbmpW4q.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2476998,
+      "sha256": "6acc5912ed4009e1b77f60157c69edf0fb1d1c4dcc9bfb96eeb23878b70da97e",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-22.899Z-AGhnmeCSaxQPZ-NM3vBI-G_nwCqw_D5qW.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1569768,
+      "sha256": "c7318537bfd0f779c1ed2616341c75af06811a338f8d5e80075c49280d711a34",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-21.873Z-ZciYbkN0vXDvvkkwp-tg0i62_3aji1JvY.jpg",
+      "file": "poster.jpg",
+      "bytes": 87553,
+      "sha256": "b2e8b7c347a54f6d0ba4a1de1e17a56049d02a4ee1fe1c62cf34da06deee26e1",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

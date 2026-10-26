@@ -1,0 +1,75 @@
+{
+  "id": 29,
+  "name": "Linocut Relief Print",
+  "family": "Print",
+  "description": "A hand-carved two-colour relief print: tapering white gouge strokes cut from dense black, parallel carving for tone, a red reduction layer, salty uneven ink on cream rice paper, signed and numbered in pencil.",
+  "explainerNotes": "Explainer: Each beat is a newly carved block pulled as a fresh proof that peels back over the last one; arrows are gouged channels (the error path printed red), counters are carved numerals re-cut on twos, and emphasis is the printmaker's own pencil circle and margin note.",
+  "motionNotes": "Motion: The proof is pulled twice — the red sheet peels back diagonally, then the black key — then the edition number, title and signature are pencilled in while a raking glint slides across the wet ink and the camera eases in.",
+  "folder": "styles/029-linocut-relief-print",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 85200,
+    "sha256": "3116b90a29e1bfeb5045b8d51c3a7c379732d87d0ee1f011010ca0ace0ba572e",
+    "sourceStyleName": "Linocut Relief Print",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/linocut.js",
+      "language": "js",
+      "characters": 48622,
+      "sha256": "58c04afd88a36f3c2dbf8ea9302a66e7656254f6d74746dfe29a36eb1570af30"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-25.737Z-YXHpMomJOGO-HSKLmcTMo1lDxGqQY6hzM.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1089030,
+      "sha256": "5aecb731c1e6c4df22288340e4d1fc0b4c092c95e874398678f9081b762d0f5a",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-25.242Z-6gH9gsSlNU1JVMililvOJR7jOeVEyxvVG.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 594163,
+      "sha256": "499a9eba789188206ef7b4c9ff1cd4c3353336a7a8009b28be9777275988b1a9",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-24.941Z-nBeKyLyMn9kx5h311yagWhiIj6RX_fpkp.jpg",
+      "file": "poster.jpg",
+      "bytes": 79210,
+      "sha256": "116a9e0a2f9dc02ed40c56e68f5ad905d6401bf8c24880afc1e93158c557256b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

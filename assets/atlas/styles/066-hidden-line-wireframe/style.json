@@ -1,0 +1,75 @@
+{
+  "id": 66,
+  "name": "Hidden-Line Wireframe",
+  "family": "Dimensional",
+  "description": "Vector-display 3D: a perspective wire-mesh landscape with true hidden-line removal (back-to-front quads filled with the night before stroking), a wireframe moon, phosphor-cyan lines with bloom on deep navy, and HUD coordinate labels.",
+  "explainerNotes": "Explainer: Learning is shown as descent over the hidden-line “loss landscape”: the camera flies the mesh from a data-feed HUD streaming into the wireframe-sphere model, down to an amber “model weights” marker whose error becomes a dashed downhill vector, then follows it into the glowing basin; labels are bracketed HUD tags that type on, numbers are big Space Mono readouts.",
+  "motionNotes": "Motion: HUD brackets snap on, the wireframe moon traces itself, then the hidden-line mesh is scanned in row by row from the camera to the horizon behind a bright scan front; markers lock on and labels type out while the camera glides forward and the scan keeps sweeping.",
+  "folder": "styles/066-hidden-line-wireframe",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 87319,
+    "sha256": "3946c9e70342434a8625a45d46dd202d044741050ff0e641bfc3da0569a2bf04",
+    "sourceStyleName": "Hidden-Line Wireframe",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/wireframe-terrain.js",
+      "language": "js",
+      "characters": 50604,
+      "sha256": "5e840259fdfb2dc76a226b1e185f3187e8c118e26cc6be889e1fdb0f1da1abee"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-20.148Z-xpLrRqiCtv6z3irIClpC2sZ_JfX-Z3mWZ.mp4",
+      "file": "explainer.mp4",
+      "bytes": 3179751,
+      "sha256": "e91461fbb4ec3d4af3b60a8f16ff67146f9976984ce43e28be918c0c764d5ee4",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-19.645Z-tkewIZn6nx1HFH9mkemLohNlWeIfWCfAT.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 898320,
+      "sha256": "588baaa21eef984f49763dd529bc1a698cdfa0704f4e3d8bd57699eb7d20f946",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-19.257Z-xjg3a8o0PfXxzkey2ejm-rwiO4IY_kmZn.jpg",
+      "file": "poster.jpg",
+      "bytes": 94340,
+      "sha256": "3e70c1bcdc51b5077edc80b2bb0330d015c4c50e33e48371761049e26925a811",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

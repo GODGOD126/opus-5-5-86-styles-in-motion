@@ -1,0 +1,75 @@
+{
+  "id": 84,
+  "name": "Flow Field",
+  "family": "Data & Information",
+  "description": "Thousands of hairline streamlines traced through a curl-noise field that parts around an unseen core; additive colour from a refined gradient builds luminous braids on dark paper.",
+  "explainerNotes": "Explainer: The model is the dark core of a flow field: labelled particles spiral into it as data, the camera pushes in as a new particle is carried out the wrong exit (\"dog?\"), a coral counter-current carries the error back, the circulation re-combs the whole field so the next one exits \"cat\", and training is shown as the turbulent field combing into smooth order, all captioned in hairline Space Mono.",
+  "motionNotes": "Motion: The dark core appears first, then particles are released in a wave from left to right and trace their streamlines outward until the braids glow; in the hold the field slowly breathes while bright sparks ride the currents.",
+  "folder": "styles/084-flow-field",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 75211,
+    "sha256": "824525f4a401970f6c1967e0a08c41f9aba79bd20033c88a5c8b2a18afdc890e",
+    "sourceStyleName": "Flow Field",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/flow-field.js",
+      "language": "js",
+      "characters": 38581,
+      "sha256": "c4806bbee017af5c8fbd2d18fe7fc1cf6723a860423533469802ec2dd6f53dec"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-15.746Z-Rbm91AGvS-BCpaAxC6xUYqdffNUEu6Km6.mp4",
+      "file": "explainer.mp4",
+      "bytes": 4518497,
+      "sha256": "688f5fe405821ce753a9e259cd68cf4ea467772f85c34bb9d3d71240489c8339",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-15.239Z-T7Ku13MGAzKG02Re80ujXsSRKt1oJaJuD.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1826725,
+      "sha256": "1117a4f6e770784885c4881ad1fa45be8a684c471a7036235ecad124e7fa3595",
+      "duration": 7.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-14.963Z-zPF-Y_-5kVjKxVkRF10bTiybwIbQ32cWT.jpg",
+      "file": "poster.jpg",
+      "bytes": 55601,
+      "sha256": "17f0abed1781269e304e55ae6082c5dcc11920fbbbb943a50c7929d81058d1ce",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": 55,
+  "name": "ISOTYPE Pictograms",
+  "family": "Data & Information",
+  "description": "Vienna Method pictorial statistics: rows of identical flat pictograms where each symbol is a fixed quantity, partial symbols for remainders, three muted litho inks on a strict grid with geometric sans lettering.",
+  "explainerNotes": "Explainer: A Vienna-Method picture-statistic told across one long chart sheet the camera pans along: symbols are stamped in stepped 12 fps timing, flat Isotype arrows show flow, numerals are stamped and re-stamped, and accuracy is counted in rows of tick symbols with partial symbols for fractions.",
+  "motionNotes": "Motion: Title and key set first, the year column drops in, then symbols are stamped out row by row from the centre in stepped, rubber-stamp timing, the 2025 row of machines racing ahead; the litho paper breathes in the hold.",
+  "folder": "styles/055-isotype-pictograms",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 67302,
+    "sha256": "77a7eb5b17388653e6810cc09f7ef5042b643cebece2e8a2df1811f63bda0731",
+    "sourceStyleName": "ISOTYPE Pictograms",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/isotype.js",
+      "language": "js",
+      "characters": 30732,
+      "sha256": "d09de83da35f942a70ebccf100d5201f0ddab2001083386b6a7e6c986872e96d"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-46.878Z-VwRdE3vuAgWyCkTFoyOEm2a6uOcq8qGVC.mp4",
+      "file": "explainer.mp4",
+      "bytes": 775917,
+      "sha256": "73ffd70b0afb104abeb8d3be4009f207d9b4d617b5fada0a64714b5dc72378bc",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-45.103Z-BoQBR-ZPGpNJdpjPH2TPtdVSxPXYOz7ms.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 399159,
+      "sha256": "fa1df05b9c7941d14fcd0cf8ce929098d3c674a54ea022639e80676bd944780a",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-44.828Z-fapoH9_8DS-ZlUQ2cbgsOWSk_vSAMdgjA.jpg",
+      "file": "poster.jpg",
+      "bytes": 62122,
+      "sha256": "3833bdb96d3d7dae249546491ebacc8fc828663daf3473191dc9aa865db6f2db",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

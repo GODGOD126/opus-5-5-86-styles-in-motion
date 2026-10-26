@@ -1,0 +1,75 @@
+{
+  "id": 86,
+  "name": "Multi-scale Truchet",
+  "family": "Generative & Type",
+  "description": "Bold two-ink multi-scale Truchet tiling of winged quarter-circle tiles whose paths flow continuously across three scales; a third ink fills only the closed regions that fall inside the letters \"AI\", so the word surfaces from the maze.",
+  "explainerNotes": "Explainer: The model is a Truchet maze whose tiles are its weights: an input band routes to the wrong output, the error runs back along the path and two tiles quarter-turn to re-route it; scenes change by re-laying the tiles in a diagonal sweep, labels are printed blocks with misregistered accent, and the accuracy chart is built from stacked tiles.",
+  "motionNotes": "Motion: Big tiles are laid in a diagonal sweep, then each scale subdivides in turn (paths re-routing as detail arrives); then the accent screen is pulled across and slides into register, revealing AI.",
+  "folder": "styles/086-multi-scale-truchet",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 76114,
+    "sha256": "2c74f3643865fc26d4842de922e32bef1b5897d3ff2f6f4264ff857dc52d0f01",
+    "sourceStyleName": "Multi-scale Truchet",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/truchet.js",
+      "language": "js",
+      "characters": 39504,
+      "sha256": "0c5365cbf0787928d2ed072a0581624c037c2b11e252e8b6c3e8bde43e41f52e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-21.922Z-efqTLk-9Ou-CDQnV8fWTjn-DsTrRVCpjd.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2030236,
+      "sha256": "43c4665cf6bd2f7051f2471574375fe5ef0211cb4dc81eb01e1258c2e8f5a449",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-21.416Z-qCKPCukrULY_gEdLzJsN-I3d1f0x3vDAe.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 938219,
+      "sha256": "92a9d8d705bf9ff8f44796495d271f4e53be111b3afb6b6911f6dcdeb62b498b",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-21.112Z-h5OOS8widOyReUUVy23Gz1Smtx2fZu8Iz.jpg",
+      "file": "poster.jpg",
+      "bytes": 216379,
+      "sha256": "a93ce8d0a8920497868410303b087b87f973008d7cd6d8e523f2106d90a7766b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

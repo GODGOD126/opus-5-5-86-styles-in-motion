@@ -1,0 +1,75 @@
+{
+  "id": 80,
+  "name": "Silkscreen Grid",
+  "family": "Print",
+  "description": "A Warhol-style repeat portrait: the same robot pulled eight times through a grainy black photo screen over loose, hand-cut flat colour plates in garish combinations, each pull misregistered and streaked by the squeegee.",
+  "explainerNotes": "Explainer: Each beat is its own silkscreened panel, pulled in order (flood, loose colour shapes, squeegee drags the black screen) while the camera travels the grid; black arrows are painted across the gutters between panels, counters are stencil type, emphasis is a colourway flicker, and the final pull-back reveals all six beats as one Warhol grid.",
+  "motionNotes": "Motion: Panels are printed one after another across the grid — background flood, then the loose colour shapes slap down, then the squeegee drags the black photo screen across with a wet ink bead — before a slow push-in on the finished wall.",
+  "folder": "styles/080-silkscreen-grid",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 74636,
+    "sha256": "c09be1ae34732f8994944674fdd3943b7c17362bb7595e3b03b46da1801d1316",
+    "sourceStyleName": "Silkscreen Grid",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/screenprint-grid.js",
+      "language": "js",
+      "characters": 38042,
+      "sha256": "9bfce21bdbc82458f3e88bd30ce799b06d972bff446d1654e5aad57402dd793d"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-03.648Z-aZK2xoNmwJ_-l2FML8lzJV_pIB-9fDxXC.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1659584,
+      "sha256": "e4db7e5ed7d13eb6616b22439e20da1202bf6677d4d9b60a3a7a42fc5ed9e7ef",
+      "duration": 16.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-03.163Z-HGN3z1JMEeTfZ8BSc2wv2XJSFdZg4Au23.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 422106,
+      "sha256": "02f817f089f72a165f77a726c1671ed6fb63eb3a202d65019741858305e209e1",
+      "duration": 4.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-02.893Z-gZVaAZe0DJgMB-dzen8spfAmQhBvhJXEr.jpg",
+      "file": "poster.jpg",
+      "bytes": 113775,
+      "sha256": "2cf3af86143fb10deed31ec8afac16dd90af1d5f4524d27b611d7a420267cef7",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

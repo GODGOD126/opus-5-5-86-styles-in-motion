@@ -1,0 +1,73 @@
+{
+  "id": 10,
+  "name": "Illuminated Manuscript",
+  "family": "Illustration",
+  "description": "A Book of Hours folio: mottled vellum with ruling and pricking, textura in iron-gall ink with vermilion rubrics, a historiated initial on raised burnished gold, lapis, rose and malachite with white-lead filigree, ivy-leaf rinceaux with gold bezants, and drolleries in the margins.",
+  "explainerNotes": "Explainer: Three folios of a manuscript, the leaf turning between them: champ initials bloom in gold, the examples are bestiary roundels flowing along a penwork arrow into a Brazen Head, the learning loop is a wheel of Guess, Check and Adjust where a marginal beast points out the error and the scribe corrects it in red, and accuracy rises as gilded bars until 97% turns to burnished gold.",
+  "motionNotes": "Motion: The scribe works the page: gold leaf is laid square by square and burnished to a travelling glint, pigments flood into the pen outlines, and the quill writes the text line by line.",
+  "folder": "styles/010-illuminated-manuscript",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 123692,
+    "sha256": "d484fb32f8573ebe85aeba4c35d1e2b65f8c01a22bf8b2b48a55b850e090e37f",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/illuminated.js",
+      "language": "js",
+      "characters": 86900,
+      "sha256": "f852f902a6648aa7960c10186aa93c970b47e8202591b4088613a53df6065e1e"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-26.193Z-HwLJwNZ927zarjgtzB-tsn73kuvcdXLST.mp4",
+      "file": "explainer.mp4",
+      "bytes": 867407,
+      "sha256": "a23bfe9428dafbcf077fc3fe3f6a5029680e660f05aa00ea8eef745e4277134c",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-25.719Z-XTGpp65sMkJauJ21rfMm-thLeKFGicRk2.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 257969,
+      "sha256": "33b4051cc0d41cda53aeac50660773b1b7ad9c7462d8c163b6fb1d9d9c56c6ab",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-25.398Z-DIqbTmCuiPzXuA9f7tjVt5DtUzF_ORYDg.jpg",
+      "file": "poster.jpg",
+      "bytes": 84264,
+      "sha256": "43e34a79b42ea0ef866fed95c126900ef487135c6542e6b0a3c8794c57b513d9",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

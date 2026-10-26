@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>86 种风格 · Opus 5.5 — 86 Styles in Motion</title>
+<style>
+:root{color-scheme:dark;--bg:#101114;--panel:#1b1d22;--line:#32353e;--text:#f6f4f0;--muted:#aaaeb9;--accent:#e5c6a0;font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text)}button,input,select{font:inherit}button,a,input,select{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:4px}header,main,footer{max-width:1660px;margin:auto;padding-left:32px;padding-right:32px}.brand{font-size:14px;color:var(--accent);letter-spacing:.05em;margin:34px 0 12px}h1{font-size:clamp(32px,4vw,52px);letter-spacing:-.045em;margin:0;font-weight:600}header>p{margin:14px 0 28px;color:var(--muted);font-size:17px}.tools{display:flex;gap:12px;align-items:center;margin-bottom:28px}input,select{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:13px 16px;min-height:49px}input{flex:1;min-width:120px}select{width:240px}#count{color:var(--muted);font-size:14px;min-width:62px;text-align:right;font-variant-numeric:tabular-nums}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 24px}.card{overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.picture{display:block;width:100%;padding:0;border:0;background:#090a0c;aspect-ratio:16/9;overflow:hidden}.picture img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .25s}.picture:hover img{transform:scale(1.015)}.card-info{padding:20px;display:flex;gap:14px;align-items:center;justify-content:space-between}.meta{min-width:0}.category{font-size:12px;color:var(--muted);margin:0 0 8px}.card h2{font-size:clamp(18px,1.65vw,24px);line-height:1.3;margin:0;overflow-wrap:anywhere;font-weight:550}.copy{flex-shrink:0;background:transparent;border:1px solid #62616a;border-radius:8px;color:var(--text);padding:11px 14px;font-size:14px}.copy:hover{background:#343036;border-color:var(--accent)}.copy.done{color:var(--accent);border-color:var(--accent)}[hidden]{display:none!important}#empty{padding:70px 0;text-align:center;color:var(--muted)}footer{padding-top:36px;padding-bottom:32px;color:var(--muted);font-size:12px}footer a{color:inherit}dialog{padding:0;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text);max-width:min(1400px,94vw);width:94vw;max-height:94vh}dialog::backdrop{background:rgba(0,0,0,.85)}.modal-top{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 22px}.modal-top h2{font-size:21px;margin:0}#close{background:transparent;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:9px 15px}#large-image{display:block;width:100%;max-height:72vh;object-fit:contain;background:#090a0c}.modal-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 22px}.modal-bottom p{margin:0;color:var(--muted);font-size:14px}#notice{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--accent);color:#201a16;padding:14px 22px;border-radius:10px;box-shadow:0 8px 40px #0008;font-size:14px;max-width:90vw;z-index:5}#manual{width:100%;margin-top:10px}.manual-wrap{padding:0 22px 20px}#manual-label{color:var(--muted);font-size:14px}#noscript{padding:20px;color:var(--muted)}
+@media(min-width:1800px){.grid{gap:32px}}
+@media(max-width:900px){.grid{grid-template-columns:1fr}header,main,footer{padding-left:20px;padding-right:20px}.tools{flex-wrap:wrap}input{flex-basis:100%}select{flex:1}.card h2{font-size:22px}.card-info{padding:18px}.brand{margin-top:24px}}
+@media(max-width:480px){.card-info{align-items:flex-start;flex-direction:column}.copy{width:100%}.modal-top{padding:12px}.modal-top h2{font-size:17px}.modal-bottom{flex-direction:column;align-items:stretch}.modal-bottom p{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.picture img{transition:none}}
+
+.picture{position:relative}.play-badge{position:absolute;right:12px;bottom:12px;background:#101114d9;color:#fff;padding:8px 11px;border-radius:7px;font-size:12px;pointer-events:none}.card-info{display:block}.card .copy{margin-top:16px;padding:9px 13px}.card h2{font-size:23px}.name-en{font-size:14px;color:var(--muted);margin:6px 0 0;line-height:1.4}.category{line-height:1.6}.heading-en{display:block;font-size:20px;font-weight:400;color:var(--muted);letter-spacing:0;margin-top:9px}select{width:340px}.modal-top h2 span{display:block;color:var(--muted);font-size:14px;font-weight:400;margin-top:6px}#example-video{display:block;width:100%;max-height:65vh;aspect-ratio:16/9;background:#000}.video-toolbar{display:flex;align-items:center;gap:12px;padding:12px 22px}.video-toolbar select{width:auto;max-width:100%;font-size:14px}.video-status{padding:0 22px;color:var(--accent);font-size:14px}.video-status:empty{display:none}.modal-bottom{padding-top:10px}.modal-bottom p{font-size:12px}.modal-top{padding-top:12px;padding-bottom:12px}@media(max-width:900px){.tools select{width:auto}.card h2{font-size:24px}}@media(max-width:480px){.video-toolbar{padding:12px}.video-toolbar select{width:100%}.heading-en{font-size:17px}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">Opus 5.5 — 86 Styles in Motion</div>
+<h1>找到你喜欢的风格。<span class="heading-en">Find your visual style.</span></h1>
+<p>点击主图播放案例，复制名称发给我。<br><span class="name-en">Click an image to play the example. Copy a style name to share with me.</span></p>
+<div class="tools"><input id="search" type="search" aria-label="搜索风格 / Search styles" placeholder="搜索名称、编号、分类 / Search styles"><select id="family" aria-label="风格分类 / Category"><option value="">全部分类 / All categories</option></select><span id="count" aria-live="polite">86 / 86</span></div>
+</header>
+<main><div class="grid" id="grid"></div><p id="empty" hidden>没有匹配的风格 / No matching styles</p><noscript><p id="noscript">请启用 JavaScript / Please enable JavaScript.</p></noscript></main>
+<footer>风格示例来源 / Source: <a href="https://www.futurepedia.io/resources/ai-style-atlas/view" target="_blank" rel="noreferrer">Futurepedia AI Style Atlas</a> · © 2026 Futurepedia LLC</footer>
+<dialog id="preview" aria-labelledby="large-title">
+<div class="modal-top"><h2 id="large-title"></h2><button id="close" type="button">关闭 / Close</button></div>
+<video id="example-video" controls playsinline preload="none" aria-label="风格案例视频 / Style example video"></video>
+<div class="video-toolbar"><select id="video-mode" aria-label="案例类型 / Example type"><option value="explainer">讲解示例 / Explainer</option><option value="styleClip">风格短片 / Style clip</option></select></div>
+<p id="video-status" class="video-status" role="status"></p>
+<div class="modal-bottom"><p id="large-category"></p><button id="large-copy" class="copy" type="button">复制名称 / Copy name</button></div>
+<div class="manual-wrap" id="manual-wrap" hidden><label id="manual-label" for="manual">请手动复制名称 / Please copy the name manually.</label><input id="manual" readonly></div>
+</dialog>
+<div id="notice" role="status" hidden></div>
+<script id="style-data" type="application/json">__STYLE_DATA__</script>
+<script>
+'use strict';
+const styles=JSON.parse(document.querySelector('#style-data').textContent);
+const grid=document.querySelector('#grid'),search=document.querySelector('#search'),family=document.querySelector('#family'),modal=document.querySelector('#preview'),video=document.querySelector('#example-video'),mode=document.querySelector('#video-mode'),videoStatus=document.querySelector('#video-status');
+const COPY='复制名称 / Copy name';
+let active=null,noticeTimer,playSequence=0;
+const cards=[];
+for(const name of [...new Set(styles.map(s=>s.family))]){const option=document.createElement('option');option.value=name;option.textContent=styles.find(s=>s.family===name).familyZh+' / '+name;family.append(option)}
+function notice(message){const box=document.querySelector('#notice');box.textContent=message;box.hidden=false;clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>box.hidden=true,2600)}
+async function copyName(style,button){
+ let success=false;
+ try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(style.name);success=true}}catch{}
+ if(!success){const area=document.createElement('textarea');area.value=style.name;area.setAttribute('aria-label','待复制的风格名称 / Style name');area.style.cssText='position:fixed;left:0;top:0;opacity:0;width:1px;height:1px';(modal.open?modal:document.body).append(area);area.focus();area.select();try{success=document.execCommand('copy')}catch{}area.remove();button.focus()}
+ if(success){button.textContent='已复制 / Copied';button.classList.add('done');notice('已复制 / Copied: '+style.name);setTimeout(()=>{button.textContent=COPY;button.classList.remove('done')},1800)}
+ else{openPreview(style,false);const field=document.querySelector('#manual');document.querySelector('#manual-wrap').hidden=false;field.value=style.name;field.focus();field.select()}
+}
+function playExample(){
+ if(!active)return;
+ const sequence=++playSequence;video.pause();videoStatus.textContent='';video.poster=active.image;video.src=active[mode.value];video.load();
+ const pending=video.play();if(pending)pending.catch(error=>{if(sequence!==playSequence||!modal.open)return;videoStatus.textContent=error.name==='NotAllowedError'?'请点击视频播放按钮 / Click the video play button.':'视频暂时无法播放，请重试 / Unable to play. Please try again.'});
+}
+function openPreview(style,autoplay=true){
+ active=style;const title=document.querySelector('#large-title');title.replaceChildren(document.createTextNode(style.nameZh));const english=document.createElement('span');english.textContent=style.name;title.append(english);
+ document.querySelector('#large-category').textContent='#'+String(style.id).padStart(2,'0')+' · '+style.familyZh+' / '+style.family;
+ document.querySelector('#manual-wrap').hidden=true;const copy=document.querySelector('#large-copy');copy.textContent=COPY;copy.classList.remove('done');mode.value='explainer';if(!modal.open)modal.showModal();
+ if(autoplay)playExample();else{++playSequence;video.pause();video.poster=style.image;video.src=style.explainer;video.load();videoStatus.textContent=''}
+}
+function stopExample(){++playSequence;video.pause();video.removeAttribute('src');video.load();videoStatus.textContent=''}
+for(const style of styles){
+ const card=document.createElement('article');card.className='card';card.dataset.styleId=style.id;
+ const picture=document.createElement('button');picture.className='picture';picture.type='button';picture.setAttribute('aria-label','播放案例 / Play '+style.nameZh+' / '+style.name);
+ const img=document.createElement('img');img.src=style.image;img.alt=style.nameZh+' / '+style.name;img.width=800;img.height=450;img.loading=style.id<=6?'eager':'lazy';
+ const badge=document.createElement('span');badge.className='play-badge';badge.textContent='▶';badge.setAttribute('aria-hidden','true');picture.append(img,badge);picture.addEventListener('click',()=>openPreview(style));
+ const info=document.createElement('div');info.className='card-info';const meta=document.createElement('div');meta.className='meta';const category=document.createElement('p');category.className='category';category.textContent='#'+String(style.id).padStart(2,'0')+' · '+style.familyZh+' / '+style.family;
+ const title=document.createElement('h2');title.textContent=style.nameZh;const english=document.createElement('p');english.className='name-en';english.textContent=style.name;meta.append(category,title,english);
+ const button=document.createElement('button');button.className='copy';button.type='button';button.textContent=COPY;button.setAttribute('aria-label',COPY+' '+style.name);button.addEventListener('click',()=>copyName(style,button));info.append(meta,button);card.append(picture,info);grid.append(card);
+ cards.push({card,style,terms:[String(style.id).padStart(2,'0'),style.nameZh,style.name,style.family,style.familyZh,style.description].join(' ').toLowerCase()})
+}
+function filter(){const term=search.value.trim().toLowerCase();let count=0;for(const item of cards){const show=(!family.value||item.style.family===family.value)&&(!term||item.terms.includes(term));item.card.hidden=!show;if(show)count++}document.querySelector('#count').textContent=count+' / 86';document.querySelector('#empty').hidden=count>0}
+search.addEventListener('input',filter);family.addEventListener('change',filter);mode.addEventListener('change',playExample);
+video.addEventListener('playing',()=>videoStatus.textContent='');video.addEventListener('error',()=>{if(modal.open&&video.hasAttribute('src'))videoStatus.textContent='视频加载失败 / Video failed to load.'});
+modal.addEventListener('close',stopExample);document.querySelector('#close').addEventListener('click',()=>{stopExample();modal.close()});document.querySelector('#large-copy').addEventListener('click',event=>{if(active)copyName(active,event.currentTarget)});
+modal.addEventListener('click',event=>{if(event.target===modal){const bounds=modal.getBoundingClientRect();if(event.clientX<bounds.left||event.clientX>bounds.right||event.clientY<bounds.top||event.clientY>bounds.bottom){stopExample();modal.close()}}});
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "id": 11,
+  "name": "Editorial Essay Collage",
+  "family": "Popular Explainer Looks",
+  "description": "The editorial \"animated essay\" collage: warm grainy paper, archival halftone prints with torn white borders and soft shadows, newspaper clippings in serif type with a translucent yellow highlighter sweep, masking tape, flat colour blocks and big cut-out condensed headlines.",
+  "explainerNotes": "Explainer: Scenes are joined by fast blurred camera whips that hide the cut, plus a new paper sheet slid up on steps; arrows are thin ink route lines and red marker, numbers are re-cut condensed numerals on paper strips, and the emphasis is the yellow highlighter sweep (plus a red marker ring and cross on the wrong guess).",
+  "motionNotes": "Motion: Cutouts drop and slide in on 12 fps hand-animated steps while the camera pushes smoothly through parallax layers; the highlighter sweeps left to right and a red marker rings the key detail.",
+  "folder": "styles/011-editorial-essay-collage",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 100771,
+    "sha256": "69567f50dc2a849fb2955e1542f4b65358cea8bbd9b959ecb9022c29c223c83e",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/editorial-collage.js",
+      "language": "js",
+      "characters": 64031,
+      "sha256": "c1b7d7dc97ef179be6ea56c0140b910ec6dff2b47134e29ceb2e3f95de259e79"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-29.882Z--3vkdz9lshaxBr6YGsFQYWJYa9gM_T4Rf.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2570292,
+      "sha256": "23c77c7a225f4731e359c06c61fd1d14ce32f34b159cda8f0851fee8cb7313ec",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-29.360Z-U8VTLilp9Ju5dz6nLp84lhiAwXw65C359.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1732301,
+      "sha256": "3979dabdbfa52b9b36482a543d59664012128cbdec8ea1b3a842e9e4d69004e3",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-29.036Z-e1rUhDLSMZek43GbGTWXKO25lqTQXfYn_.jpg",
+      "file": "poster.jpg",
+      "bytes": 84954,
+      "sha256": "a9b7ccfb9589ad0264d3fe7aacfbf6fe6316a27e6bf69f7ee3b74f14c4b43814",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

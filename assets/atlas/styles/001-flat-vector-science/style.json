@@ -1,0 +1,73 @@
+{
+  "id": 1,
+  "name": "Flat-Vector Science",
+  "family": "Popular Explainer Looks",
+  "description": "Flat-vector science-explainer illustration: deep navy-to-violet space gradients, chunky outline-free shapes with rich multi-stop gradients, flat crescent shadows and rim highlights, soft radial glows, sparkly star fields, banded ringed planets and cute big-eyed round characters.",
+  "explainerNotes": "Explainer: Big smooth camera moves through scale: the model pulls back until a million examples become a spiral galaxy, a foreground planet sweeps across as the wipe, and the camera dives into the glowing brain dome to emerge at a planet whose ring is the accuracy bar; arrows are chunky dotted rounded curves, numbers are big rounded Nunito.",
+  "motionNotes": "Motion: Smooth eased motion with gentle overshoot: the camera pulls back through scales, planets drift with parallax, characters bob and pop in, glows pulse.",
+  "folder": "styles/001-flat-vector-science",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 99996,
+    "sha256": "c3aba11ef49c126afdf6842611981c28a13045fcd641b96d6405ec8271f4200e",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/flat-space.js",
+      "language": "js",
+      "characters": 63335,
+      "sha256": "237e0f04db32000ef486dc7fa77757f6608ea5c655dcf0faf0c156ead5c0f730"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-13.260Z-H1shVDo3hwy7QEas3L_XzngD_nCveTnQf.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1686337,
+      "sha256": "3a7518bfca96443052e2d4233a7dd52327a8fb4730e5bbebf1c5962f6e0cd7ba",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-11.439Z-CvJAHQUhvJN9KWLCiSn4KPEN5v_dhFwrZ.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 347999,
+      "sha256": "71f48396cf27359427f115a15394587e60769eba5bece0601866c4944bb63eaa",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-08.519Z-iKhLKA7PdonZWchY1Ix-ZsPYOQTNMUmoo.jpg",
+      "file": "poster.jpg",
+      "bytes": 61484,
+      "sha256": "17c315fe90df08f1166c97b8ca5ed11c83509be32d76473c7da29c23550d8c43",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

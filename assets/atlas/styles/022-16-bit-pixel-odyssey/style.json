@@ -1,0 +1,73 @@
+{
+  "id": 22,
+  "name": "16-Bit Pixel Odyssey",
+  "family": "Retro Digital",
+  "description": "A SNES-era cutscene: 320x180 hand-placed pixels blown up 4x, a strict ~40-colour palette, banded sky with checkerboard dither transitions, layered parallax and an RPG dialog box.",
+  "explainerNotes": "Explainer: Tells it as a SNES RPG: the question is a dialog line whose window snaps up into a quest header, a mosaic transition opens a training hall where labelled CAT/DOG cards ride a chevron conveyor into the MODEL while an EXAMPLES window counts, a wavy battle-swirl starts a turn-based fight (GUESS/CHECK/ADJUST command menu, MISS! damage pop and screen flash, red error trail, weight stat bars), and an iris wipe lands on a LEVEL UP accuracy screen.",
+  "motionNotes": "Motion: A SNES cutscene opening: 16-step brightness fade-in, parallax layers rise into place in whole-pixel steps, the hero walks on with a 2-frame cycle, the drone flies in, hearts pop, the window snaps open and dialog types out.",
+  "folder": "styles/022-16-bit-pixel-odyssey",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 92118,
+    "sha256": "82254a12a74a81c5b184271fa6bd991eb18ebde9d6a5958f725142a6b0d156cb",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/pixel-16bit.js",
+      "language": "js",
+      "characters": 55431,
+      "sha256": "6bf49e2fe574d98e05d9fd4a4f0b3e3b63028c9b4d12c82c85cac34beb236bdc"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-04.561Z-w-rlNxyWNfEH7hNJDQsDCDAT9EWjeahuk.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1057634,
+      "sha256": "a35256eb1ae2f31c8d9bb7b6899402e8d6ec5866286145f9378d46e6777b503f",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-04.044Z-E3CbodjYQkQvEBL6nzqpmt6WY7GiYeQFg.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 306547,
+      "sha256": "ed6e81ecad0fd7aa487cb3f984dcdffd8469e50d22d912903acd952860c34ca2",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-03.691Z-0m8IEK4DXmaeiWyWEKS9wZxA1DO_WPs8_.jpg",
+      "file": "poster.jpg",
+      "bytes": 91322,
+      "sha256": "c2239aac7885f96b4831dcb57af1665583f01ea7c0ae11d7bf8848051d694e4f",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

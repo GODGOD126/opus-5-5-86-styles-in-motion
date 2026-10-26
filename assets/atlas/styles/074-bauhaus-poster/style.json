@@ -1,0 +1,75 @@
+{
+  "id": 74,
+  "name": "Bauhaus Poster",
+  "family": "Art & Design Movements",
+  "description": "A 1920s Bauhaus exhibition poster: primary red, yellow and blue plus black on aged cream stock, a robot face built only from circles, squares, semicircles and triangles on a strict grid, with constructed geometric lettering and lithographic ink mottle.",
+  "explainerNotes": "Explainer: Told as one long Bayer-style info-design sheet the camera tracks along and finally pulls back from, with thick bar-and-triangle arrows, tags that drop onto what they name, stamped Space Grotesk counters and a red ring drawn round the key moment.",
+  "motionNotes": "Motion: Built like a workshop paste-up: grid rules draw out, the halo and head drop in and snap with a little overshoot, features stamp on one by one, then the constructed letters are set block by block and the type follows; in the hold the pupils swivel and the antenna waves pulse.",
+  "folder": "styles/074-bauhaus-poster",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 76763,
+    "sha256": "47d3ab897f6cd6f5b31f191f3f2a50b5a5cdd24af85192193697e786d75ac79a",
+    "sourceStyleName": "Bauhaus Poster",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/bauhaus.js",
+      "language": "js",
+      "characters": 40104,
+      "sha256": "a543c6b3ab62134a2842bb32a033ec495a9894db3e81fdbbd91dab8e59cd31a8"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-45.468Z-C3gGeO5i0IKGj-qEy8g8dnAyTJ_jOzPLQ.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1090812,
+      "sha256": "9e37f1b4c79322323566b62869a96ed09f4cab539425f1741683e5f8ae58d9e5",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-44.965Z-hKa9q2qc2yiXU_SYKPZyOUfbph6GwFg4i.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 734925,
+      "sha256": "dae820b9636c38aeec5632b3b79b68fc2cb631f96e97aa7f31fd4e81e60fcb00",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-44.690Z-Lt1fZYB0xxlNZBgso-3_OBl3WrlCHddKZ.jpg",
+      "file": "poster.jpg",
+      "bytes": 57825,
+      "sha256": "195741e59f70c28e812fd0e381097960475f07691bc20642642049b449c9fe3c",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

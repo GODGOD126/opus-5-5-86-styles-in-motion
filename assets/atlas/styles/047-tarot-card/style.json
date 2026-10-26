@@ -1,0 +1,75 @@
+{
+  "id": 47,
+  "name": "Tarot Card",
+  "family": "Illustration",
+  "description": "An aged art-nouveau tarot trump on crushed velvet: bold even outlines, flat muted lithograph colours, gold-foil halos and borders, celestial symbols and a worn, foxed cardstock with frayed corners.",
+  "explainerNotes": "Explainer: Told as a tarot reading: cards are dealt, flipped and gathered off the velvet as the scene changes, gold filigree arrows link the spread, brass plaques count the examples and the accuracy, and a burst of gold light marks the wrong guess and the 97%.",
+  "motionNotes": "Motion: The card is dealt and flips onto the velvet; a sheen of light slides across the gold foil while the orbiting planets drift around the automaton.",
+  "folder": "styles/047-tarot-card",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 107460,
+    "sha256": "ab1c6f513f49a42e9f7382a3ce5f8a162404c88a3013fd7f90304b7bb21d56c7",
+    "sourceStyleName": "Tarot Card",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/tarot-card.js",
+      "language": "js",
+      "characters": 71014,
+      "sha256": "38111ad20dfe0160d14303676210dfdcba22e9fdb0b25829c850cdc1cf009157"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-21.433Z-JCV5fkbIoQMK_iX_VdEDu6TU3CWGxAaSl.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1204202,
+      "sha256": "5701e2c669923257508314082e61e92dfe1c6c13a3e31452be689c824c5a2c8f",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-20.914Z-dJorHOtK1jN1NDKCUDxozzta8dQayNmoG.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 449943,
+      "sha256": "62998a6700f8bf0cf265d9831f8e003fd57befb867119eaefe9694c175b7816b",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-20.585Z-gIdaelO2AZHJrtk0HmaUT3Ht8d5TfOjl6.jpg",
+      "file": "poster.jpg",
+      "bytes": 61821,
+      "sha256": "2b1c0e58da53d7a6246b19e46ed7a37fb58fd76fa8e6e997c979f5be729f545f",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

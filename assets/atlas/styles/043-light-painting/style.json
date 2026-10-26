@@ -1,0 +1,75 @@
+{
+  "id": 43,
+  "name": "Light Painting",
+  "family": "Light & Imaging",
+  "description": "A 30-second exposure in a dark field: a neural network drawn in the air with an LED wand and a twisting rainbow light-tube ribbon, hand-jittered trails with hot cores and coloured falloff, a ghost of the painter, pinpoint stars, horizon bokeh and colour spill on the grass.",
+  "explainerNotes": "Explainer: Each beat is a fresh live long exposure: the wand traces doodles, arrows and handwriting with its glowing tip, orbs leave arcing light trails into the network, numbers come from an LED pixel-stick, the emphasis is a traced ring with a spark burst, and between beats the camera whip-pans so every trail smears into streaks.",
+  "motionNotes": "Motion: Shot as a live-composite exposure: the wand traces node after node and fans out each layer of connections, the RGB tube sweeps the twisting ribbon around it, the word is written last, while the ghost painter slowly accumulates and star trails lengthen.",
+  "folder": "styles/043-light-painting",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 85507,
+    "sha256": "fbdaf9218ce975648dc5d9654eb80a060a80a75199357fde5487b44713c55504",
+    "sourceStyleName": "Light Painting",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/light-painting.js",
+      "language": "js",
+      "characters": 48825,
+      "sha256": "37ecf63000e87abfcfb3866221c3b34bd05740ad2b8d6533dcbd71a6bbb68d3c"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-09.065Z-l5Wl4g6cltcrXR5K-BchIdsIWctLeq12U.mp4",
+      "file": "explainer.mp4",
+      "bytes": 891459,
+      "sha256": "b4e4ecf5700eb3a3450232d06bfe529dcd189913c02e8b459dc19e82540313bf",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-08.574Z-YwTniTOHGahL2UUt6-cLAHtkhDqpwjciP.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 261153,
+      "sha256": "8f42f7a95b44de180226fb8f48cd2d25dd24092a9c185be49b5094585757d531",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-08.294Z-7Pm_6sphUawxYIMKuU3Ny4xgj-27ND_hb.jpg",
+      "file": "poster.jpg",
+      "bytes": 54545,
+      "sha256": "6da74e8093f3282de65d9f2c3e26521cf45faa3dec1c01dacef771f7caa13deb",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

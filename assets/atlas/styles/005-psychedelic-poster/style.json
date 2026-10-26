@@ -1,0 +1,73 @@
+{
+  "id": 5,
+  "name": "Psychedelic Poster",
+  "family": "Cosmic & Psychedelic",
+  "description": "1960s San Francisco concert-poster psychedelia: full-strength inks in vibrating complementary pairs, liquid churning ring bands, sunbursts and a mirror-symmetric eye-flower, with bulbous melting Shrikhand lettering on worn poster stock.",
+  "explainerNotes": "Explainer: The model is a giant eye-flower whose petals are its weights: examples ride striped ribbons into it, the wrong guess makes the inks clash and jitter, the correction folds the swirl into a symmetric mandala, 97% bursts into a kaleidoscope sunburst; scenes change by kaleidoscope rotation, a liquid melt and an iris ripple.",
+  "motionNotes": "Motion: Colour ripples out from the centre, petals unfurl and the eye opens, then the lettering melts into place while the liquid bands keep slowly churning.",
+  "folder": "styles/005-psychedelic-poster",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 95112,
+    "sha256": "157609d32b26fd3fd56e107647510ee1319d7ab094ea2587b0be860052da8893",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/psychedelic.js",
+      "language": "js",
+      "characters": 58535,
+      "sha256": "22855001cb6729743eac3bfe44049c223eb44f426a0e873a5faaa16c96ad2697"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-07.343Z-DbwOig-HX7V9VcpCvEr5cOLFnzvb7QI22.mp4",
+      "file": "explainer.mp4",
+      "bytes": 5586530,
+      "sha256": "06a128432a73f2bb9ba06376065e3c7a7f4acfa73bbe80b988ca352d891962e1",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-04.266Z-mG1jHow54j6UXMjRr7R6ny1ANG1ZcNZQk.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2055365,
+      "sha256": "57d96bb2f05a7b9ea13c4d42f2ff1a96b770560fb7a28584be23395a96dc239a",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-02.956Z-AlI0ZCs8eH4H3UEKi4O1spmpE4apy0TAk.jpg",
+      "file": "poster.jpg",
+      "bytes": 175502,
+      "sha256": "540249faef1bc205dc94fab4e2ad1dc634a6768018c97d93fea5443e5915808b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

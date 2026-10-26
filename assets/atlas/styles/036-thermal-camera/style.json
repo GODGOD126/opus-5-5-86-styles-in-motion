@@ -1,0 +1,75 @@
+{
+  "id": 36,
+  "name": "Thermal Camera",
+  "family": "Light & Imaging",
+  "description": "A handheld IR camera frame in ironbow: soft low-res heat field, cold glasses and warm breath, hot coffee and GPU racks, edge-enhanced outlines, sensor noise and the camera’s own HUD with spot meter, box measurement and scale bar.",
+  "explainerNotes": "Explainer: Everything is filmed through the IR camera: scenes change with the shutter-calibration (NUC) click, heat is activity and a cold wave is the error signal, while the camera’s own HUD does the explaining with spot-meter arrows, measurement-box emphasis, tag labels riding on objects and live readouts.",
+  "motionNotes": "Motion: Camera clicks through its shutter calibration, the auto-gain settles, coffee is hot-poured and steam rises, rack bands heat up bottom to top while the spot meter glides onto the mug and the readouts tick live.",
+  "folder": "styles/036-thermal-camera",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 88435,
+    "sha256": "399e402ec22222016361306349c9cadf770040a67c4f5556c9913f8bad39ecfe",
+    "sourceStyleName": "Thermal Camera",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/thermal-camera.js",
+      "language": "js",
+      "characters": 51804,
+      "sha256": "5caec3808a3f3840fb798fc9e4dd9d1dbaa5190f8f7dba33fe3a344d0c0f2e0c"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-47.300Z-j8-1QqXVrBKvLqEqoh9M2kuwQPojmMjdZ.mp4",
+      "file": "explainer.mp4",
+      "bytes": 748797,
+      "sha256": "34f47114a746d60f29a60c537ee780619b2d4677e579443b6676bb78292d2af9",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-46.787Z-30jW4VWlge1UfbZh_E1iijEhDwh9q-U3r.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 244769,
+      "sha256": "59b1c6b209e01551b34416d5ff5914ca70714e2109a51786e4fa1f9966e7bbf1",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-46.298Z-6z2fdGR-NYNAZUflSDC04gQeb3xf8c-mQ.jpg",
+      "file": "poster.jpg",
+      "bytes": 45112,
+      "sha256": "48238a91e8f98fe6e68ac62105abdf8820077376bad97eb0d47f2654af1b260f",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

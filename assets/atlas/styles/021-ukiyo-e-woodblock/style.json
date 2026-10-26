@@ -1,0 +1,73 @@
+{
+  "id": 21,
+  "name": "Ukiyo-e Woodblock",
+  "family": "Art & Design Movements",
+  "description": "An Edo-period woodblock print in the manner of Hokusai: Prussian-blue bokashi gradients, a towering wave with claw-like foam whose spray breaks into data cubes, a cargo ship stacked with server racks in the trough, flat colour blocks with carved keyblock outlines, wood grain and washi fibre, a vertical-text cartouche and vermilion seal.",
+  "explainerNotes": "Explainer: An emaki handscroll unrolled right-to-left: golden kasumi clouds divide the scenes, a river of labelled prints floats to an Edo karakuri automaton, flow is drawn as currents with claw-foam heads, the learning loop is a Naruto whirlpool, numbers sit in paper cartouches and every judgement is a vermilion seal stamp.",
+  "motionNotes": "Motion: Printed like a real woodblock: the black keyblock lands first, then each colour block is pressed in turn (sky ochre, pale blue, mid blue, vermilion, Prussian) and the bokashi sky is wiped on last, while the wave swells, its claws lean and data-cube spray tumbles onto the rolling ship.",
+  "folder": "styles/021-ukiyo-e-woodblock",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 94493,
+    "sha256": "5151b4f4d112341a746fab92ae92dc317bafc7f3969742ac95394bb1449f1e25",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/ukiyo-e.js",
+      "language": "js",
+      "characters": 57689,
+      "sha256": "8d4bfcaa3bf9bbc3d7287848b2c551cbeb8b41bb37af3fc0768acec03e80ef1f"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-01.509Z-EmjuzGH_aoVLy1VbrptiF_1skO-AH9U3_.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1322940,
+      "sha256": "cefc0364e6c5c2dce1498ee96ebb66863b8e4db92832a4b7ad029687c30fc456",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-00.983Z-3h7D5bjlxSTZB5vybZv0aODt_JLu8_YXC.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 720143,
+      "sha256": "304fe685965b8ed1ffc0d93175cc604d08eb0ed35e1400bff3f0e680a381af05",
+      "duration": 5.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-00.674Z-ucsEI8aPiD-7dbY_fwZUrg7kyO-2SgeYl.jpg",
+      "file": "poster.jpg",
+      "bytes": 85325,
+      "sha256": "8dab0400917d3f961fd6d0902e07d2aeebd1a779054f6f4e609e07aefca24ad3",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

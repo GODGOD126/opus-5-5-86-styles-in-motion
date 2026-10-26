@@ -1,0 +1,75 @@
+{
+  "id": 65,
+  "name": "Vintage Newsprint",
+  "family": "Print",
+  "description": "A 1950s broadsheet front page: blackletter masthead, condensed banner headline, dense justified greeked columns and a coarse halftone wire photo, printed in thin uneven ink on yellowed pulp with show-through from the reverse.",
+  "explainerNotes": "Explainer: The viewer reads the paper: the camera tracks from the banner headline down to a By-the-Numbers infographic, the page physically turns to an inside Science spread whose diagram, chart and pull quote carry the rest; arrows are crisp newspaper-diagram rules, numbers are set in Oswald, and emphasis is a reader's red grease-pencil ring.",
+  "motionNotes": "Motion: The classic spinning-newspaper reveal: the page whirls up out of the dark and slaps flat to fill the frame, then the camera creeps in on the headline while the console lamps blink and the tape reels turn in the halftone photo.",
+  "folder": "styles/065-vintage-newsprint",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 85654,
+    "sha256": "ce5719a4c7083f4f30fdcef4ac398b27fc7d84d0f1d159a0dec60564be46a699",
+    "sourceStyleName": "Vintage Newsprint",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/newsprint.js",
+      "language": "js",
+      "characters": 48865,
+      "sha256": "0f7d209f94dee3d0c187c100b5898c3fba3cdfd6d0eaf7e44f423c94ab833177"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-17.096Z-eMLmS7SrdUJMjK_G-2F3jnkN5GvghfLLG.mp4",
+      "file": "explainer.mp4",
+      "bytes": 4132183,
+      "sha256": "c025fcad70a1bb320aae695e3340b4885e7a52b7b6a67b3649dfb204a715bf10",
+      "duration": 15.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-16.462Z-VkO9ixALR0r_o4HVYtJ3vc7Zsp2lQeYaU.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2539264,
+      "sha256": "d8fae8fc2df48393842d395d6ed62ac6218b66dede3925f43a7d7ef0b1879ad9",
+      "duration": 4.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-16.158Z-f-fQHvix0WRXa0hvOJJOU_GHojVSzHPy4.jpg",
+      "file": "poster.jpg",
+      "bytes": 130718,
+      "sha256": "399389cb9e4ebffe86167b7976682ba0e75ac2fd89e813353df1e7bc0044d49a",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

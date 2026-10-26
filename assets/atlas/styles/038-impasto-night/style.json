@@ -1,0 +1,75 @@
+{
+  "id": 38,
+  "name": "Impasto Night",
+  "family": "Painterly",
+  "description": "Thick oil paint in short loaded strokes that follow a swirling flow field, Post-Impressionist night-sky style; every stroke stands off the canvas with a lit ridge and a shadowed edge, colour broken within each stroke.",
+  "explainerNotes": "Explainer: The camera travels along one long swirling night-sky canvas; arrows, rings, labels and numbers are all laid on as fat lit daubs of paint (shadow edge, body, highlight ridge) in chrome yellow and vermilion against the blues.",
+  "motionNotes": "Motion: The sky's strokes slowly rotate along their swirl and the halos around the moon and stars pulse ring by ring, as if the paint itself were turning.",
+  "folder": "styles/038-impasto-night",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 87658,
+    "sha256": "cfca875b74d56a84418a3300283f48f0ac5b74a5644c5c494ee045dd1902bf59",
+    "sourceStyleName": "Impasto Night",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/impasto-oil.js",
+      "language": "js",
+      "characters": 51212,
+      "sha256": "dc2d1cf192cd83e9ecbc80a3f35ced2fc895f74594b3372810d94faec46ea52a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-53.043Z-9yIBapIyrLv3ZBpnwQbDriz351ouMbOGY.mp4",
+      "file": "explainer.mp4",
+      "bytes": 2052225,
+      "sha256": "9bbc1beb8404f530137ade7f124442770468834235148a49b5dff06bc28e67b4",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-52.530Z-n_TntdwjR-jk3mkAeqM7nxDZr7dR82pwc.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 2201515,
+      "sha256": "01ae5eb5c84ec5d78ff2679d125b8c62b40942e3c570e6f6f6cbf25851e98f0a",
+      "duration": 6.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-52.236Z-yHmtLw_nBm2jNEzb-7-fGqpWe7BNSmpkn.jpg",
+      "file": "poster.jpg",
+      "bytes": 195120,
+      "sha256": "f6a6634191c13ca375af148a981ad0515ab429bed736dfee812457937d2ec668",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

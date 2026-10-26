@@ -1,0 +1,75 @@
+{
+  "id": 68,
+  "name": "Ballpoint Notebook",
+  "family": "Hand-Drawn",
+  "description": "A blue Bic doodle in the back of a college-ruled notebook: dense crosshatching for darks, pressure-varied lines with ink blobs where strokes start, bubble lettering with a hatched drop shadow and compulsive margin doodles.",
+  "explainerNotes": "Explainer: Doodled down one long college-ruled page: the pen draws while the camera scrolls along and then down the page, headings are bubble letters with crosshatched shadows, boxes get hatched drop-shadows, a red pen marks the wrong guess, and counters are re-inked in bubble numerals.",
+  "motionNotes": "Motion: Lines scratch on stroke by stroke, then layers of crosshatching build up the shadows pass by pass, while the margin doodles get traced over and over.",
+  "folder": "styles/068-ballpoint-notebook",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 103322,
+    "sha256": "e7123d3ad83c2835b42d91b6dcaf48af7aa4d21d947035ca6751b6ff36648082",
+    "sourceStyleName": "Ballpoint Notebook",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/ballpoint-notebook.js",
+      "language": "js",
+      "characters": 66788,
+      "sha256": "861de29d284f27e777466471e6165bf833a9ce903f1391746e542b0d11ecdf8a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-27.087Z-4ZX2G5jIG8shxvcKuFN3UpL8rz36ToyhS.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1530382,
+      "sha256": "a5ff9b09f79011bcfb7ffb01f776fbfea1b877ef7bbe46a26f4956bc09a5534e",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-26.600Z-xHe4S-B7zjPcIS-dP42JidfaqX6Sdavv1.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 190354,
+      "sha256": "b02e4c3ce2cd4319d869cf063447029f20c570e525f1e7df2c942670382adeef",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-26.343Z-tj3yzOpd1mylP0XYlv-r81swx_DgiUyo4.jpg",
+      "file": "poster.jpg",
+      "bytes": 96546,
+      "sha256": "20755420cd647545a0a58ff4fa86b2c00a2fd3f9e18f5aa8f11166b2c076ac3b",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

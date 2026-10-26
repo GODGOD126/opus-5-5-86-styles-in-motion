@@ -1,0 +1,75 @@
+{
+  "id": 49,
+  "name": "Gouache Travel Poster",
+  "family": "Painterly",
+  "description": "Mid-century travel poster hand-painted in gouache: six flat, opaque, matte colours stacked in receding layers, dry-brush streaks where the paint thins at each edge, and a bold hand-lettered block.",
+  "explainerNotes": "Explainer: A run of hand-painted posters: each scene change is a fresh coat of cream swept across the board before the next poster is painted flat colour by flat colour; arrows are flat poster arrow shapes, numbers are repainted in the lettering band, and an orange starburst stamps the key moments.",
+  "motionNotes": "Motion: Layers slide in parallax like stacked paper cut-outs, the sun rises behind the ridges, steam puffs bob from the cooling towers and server windows blink on in rows.",
+  "folder": "styles/049-gouache-travel-poster",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 83041,
+    "sha256": "0c00e9497d85cc0772724d57ae0d98a05b7f821b6469810c8bd1f670d595dab3",
+    "sourceStyleName": "Gouache Travel Poster",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/gouache-poster.js",
+      "language": "js",
+      "characters": 46527,
+      "sha256": "0a05556758766e4d768faa1b9560886f22a55e900b3b14e7a9e55873270c8d78"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-27.425Z-MRR0cgFkKb4WpnidtsmLAzA3QHptpFuzo.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1016878,
+      "sha256": "045d77f0d52af6feef580d5c0d308802b6d6e4d47672144eb9f4c893d7d24c6f",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-26.943Z-PoVAe7O2SxkU5G5xtQuplHVMa_3AGbYWC.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 389367,
+      "sha256": "475a2ecaa295419861de87017d46489c2f8cc7cc56a52c6c9a96a637a62a45a1",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-26.645Z-XqoKfnSy5z3AXpfQZhGMlLk8bESTCq_sL.jpg",
+      "file": "poster.jpg",
+      "bytes": 81026,
+      "sha256": "5dc34f51fdee8e0cc91fc6e6feeb75425bc6ba5a2a5f897658fbc06e7cfc6936",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

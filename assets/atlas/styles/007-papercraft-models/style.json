@@ -1,0 +1,73 @@
+{
+  "id": 7,
+  "name": "Papercraft Models",
+  "family": "Popular Explainer Looks",
+  "description": "Printed-cardstock kit models: boxy low-poly robots, cats and charts assembled from flat printed faces with dotted fold lines, glue tabs and hairline seam gaps, Lambert-lit by a warm key light on a green self-healing cutting mat with craft tools at the edges.",
+  "explainerNotes": "Explainer: One long cutting mat: the camera slides from beat to beat while flat printed templates fold themselves up into the robot, cards, bars and tent labels (on twos); arrows are creased paper strips that unroll along the mat, labels are tent tags dropped onto what they name, counters are printed tent cards re-posed each step, and the wrong guess gets a camera push-in and a red flag that pops and later spins to green.",
+  "motionNotes": "Motion: Flat printed templates fold themselves up into 3D models on twos with a stop-motion jitter, pieces hop into place and tags fold into tents, while the camera slides smoothly across the mat.",
+  "folder": "styles/007-papercraft-models",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 114870,
+    "sha256": "7ab39e96612b899820ff8676dc5f1b3b31471b4a4531a65f281b060773988d4a",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/papercraft.js",
+      "language": "js",
+      "characters": 78059,
+      "sha256": "24d91962690c4181bf5733b6075736830165a56f5672383d8979f7c970fba908"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-15.658Z-kT0YzdR2nebKNuL5ltVwjUi5Ip4qIqgXS.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1891750,
+      "sha256": "b8c24768d3007bff500da3638a8d450684a77eaf1359ece430a242312740cf26",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-15.133Z-AThjundZ1pWvpPg_6iL-ijOlooowzGasK.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 756172,
+      "sha256": "c1f3ae4a65e1cb53332e7335aa40c49f489c5d1e2f3dc560672b0ac726db4663",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-14.844Z-lu1tBs7cSTGmLc881MFWbSeHQHS3w9YsT.jpg",
+      "file": "poster.jpg",
+      "bytes": 72794,
+      "sha256": "b4f03c5eb92483c45c115725b425fcab9b5412a9e5553073ac82ed2095162e70",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

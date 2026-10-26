@@ -1,0 +1,73 @@
+{
+  "id": 6,
+  "name": "Tech Glow Explainer",
+  "family": "Popular Explainer Looks",
+  "description": "The polished AI / tech YouTube motion-graphics look: deep navy-to-indigo space with drifting electric glows and a perspective grid, gradient-stroked icon tiles wired into node diagrams with light pulses racing along the connectors, dark cards with thin neon borders, gradient headline type and bloom on everything bright.",
+  "explainerNotes": "Explainer: One continuous camera: the title shrinks to a header while the brain tile flies into place, labelled examples ride glowing lanes into the model, the camera pushes through the brain into its network (light-speed streaks), Guess/Check/Adjust chips light up as light pulses run forward and a red error pulse runs back, then the camera pans to a glowing accuracy chart and pulls back for the takeaway; numbers count up in gradient Space Grotesk with bloom.",
+  "motionNotes": "Motion: Smooth eased build: glows bloom up, icon tiles pop in with an overshoot and their line icons draw on, connectors trace out and start carrying light pulses, the headline rises word by word and the stat counts up, all under a slow camera push and drifting particles.",
+  "folder": "styles/006-tech-glow-explainer",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 106433,
+    "sha256": "fe9c9148bf13b2e8170c4a6f90f3d351f7934e48b2529b942bbac8dd294fdbd2",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/tech-glow.js",
+      "language": "js",
+      "characters": 69485,
+      "sha256": "fe8a8615238de7ff8ef442127e74da553db9c4195c237cb1a3d5c34a7c33ae6a"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-12.258Z-l4aZ2aI_8bS7MGo6Ufb6ZPlSTc65hebuV.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1532004,
+      "sha256": "4448b6791fe10d7b2347485abfb7185027ea7a2a7cf519d6206beb9be22c6714",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-11.734Z-cQ0e8i8GfdaEQ05mMQEV5F7k51ApFDJd5.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 392545,
+      "sha256": "5ce3c24e31211cc7647c5b2046363442a6918e8a422d09b74b42fdf7d57a2d31",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-10.856Z-pHfRcqeubhlhkT2P-Ra4bTCB1YJZwClTO.jpg",
+      "file": "poster.jpg",
+      "bytes": 44801,
+      "sha256": "840e80db756a8e5058a632d634a931a3e99a2cb12f6f9e408c98047c43e7dc1f",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

@@ -1,0 +1,75 @@
+{
+  "id": 54,
+  "name": "Ebru Paper Marbling",
+  "family": "Generative & Type",
+  "description": "Turkish ebru on laid paper: a battal stone ground of floated pigments raked into gel-git chevrons and combed, then suminagashi ring-drops pulled by a stylus into tulips — built with the exact drop and tine transforms.",
+  "explainerNotes": "Explainer: The bath is the model: examples land as colour drops, a new picture is a red probe drop that the flow drags toward its guess, the error is a stylus counter-stroke and the adjustment a comb pass that puts the pattern in order; scenes change by lifting the printed sheet off the bath, labels are bookbinder paper labels and arrows are inked stylus strokes.",
+  "motionNotes": "Motion: Colour drops rain onto the size and bloom, shoving earlier drops into veins; the rake drags the stone into gel-git flames; ring after ring is dropped at one point; then the stylus pulls the rings into a tulip, and a wet sheen glides over the finished bath.",
+  "folder": "styles/054-ebru-paper-marbling",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 74539,
+    "sha256": "59d07a64a9524e2b992942eba67019958e7c4980fd6054a063c76337819c9d6c",
+    "sourceStyleName": "Ebru Paper Marbling",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/paper-marbling.js",
+      "language": "js",
+      "characters": 37826,
+      "sha256": "fab414bd36d9aa7a5ffcff7ae3ac6d8c9e415cf16eda2086eade19c4e9586554"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-42.638Z-vJHPVJHC7D_kF3ruGCda7Pv6ybSYLOfSM.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1909406,
+      "sha256": "2f0d184cdccb0c9692b9de6e100335d9ac089d307e9a3ac21ca849e83a2d3681",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-42.089Z-Kgbbjyl083dYW1z8RghFEkh0Nm0otY_QL.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1691439,
+      "sha256": "ae199ec46f35b15df41906fd390186ca82a45c8adceaf0b0c2855e37e44aab91",
+      "duration": 8.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-17-41.800Z-fh_Jbf8R15WqzFkAjSQV6iVzPHqy8eanB.jpg",
+      "file": "poster.jpg",
+      "bytes": 126015,
+      "sha256": "a2753e1c20f16cf84cddbdcf7bab9b9774f62de3c661212f3384286d5e50c483",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

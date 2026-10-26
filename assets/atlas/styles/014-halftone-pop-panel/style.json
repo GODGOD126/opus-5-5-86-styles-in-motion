@@ -1,0 +1,73 @@
+{
+  "id": 14,
+  "name": "Halftone Pop Panel",
+  "family": "Print",
+  "description": "A Lichtenstein-style blown-up comic panel: fat tapering black brush outlines, mechanical Ben-Day dot fields in red and blue, flat primary yellow, a tearful close-up and hand-lettered balloon.",
+  "explainerNotes": "Explainer: Told as a comic strip the camera reads panel by panel (pulling back to the gutters on each move), with fat yellow comic arrows, captions and balloons, Bangers counters bursting out of explosion balloons, and a WRONG! burst with shake as the emphasis.",
+  "motionNotes": "Motion: Blue dots pop on in a wave, the robot head springs up into frame, red skin dots wash down the face, caption and balloon slam in word by word, then a single tear wells up and rolls down during a slow push-in.",
+  "folder": "styles/014-halftone-pop-panel",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 82423,
+    "sha256": "8bfc56d9211485ccc253165ba11d0d7c2b9dae269039b1ae3119471deb53ff43",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/halftone-pop.js",
+      "language": "js",
+      "characters": 45965,
+      "sha256": "dc1797dc0b0c8480db90525c435ad094c9308e948cf20787eb264abed2da4fe6"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-39.323Z-hgIHxgiAi2qUOSLjQpEAO6-MOQePtcuAH.mp4",
+      "file": "explainer.mp4",
+      "bytes": 3211029,
+      "sha256": "a5c3f51c8e21a4ef14a59da18c498bbee5c193d66e905e1d6060a69d883e4917",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-38.789Z-Csvk1F-OLUyvJj84j6n48HGImfZciSjql.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 1400421,
+      "sha256": "62bfb5ab3fd1c8a3aef440e108ca605df7884b3e54897bca1e97ae2f7add3dcf",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-38.458Z-k7IBGVwqRoAcdvOqL1o5hOivkNjoQueCl.jpg",
+      "file": "poster.jpg",
+      "bytes": 216073,
+      "sha256": "689a912ced89f69e4d05f2d6c8417f0e56bb140b7c3a3355a57c04b4a88a0acc",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

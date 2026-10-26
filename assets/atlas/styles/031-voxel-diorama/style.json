@@ -1,0 +1,75 @@
+{
+  "id": 31,
+  "name": "Voxel Diorama",
+  "family": "Dimensional",
+  "description": "MagicaVoxel-style diorama: a floating voxel island with a waving robot, chunky trees and a pond — three-tone cube faces, per-vertex ambient occlusion in the creases, ray-marched soft shadows and a warm toy palette.",
+  "explainerNotes": "Explainer: One long voxel island the camera trucks along while each zone is rebuilt from falling voxels; arrows are chains of little cubes, cards and the ✗/✓ verdict are real voxel pixel-art, the robot’s chest equaliser re-levels as its weights adjust, and numbers tick in Silkscreen on extruded block tags.",
+  "motionNotes": "Motion: Voxels rain down and stack layer by layer from the island’s rocky underside up to the robot’s antenna while the camera orbits; the robot’s eyes flicker on, it starts waving, and the pixel title drops in block by block.",
+  "folder": "styles/031-voxel-diorama",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 87796,
+    "sha256": "5979e0a0ca169319a61e1538805e8a340024c0a6fd4f559d1961c4f4654ad3d5",
+    "sourceStyleName": "Voxel Diorama",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/voxel.js",
+      "language": "js",
+      "characters": 51261,
+      "sha256": "09e24fafbcb23f1b42f963be53fce80b93995adcf379f59c57f63110401e5b60"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-31.779Z-jhzy0vtcryTuUDJC_uRgcYK2x_qNQcJ78.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1244151,
+      "sha256": "70c9917400710f88e013cb003ddf4197b67bdda28da29130d29ee83147ac5c4f",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-31.282Z-yhNi79jsp7gZaHEJDbt2goFiKXAOqH6uf.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 430837,
+      "sha256": "a352c26b7261613d5cf92c6f50ebbf545596ea54069d57037b8fe8ae7a7c62d0",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-31.016Z-IVSbKO1OpMh4pSSKP6BzXTYA3Ebtg48vK.jpg",
+      "file": "poster.jpg",
+      "bytes": 34113,
+      "sha256": "30bd300dac942683544524a73e2a49cee482e59a816cc11bbc49392d69070369",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

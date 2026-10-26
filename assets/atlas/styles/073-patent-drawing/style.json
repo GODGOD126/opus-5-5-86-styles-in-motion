@@ -1,0 +1,75 @@
+{
+  "id": 73,
+  "name": "Patent Drawing",
+  "family": "Illustration",
+  "description": "A 1930s US patent sheet: ruling-pen black ink line art with shade lines, parallel-line and stipple shading, section hatching, reference numerals on curved leaders, typeset header and inked signatures on yellowed paper.",
+  "explainerNotes": "Explainer: The camera travels along one long patent sheet as FIG. 4–6 are inked stroke by stroke: ruled arrows and leader lines tie labels to parts, odometer drums count the examples and the accuracy, and an examiner's red pencil rings the wrong guess and the 97%.",
+  "motionNotes": "Motion: Lines are inked one stroke at a time like a draughtsman at work — outlines first, then hatching, then numerals — while the FIG. 3 gear train slowly turns.",
+  "folder": "styles/073-patent-drawing",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 109912,
+    "sha256": "81cf5f1e37cde3e44a24031b35bbc1d40a060bf85d910c4373fde7dba4a84bc8",
+    "sourceStyleName": "Patent Drawing",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/patent-drawing.js",
+      "language": "js",
+      "characters": 73311,
+      "sha256": "4fa7e302e9be39414fa90a3d5490a3b4e99e1987b86ea2be2905a5c1279a43eb"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-42.369Z-8eAeJBfBbF6eYRpBF_qppyucVuphBTsAI.mp4",
+      "file": "explainer.mp4",
+      "bytes": 706187,
+      "sha256": "00509338d58b6af9d13ed170c41390893fb7d8b6e8ee6aaa8e7ece93dec0c823",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-41.865Z-nI5fYV_GR0hJLFqaJGV7RghycoXkplwA2.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 754821,
+      "sha256": "f1ddd1cefe2f6056fde66f4489d387fbd1a408067bbdb5bb3405dc4d6c5b6868",
+      "duration": 6.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-18-41.578Z-0JEwEDUQ-OHyp4gy6pHnymEjQ1nahF2Uw.jpg",
+      "file": "poster.jpg",
+      "bytes": 70534,
+      "sha256": "efde77fd6b15a149933f0ee701f8083a4129b0d37c52c61bf1f4fc2c8102d206",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

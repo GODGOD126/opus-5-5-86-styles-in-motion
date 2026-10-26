@@ -1,0 +1,73 @@
+{
+  "id": 23,
+  "name": "Chalkboard Lesson",
+  "family": "Hand-Drawn",
+  "description": "Dusty chalk on a green slate: grainy, broken strokes that skip over the board tooth, colored chalk accents, cloudy eraser smears from past lessons, and a worn oak frame with a dusty chalk tray.",
+  "explainerNotes": "Explainer: A teacher-style lesson on one long slate: a chalk stick writes and draws while the camera tracks along the board (the hook is left behind, the chart is on the next stretch of board), arrows are dusty chalk strokes, numbers are re-chalked as they count, and pink chalk rings the key moments.",
+  "motionNotes": "Motion: Chalk lines scratch on with a little dust fall, the ball hops down the curve step by step, and old eraser clouds slowly drift as the board is wiped.",
+  "folder": "styles/023-chalkboard-lesson",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 91623,
+    "sha256": "d1c030edce2b1571d8ae39baba392904db8f98e2724059b70859aa49a15b8542",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/chalkboard.js",
+      "language": "js",
+      "characters": 55133,
+      "sha256": "60bd4f5afe35b222eea3a0b183416165f30532560331c94773a43b955d9e92e8"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-07.560Z-GB6FlY9Ql--jahQcRS1pd2Kz15xOnrMVQ.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1659596,
+      "sha256": "715e05f85f65ed9dacc4274ff774648b12f461f2fe4c7feeb6762f5f0a3655ca",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-07.043Z-EjoFyOTr_xwN5Iyxn5qq2GJBAW2zLYAtI.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 492342,
+      "sha256": "9503fb274788657a3f43ccdac825eb5509bf5da13a7c9d3127a3c276887fbdf5",
+      "duration": 6.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-16-06.763Z-V-YGv7tusHhjuJX5G196ArNeQD0l5EIuk.jpg",
+      "file": "poster.jpg",
+      "bytes": 56924,
+      "sha256": "90ece0331fe7aa2896e7bde1bc9a8fbe2c35ddd3ff23c5e237e17b42123dd87e",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

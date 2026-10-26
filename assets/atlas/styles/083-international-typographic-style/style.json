@@ -1,0 +1,75 @@
+{
+  "id": 83,
+  "name": "International Typographic Style",
+  "family": "Art & Design Movements",
+  "description": "A 1960s Zürich-school concert-style poster: strict 12-column modular grid, enormous flush-left grotesk set tight, an asymmetric field of rotating concentric arc segments over a red disc, and small precise info blocks hung from the grid — red, black and white only.",
+  "explainerNotes": "Explainer: A Zürich-school information sequence on the same 12-column grid: the headline shrinks into a running header, pages change with a column-by-column red wipe, hairline rules with solid heads carry cause and flow, numbers count in Inter 800 and the key result gets a red block slammed behind it.",
+  "motionNotes": "Motion: Rules draw out along the grid, the red disc opens and the ring segments spin in and decelerate until they lock onto a 22.5° module; the headline rises line by line out of its baseline masks and the info blocks step in column by column, then the rings drift like a slow mechanical score.",
+  "folder": "styles/083-international-typographic-style",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 70063,
+    "sha256": "3dbd77af4dac571485d6988a4d02450e23813c55e3a7d6d104db9a522c1b93e5",
+    "sourceStyleName": "International Typographic Style",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/swiss-grid.js",
+      "language": "js",
+      "characters": 33337,
+      "sha256": "4761a1fbc913cca08adaa37b1fec6dcd0bbd30f212fa95872997d433bb3cc6cf"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-12.776Z-DPgbv9yIiT0n0VAjulyoLwGyX7tog-hiF.mp4",
+      "file": "explainer.mp4",
+      "bytes": 756695,
+      "sha256": "2938ccd23d3c5461e60462f75596e042408085956a6ad66550c82782644486f1",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-12.283Z-lSuJTAsRgYl1SbHgI9nX4ELPfwePo5U5H.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 351578,
+      "sha256": "3eb0a341dc82f07c3aa6244354ab8268297022da3c82f86e5066a1597017669e",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-11.994Z-YpLmf2nXhER7DY49FabkMs7qzRQiqcbSX.jpg",
+      "file": "poster.jpg",
+      "bytes": 69568,
+      "sha256": "9099e7f8fdfd44252b97e73c22cb529558f39382498f65e6be5539d9c8de6fe2",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

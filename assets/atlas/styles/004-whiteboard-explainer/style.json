@@ -1,0 +1,73 @@
+{
+  "id": 4,
+  "name": "Whiteboard Explainer",
+  "family": "Hand-Drawn",
+  "description": "Dry-erase marker on a glossy whiteboard: streaky chisel-tip strokes with pooled edges, wobbly double-traced boxes and arrows, a ghost of the last erased lesson, and a soft ceiling-light sheen.",
+  "explainerNotes": "Explainer: A marker in hand draws the diagram while the camera follows it across one big board; the felt eraser wipes the loop away (leaving ghost residue) to make room for the accuracy chart, and numbers are re-scrawled in marker.",
+  "motionNotes": "Motion: Each stroke draws on in sequence like a hand drawing it live, with labels written letter by letter and the sheen drifting slightly as the camera breathes.",
+  "folder": "styles/004-whiteboard-explainer",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 93054,
+    "sha256": "558eec6e56aa489f0f5b97f87abce85b3582e996a996bfc59771ec96d19f535f",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/whiteboard.js",
+      "language": "js",
+      "characters": 56615,
+      "sha256": "91dac557e43724542be84ee40d19b47df560afe1875f871af2bf8c409fd716e3"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-27.358Z-AShiiN6FvNIRaRTrNIn90QWrJVx6o086U.mp4",
+      "file": "explainer.mp4",
+      "bytes": 826337,
+      "sha256": "77dc3da87c75b37be12039057ef7bd07325c43d7337a91746556774b634222c8",
+      "duration": 15.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-26.970Z-UaduH1TrhJ4kKpuF6o2bJ1ge_Ctg0k4O4.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 104316,
+      "sha256": "427331dcb8a86431a1c63da7d94da7ed327bd21a47bdcb2b4d58968817c2b68c",
+      "duration": 6.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T17-53-26.558Z-GJPCWRQpkzIbYGsIq1GYDSyGZPyJcQquP.jpg",
+      "file": "poster.jpg",
+      "bytes": 54679,
+      "sha256": "ce52c9be6be70e12f5cb5cc0f260dd54e720a6e5b22110b487bafc98720844cc",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}

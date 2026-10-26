@@ -1,0 +1,75 @@
+{
+  "id": 81,
+  "name": "Guilloché Security Print",
+  "family": "Generative & Type",
+  "description": "Banknote-grade lathe work: hairline hypotrochoid rosettes and woven sine-ring meshes in split-fountain iris inks on fibred security paper, with engraved serif lettering, microtext and red serials.",
+  "explainerNotes": "Explainer: A sheet of five security-printed notes the camera pans across; the model is a lathe rosette whose passes start out of register and are brought into register by each correction, with engraved double-rule arrows, red numbering-machine counters and rubber cancellation stamps for WRONG / VERIFIED / CERTIFIED.",
+  "motionNotes": "Motion: Like a geometric lathe plotting the plate: the underprint waves and border ropes trace on, each rosette band is drawn pen-pass by pen-pass, the engraved title is wiped in, the red serials are stamped digit by digit; then the meshes slowly counter-rotate into shimmering moiré and a light glint crosses the note.",
+  "folder": "styles/081-guilloch-security-print",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 84995,
+    "sha256": "adebf5236a89f9a94b19c13e6e3bd1c54fe163844698f7b08969c3c49019a08c",
+    "sourceStyleName": "Guilloché Security Print",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/spirograph.js",
+      "language": "js",
+      "characters": 48069,
+      "sha256": "2f4acccdec8dea9fef70f760e7f0f63f20330262d41839f1f7308927fed6ef94"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-06.896Z-v_kGe4QEB3ECia-XpQXpSC5lLd1wYes4y.mp4",
+      "file": "explainer.mp4",
+      "bytes": 1865960,
+      "sha256": "016b67fa948498b42e39e128013e4bb76c420a731b49241954aa90478ae54036",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-06.370Z-5NsLbJxX6bTKvlvftSdKLTRHFcUw-Fp3q.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 962188,
+      "sha256": "23432941ddd5318b0aa178049b4d651f0ccebf8063920e8c9a9b2aed0b5f512d",
+      "duration": 7.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-19-06.015Z--eW-sLDmNGRksAmgJRXYmQOCRNN5SKTNW.jpg",
+      "file": "poster.jpg",
+      "bytes": 102170,
+      "sha256": "a1e281f455a9b519459b89c7a19611714e70fafcc25daffda2ff3df74e212631",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view",
+  "sourceWarnings": []
+}

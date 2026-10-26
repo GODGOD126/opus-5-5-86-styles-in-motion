@@ -1,0 +1,73 @@
+{
+  "id": 15,
+  "name": "Isometric Pastel",
+  "family": "Dimensional",
+  "description": "Clean vector isometric illustration: true 30° projection, flat three-tone face shading, soft pastel palette with a single coral accent, tiny people for scale and long soft shadows on a floating tile.",
+  "explainerNotes": "Explainer: One long isometric factory floor (data shelves → conveyor → glass-top neural machine → monitor → bar chart) that the camera glides along beat to beat, with white label tags pinned to objects, curved dashed connectors, a counting billboard and an accuracy tag riding the newest bar.",
+  "motionNotes": "Motion: The floating tile rises into frame, buildings, tanks and racks pop up one by one on springy overshoot, then LEDs blink, fans spin, data cubes stream up and tiny workers stroll during a slow camera push.",
+  "folder": "styles/015-isometric-pastel",
+  "prompt": {
+    "file": "prompt.txt",
+    "characters": 102647,
+    "sha256": "cddb3bf7b2d642f96252db05a05f40bb8309cc3cd0ee1be06875e755b9fbeebd",
+    "options": {
+      "voiceover": false,
+      "storyboardFirst": true
+    }
+  },
+  "codeBlocks": [
+    {
+      "path": "reference/lib/harness.js",
+      "language": "js",
+      "characters": 6911,
+      "sha256": "73af921eb54fb466934091b36147c3bad2397aeb235a72635a22cb1d2e329f5c"
+    },
+    {
+      "path": "reference/lib/sound.js",
+      "language": "js",
+      "characters": 21881,
+      "sha256": "b44355da15b0a639fa8cb62965496f55f5b4fa4d30e3bd79c9d68cae0abf8f93"
+    },
+    {
+      "path": "reference/styles/isometric.js",
+      "language": "js",
+      "characters": 66178,
+      "sha256": "a50cb2340c8ba38602996d71859c7cf98bd543315b0164ee8ac5b7b9cc25b895"
+    }
+  ],
+  "media": {
+    "explainer": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-42.310Z-ZrURG5UN9dm9MWVYpwhYGhr95RaN9OBE9.mp4",
+      "file": "explainer.mp4",
+      "bytes": 962368,
+      "sha256": "c15d347fb89507a23cdd856e75f5848909504a93ed39c857c8ca5b2eab5c6513",
+      "duration": 14.5,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 1,
+      "fullDecodePassed": true
+    },
+    "styleClip": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-41.805Z-19tf6Sqc0wT2rBtxZg4uKesRsD0fIKGCQ.mp4",
+      "file": "style-clip.mp4",
+      "bytes": 217118,
+      "sha256": "57e6c2201a376e301fc65d0ca03653972fb14da2a8e4d115fe19b44066ad023d",
+      "duration": 5.0,
+      "width": 960,
+      "height": 540,
+      "fps": "30/1",
+      "audioTracks": 0,
+      "fullDecodePassed": true
+    },
+    "poster": {
+      "url": "https://cdn.futurepedia.io/2026-10-14T18-15-41.521Z-0zhdWtHJe4zUQH2BRaaMWguBxwX51lWxm.jpg",
+      "file": "poster.jpg",
+      "bytes": 36892,
+      "sha256": "d1742723c74d89c6535117b7c3c9e23e45ce073b06d6fcff50a906fea09e5f8c",
+      "width": 800,
+      "height": 450
+    }
+  },
+  "sourcePage": "https://www.futurepedia.io/resources/ai-style-atlas/view"
+}
