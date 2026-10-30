@@ -1,0 +1,20 @@
+[
+  {
+    "id": 87,
+    "name": "Talking Head",
+    "nameZh": "口播类",
+    "family": "Presenter Overlays",
+    "familyZh": "口播动效",
+    "description": "阿朱的口播节目参考：米白桌面、玻璃素材框、人物小窗与全屏连续切换、真实资料与口播同步、关键动作音效。适合知识、商业、科普与操作讲解；支持真人或虚拟形象原视频。",
+    "motionNotes": "以口播时钟驱动人物扩缩、卡片展开汇聚、文档翻页、对比演示与减速拨盘；保留原声与语义停顿。",
+    "explainerNotes": "先精剪重说与废弃起句，再让真实材料和解释动画服务每一句信息；约20秒样片确认后扩展。",
+    "folder": "assets/custom/talking-head",
+    "guide": "references/talking-head.md",
+    "sourceCredit": "阿朱 · 用户自制节目",
+    "modelProvenance": "用户认可的自制作品；不声明由 Opus 5.5 制作",
+    "poster": "poster.jpg",
+    "explainer": "explainer.mp4",
+    "styleClip": "style-clip.mp4",
+    "sourceEntry": "source/index.html"
+  }
+]

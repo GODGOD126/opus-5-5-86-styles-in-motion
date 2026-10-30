@@ -1,5 +1,7 @@
 # 研究用户选定的真实风格
 
+以下文件结构适用于原始86种。扩展风格读取 `custom-style-index.json` 指定的 guide 和 sourceEntry；口播类按 `talking-head.md` 研究完整成片、剪辑与源码，不要求具有原站 prompt/codeBlocks 结构。
+
 首次推荐先读完整精简索引、候选元数据并查看三张封面；用户选定后再深入研究所选风格。每种的文件夹结构：
 
 ```

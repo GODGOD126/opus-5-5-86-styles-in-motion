@@ -1,0 +1,15 @@
+Cabin materials: Poly Haven (CC0 / Public Domain)
+
+Japanese Cedar Planks
+https://polyhaven.com/a/japanese_cedar_planks
+Local maps: cedar-diff.jpg (2k), cedar-normal.jpg (OpenGL, 1k), cedar-rough.jpg (1k).
+
+Oak Wood Planks
+https://polyhaven.com/a/oak_wood_planks
+Local maps: oak-diff.jpg (2k), oak-normal.jpg (OpenGL, 1k), oak-rough.jpg (1k).
+
+License: https://polyhaven.com/license
+https://creativecommons.org/publicdomain/zero/1.0/
+Downloaded from official dl.polyhaven.org URLs returned by api.polyhaven.com on 2026-10-27.
+Every file was checked against its official MD5. No external runtime dependencies.
+Maps are unchanged. The scene adjusts their repeat, material tint and lighting.

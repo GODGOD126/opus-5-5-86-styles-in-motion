@@ -1,0 +1,12 @@
+Journey to the West — 20-second ink wash animation sample
+
+Original scene design, characters, timeline, player and synthesized sound: this project.
+Reference: Futurepedia AI Style Atlas, style 032, Sumi-e Ink Wash.
+https://www.futurepedia.io/resources/ai-style-atlas/view
+
+harness.js preserves the archived reference helper code.
+ink.js extracts the reference's brush and rice-paper routines, with an export wrapper.
+Reference archive attribution is retained here; local archival access does not establish redistribution permission.
+kaiti.ttf is a local Windows KaiTi font copied for reliable local playback; external redistribution has not been licensed by this project.
+
+All dependencies are local. No remote fonts, paid audio services, analytics or API credentials.

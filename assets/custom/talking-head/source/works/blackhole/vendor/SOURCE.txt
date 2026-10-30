@@ -1,0 +1,7 @@
+Style research and shared helper source:
+Futurepedia AI Style Atlas #21 Ukiyo-e Woodblock
+https://www.futurepedia.io/resources/ai-style-atlas/view
+Local skill archive: claude-opus-5-5-new/assets/atlas/styles/021-ukiyo-e-woodblock
+harness.js and sound.js copied unchanged from the archived reference.
+Astronomy drawings, motion model, timing, controls and score are project adaptations.
+Local inclusion does not establish permission to redistribute the original library.

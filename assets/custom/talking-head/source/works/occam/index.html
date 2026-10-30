@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark"><title>奥卡姆剃刀 · 隐藏线框样片</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<main>
+  <canvas id="stage" width="1280" height="720" role="img" aria-label="奥卡姆剃刀：用线框场景演示剔除多余假设"></canvas>
+  <div class="controls" aria-label="视频播放器">
+    <button id="play" aria-label="播放">播放</button>
+    <button id="replay" aria-label="重播">↺</button>
+    <input id="timeline" type="range" min="0" max="22" step="0.1" value="0" aria-label="播放进度">
+    <output id="clock">00:00 / 00:22</output>
+    <button id="sound" aria-pressed="true" aria-label="声音开启">声音 开</button>
+    <button id="loop" aria-pressed="false" aria-label="循环关闭">循环 关</button>
+    <button id="full" aria-label="全屏">⛶</button>
+  </div>
+  <p id="status" role="status" hidden></p>
+</main>
+<script src="sound.js"></script><script src="scene.js"></script><script src="player.js"></script>
+</body></html>

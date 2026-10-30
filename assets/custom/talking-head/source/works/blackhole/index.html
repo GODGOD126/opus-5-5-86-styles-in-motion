@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><link rel="icon" href="data:,">
+<title>黑洞 · 浮世绘动效样片</title>
+<style>
+@font-face{font-family:Woodblock;src:url('assets/woodblock-serif.ttf') format('truetype');font-weight:100 900;font-display:block}
+*{box-sizing:border-box}body{margin:0;background:#e8ddc4;color:#192b3e;font-family:"Microsoft YaHei",sans-serif;min-height:100vh;display:grid;place-items:center}.player{width:min(100%,1600px);padding:12px}canvas{display:block;width:100%;aspect-ratio:16/9;background:#ecdfc2;border:1px solid #a89c82}nav{display:flex;align-items:center;gap:14px;padding:14px 4px 6px}button{font:inherit;font-size:14px;color:inherit;border:1px solid #988d77;background:transparent;padding:8px 16px;cursor:pointer;white-space:nowrap}button:hover{background:#d5c8aa}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #ae472f;outline-offset:3px}input{flex:1;min-width:70px;accent-color:#234565;cursor:pointer}output{font:13px monospace;white-space:nowrap}.meta{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:12px;color:#716954;padding:6px 4px}a{color:inherit;text-underline-offset:3px}#status{min-height:18px;margin:0}button:disabled{opacity:.5;cursor:wait}@media(max-width:650px){.player{padding:6px}nav{gap:7px;flex-wrap:wrap}button{padding:8px 11px}input{order:4;flex-basis:100%}.meta{font-size:10px}}
+</style></head><body><main class="player">
+<canvas id="film" width="1280" height="720" role="img" aria-label="黑洞科普动画：光路弯曲、事件视界与外部吸积盘"></canvas>
+<nav aria-label="样片播放控制"><button id="play" disabled>播放</button><button id="replay" disabled>重播</button><input id="time" type="range" min="0" max="22" step="0.05" value="0" aria-label="播放进度（秒）" disabled><output id="clock">00:00 / 00:22</output><button id="sound" aria-pressed="true">声音 开</button></nav>
+<div class="meta"><p id="status" role="status">正在准备木刻画面…</p><a href="../design-preview.html">查看设计图</a></div>
+</main><script src="vendor/harness.js"></script><script src="vendor/sound.js"></script><script src="motion.js"></script><script src="scene.js"></script><script src="player.js"></script></body></html>

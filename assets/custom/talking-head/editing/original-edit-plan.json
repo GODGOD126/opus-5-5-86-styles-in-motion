@@ -1,0 +1,444 @@
+{
+  "source": "UNBUNDLED/original-untrimmed.mov",
+  "srt": "original.srt",
+  "output": "ARCHIVAL-NOT-EXECUTABLE",
+  "title": "手把手复刻 Vibe 知识大赏 · 口播精剪",
+  "maxGap": 0.3,
+  "noiseDb": -35,
+  "encoder": "auto",
+  "cuts": [
+    {
+      "start": 48.233333,
+      "end": 50.5,
+      "reason": "删除废弃起句‘而是直接大路’，保留下次完整‘而是直接大力出奇迹’"
+    },
+    {
+      "start": 60.7,
+      "end": 62.666667,
+      "reason": "句内重说：删除第一次‘每一个都包含’，保留后面连续完整表达"
+    },
+    {
+      "start": 79.5,
+      "end": 92.266667,
+      "reason": "删除‘后来呢’及两遍未完成的‘后来由于每次都要从这86个风格中来选’，保留承接‘感觉有点麻烦’的完整一遍"
+    },
+    {
+      "start": 104.1,
+      "end": 121.733333,
+      "reason": "删除未完成的使用说明及第二次起句中重复的‘使用它倒’，保留完整‘使用它倒是很方便’与后续步骤"
+    },
+    {
+      "start": 158.5,
+      "end": 162.6,
+      "reason": "删除‘比如这比如这个’的废弃起句，保留后面完整知识科普例子"
+    },
+    {
+      "start": 169.766667,
+      "end": 170.533333,
+      "reason": "句内重说：只删除‘这是’，保留‘这个是我让他随便做的一个3D剪辑效果’"
+    },
+    {
+      "start": 173.733333,
+      "end": 189.366667,
+      "reason": "删除未完成的‘有没有一点’及重复提问和录制自语，保留最后完整‘大家觉得怎么样’"
+    },
+    {
+      "start": 203.466667,
+      "end": 204.466667,
+      "reason": "句内重说：删除第一次‘我已经在’，保留后面完整开源说明"
+    },
+    {
+      "start": 221.233333,
+      "end": 224.4,
+      "reason": "保留结尾完整尾音后，去掉录制结束空白和非口播尾部杂音"
+    }
+  ],
+  "captionOverrides": {
+    "2": "今天我就手把手带着大家做出 Vibe",
+    "3": "知识大赏那种千万级播放量的视频",
+    "7": "尤其是 Claude Opus 5.5 做出来的效果",
+    "20": "我汇集了86个 Claude Opus",
+    "23": "每一个都",
+    "29": "效果就能无限接近 Opus 5.5",
+    "44": "使用它倒是很方便",
+    "61": "这个是我让他随便做",
+    "74": "我已经在 GitHub 上开源了",
+    "75": "最后我感觉 Vibe 知识大赏这"
+  },
+  "dropCaptionIds": [
+    18,
+    30,
+    31,
+    32,
+    33,
+    41,
+    42,
+    43,
+    58,
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "protectSilence": [],
+  "captionTrack": [
+    {
+      "sourceStart": 0.2,
+      "sourceEnd": 2.766,
+      "text": "这些是我用 Codex 做出来的视频"
+    },
+    {
+      "sourceStart": 3,
+      "sourceEnd": 4.3,
+      "text": "今天我就手把手"
+    },
+    {
+      "sourceStart": 4.3,
+      "sourceEnd": 6.633,
+      "text": "带着大家做出 Vibe 知识大赏"
+    },
+    {
+      "sourceStart": 6.633,
+      "sourceEnd": 8.8,
+      "text": "那种千万级播放量的视频"
+    },
+    {
+      "sourceStart": 8.9,
+      "sourceEnd": 10.133,
+      "text": "大家好，我是阿朱"
+    },
+    {
+      "sourceStart": 10.333,
+      "sourceEnd": 11.9,
+      "text": "最近用纯代码的方式"
+    },
+    {
+      "sourceStart": 11.9,
+      "sourceEnd": 13.566,
+      "text": "制作视频非常的火呀"
+    },
+    {
+      "sourceStart": 13.566,
+      "sourceEnd": 16.333,
+      "text": "尤其是 Claude Opus 5.5 做出来的效果"
+    },
+    {
+      "sourceStart": 16.8,
+      "sourceEnd": 18.7,
+      "text": "那是甩之前的 Codex 加"
+    },
+    {
+      "sourceStart": 18.7,
+      "sourceEnd": 21.6,
+      "text": "HyperFrames 或者 Remotion 几条街呀"
+    },
+    {
+      "sourceStart": 21.933,
+      "sourceEnd": 25.2,
+      "text": "因为 GPT 的前端审美确实非常的拉垮"
+    },
+    {
+      "sourceStart": 25.733,
+      "sourceEnd": 27.766,
+      "text": "所以我最近一直在研究如何让"
+    },
+    {
+      "sourceStart": 27.766,
+      "sourceEnd": 31.666,
+      "text": "Codex 也做出 Opus 5.5 级别的动效视频"
+    },
+    {
+      "sourceStart": 31.8,
+      "sourceEnd": 33.4,
+      "text": "我尝试过很多的方法"
+    },
+    {
+      "sourceStart": 33.4,
+      "sourceEnd": 36.466,
+      "text": "尤其是各种动效提示词都试过了"
+    },
+    {
+      "sourceStart": 36.533,
+      "sourceEnd": 38.1,
+      "text": "效果总是不好"
+    },
+    {
+      "sourceStart": 40.3,
+      "sourceEnd": 42.533,
+      "text": "最后终于找到一个好方法"
+    },
+    {
+      "sourceStart": 45.1,
+      "sourceEnd": 48.2,
+      "text": "就是不再基于任何抽象的提示词"
+    },
+    {
+      "sourceStart": 50.566,
+      "sourceEnd": 52.8,
+      "text": "而是直接大力出奇迹"
+    },
+    {
+      "sourceStart": 52.9,
+      "sourceEnd": 57.1,
+      "text": "我汇集了86个 Claude Opus 5.5 制作出来的视频"
+    },
+    {
+      "sourceStart": 58.7,
+      "sourceEnd": 60.7,
+      "text": "每一个都是不同的风格"
+    },
+    {
+      "sourceStart": 62.8,
+      "sourceEnd": 65.5,
+      "text": "每一个都包含视频完整源代码"
+    },
+    {
+      "sourceStart": 65.6,
+      "sourceEnd": 67.167,
+      "text": "提示词、截图"
+    },
+    {
+      "sourceStart": 67.2,
+      "sourceEnd": 68.966,
+      "text": "和15秒的视频案例"
+    },
+    {
+      "sourceStart": 71.066,
+      "sourceEnd": 74.666,
+      "text": "当 Codex 能够获得某个风格这么多的信息后"
+    },
+    {
+      "sourceStart": 74.666,
+      "sourceEnd": 76.666,
+      "text": "再来制作你的主题视频"
+    },
+    {
+      "sourceStart": 76.733,
+      "sourceEnd": 79.5,
+      "text": "效果就能无限接近 Opus 5.5"
+    },
+    {
+      "sourceStart": 92.266,
+      "sourceEnd": 93.8,
+      "text": "后来由于每次都要从"
+    },
+    {
+      "sourceStart": 93.8,
+      "sourceEnd": 95.866,
+      "text": "这86个风格中来选"
+    },
+    {
+      "sourceStart": 96.2,
+      "sourceEnd": 97.166,
+      "text": "感觉有点麻烦"
+    },
+    {
+      "sourceStart": 97.166,
+      "sourceEnd": 100.066,
+      "text": "我就直接把这86个风格做成了一个 skill"
+    },
+    {
+      "sourceStart": 100.166,
+      "sourceEnd": 101.366,
+      "text": "这个 skill 很大"
+    },
+    {
+      "sourceStart": 101.366,
+      "sourceEnd": 104.066,
+      "text": "包含了这86个风格的所有信息"
+    },
+    {
+      "sourceStart": 121.8,
+      "sourceEnd": 123.266,
+      "text": "使用它倒是很方便"
+    },
+    {
+      "sourceStart": 125.1,
+      "sourceEnd": 125.933,
+      "text": "调用它之后"
+    },
+    {
+      "sourceStart": 125.933,
+      "sourceEnd": 128.533,
+      "text": "你直接跟它说你本期视频要做的主题"
+    },
+    {
+      "sourceStart": 128.733,
+      "sourceEnd": 133.2,
+      "text": "它会自动从中选择三个最适配的风格让你来挑选"
+    },
+    {
+      "sourceStart": 137.533,
+      "sourceEnd": 139.933,
+      "text": "选择后，它会先制作前20秒"
+    },
+    {
+      "sourceStart": 140,
+      "sourceEnd": 141.333,
+      "text": "通常我看完这20秒"
+    },
+    {
+      "sourceStart": 141.333,
+      "sourceEnd": 143.266,
+      "text": "还是会给它提一些优化建议"
+    },
+    {
+      "sourceStart": 143.5,
+      "sourceEnd": 145.366,
+      "text": "改好后，后面它就会按照"
+    },
+    {
+      "sourceStart": 145.366,
+      "sourceEnd": 146.933,
+      "text": "这个 skill 和我的需求"
+    },
+    {
+      "sourceStart": 146.933,
+      "sourceEnd": 148.733,
+      "text": "把整个视频给做完"
+    },
+    {
+      "sourceStart": 154.166,
+      "sourceEnd": 156.4,
+      "text": "比如这个是商业讲解类型的"
+    },
+    {
+      "sourceStart": 156.4,
+      "sourceEnd": 158.3,
+      "text": "介绍 Anthropic 这家公司"
+    },
+    {
+      "sourceStart": 162.733,
+      "sourceEnd": 164.7,
+      "text": "比如这个是知识科普类型的"
+    },
+    {
+      "sourceStart": 164.7,
+      "sourceEnd": 166.566,
+      "text": "介绍奥卡姆剃刀的原理"
+    },
+    {
+      "sourceStart": 170.6,
+      "sourceEnd": 173.666,
+      "text": "这个是我让它随便做的一个3D剪辑效果"
+    },
+    {
+      "sourceStart": 189.366,
+      "sourceEnd": 190.566,
+      "text": "大家觉得怎么样？"
+    },
+    {
+      "sourceStart": 192.366,
+      "sourceEnd": 193.133,
+      "text": "顺便说一句啊"
+    },
+    {
+      "sourceStart": 193.133,
+      "sourceEnd": 196.166,
+      "text": "这个模型我用的是 GPT-6 Astra Max"
+    },
+    {
+      "sourceStart": 198.1,
+      "sourceEnd": 199.866,
+      "text": "而这个 skill 唯一的缺点呢"
+    },
+    {
+      "sourceStart": 199.866,
+      "sourceEnd": 201.066,
+      "text": "就是确实有点大"
+    },
+    {
+      "sourceStart": 201.066,
+      "sourceEnd": 202.6,
+      "text": "总共有440兆"
+    },
+    {
+      "sourceStart": 204.533,
+      "sourceEnd": 206.5,
+      "text": "我已经在 GitHub 上开源了"
+    },
+    {
+      "sourceStart": 206.533,
+      "sourceEnd": 210.266,
+      "text": "最后我感觉 Vibe 知识大赏这类视频给的流量啊"
+    },
+    {
+      "sourceStart": 210.266,
+      "sourceEnd": 211.3,
+      "text": "已经变少了"
+    },
+    {
+      "sourceStart": 211.4,
+      "sourceEnd": 213.166,
+      "text": "非常考验你的选题"
+    },
+    {
+      "sourceStart": 215.6,
+      "sourceEnd": 217.733,
+      "text": "好了，祝大家视频爆火"
+    },
+    {
+      "sourceStart": 217.733,
+      "sourceEnd": 218.533,
+      "text": "我是阿朱"
+    },
+    {
+      "sourceStart": 218.533,
+      "sourceEnd": 221.1,
+      "text": "让我们一起在 AI 潮头冲浪"
+    }
+  ],
+  "revisionNotes": [
+    {
+      "sourceStart": 3,
+      "sourceEnd": 8.8,
+      "request": "字幕保持单行，优化断句和识别错误",
+      "change": "整理 Vibe 知识大赏的名称，按意群重分开场字幕并调整切换时间"
+    },
+    {
+      "sourceStart": 52.9,
+      "sourceEnd": 57.1,
+      "request": "不要把专名和版本号拆开",
+      "change": "合并 Claude Opus 5.5 所在完整表达，字幕覆盖整句语音"
+    },
+    {
+      "sourceStart": 62.8,
+      "sourceEnd": 68.966,
+      "request": "修正不合理的断词，按断句调整显示时长",
+      "change": "将源代码、提示词、截图和视频案例按意群重排，保留提示词完整并加入必要顿号"
+    },
+    {
+      "sourceStart": 97.166,
+      "sourceEnd": 100.066,
+      "request": "字幕断句要自然",
+      "change": "合并被拆开的86个风格和制作skill的完整表达"
+    },
+    {
+      "sourceStart": 125.933,
+      "sourceEnd": 133.2,
+      "request": "优化断句、时间和单行显示",
+      "change": "合并主题说明和风格选择的完整意群，避免你、最悬在上一条末尾"
+    },
+    {
+      "sourceStart": 170.6,
+      "sourceEnd": 173.666,
+      "request": "纠错并改善断句",
+      "change": "根据软件指代统一为它，合并3D剪辑效果的完整表达"
+    },
+    {
+      "sourceStart": 189.366,
+      "sourceEnd": 190.566,
+      "request": "按视频字幕规范使用标点",
+      "change": "明确疑问保留问号，普通陈述句尾不加句号"
+    },
+    {
+      "sourceStart": 206.533,
+      "sourceEnd": 211.3,
+      "request": "断句不能拆开词语",
+      "change": "合并这类视频所在的意群，按原声延续显示至流量说明结束"
+    }
+  ],
+  "previousVersion": "预览-v1",
+  "archiveNote": "Source and output paths sanitized. Original untrimmed footage is not bundled; cut decisions are historical evidence, not a runnable job."
+}

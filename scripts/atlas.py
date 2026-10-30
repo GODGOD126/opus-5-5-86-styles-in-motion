@@ -4,6 +4,7 @@ import hashlib
 import json
 import sys
 from pathlib import Path
+import custom_styles
 
 ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / "assets" / "atlas"
@@ -59,15 +60,23 @@ def main():
     group.add_argument("--verify", action="store_true")
     args = parser.parse_args()
     records = json.loads((ROOT / "references" / "style-index.json").read_text(encoding="utf-8"))
+    extra = custom_styles.records()
     if args.verify:
-        return verify(records)
+        original_result = verify(records)
+        extra_result = custom_styles.verify(extra)
+        return max(original_result, extra_result)
     if args.list:
-        for record in records:
+        for record in records + extra:
             print(f"{record['id']:02d}\t{record['name']}\t{record['family']}")
+        return 0
+    custom = next((r for r in extra if r['id'] == args.id), None)
+    if custom:
+        print(json.dumps({'directory': str(custom_styles.inside(ROOT, custom['folder'])),
+                          'style': custom}, ensure_ascii=False, indent=2))
         return 0
     match = next((r for r in records if r["id"] == args.id), None)
     if match is None:
-        parser.error(f"Unknown style ID: {args.id}; use 1..86")
+        parser.error(f"Unknown style ID: {args.id}; use --list")
     folder = inside(ATLAS, match["folder"])
     detail = json.loads((folder / "style.json").read_text(encoding="utf-8"))
     print(json.dumps({"directory": str(folder), "style": detail}, ensure_ascii=False, indent=2))

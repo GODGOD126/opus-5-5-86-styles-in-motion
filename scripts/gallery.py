@@ -4,6 +4,7 @@ import json
 import shutil
 import sys
 from pathlib import Path
+import custom_styles
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -38,6 +39,16 @@ def export(destination, update=False):
             relative = f'videos/{record["id"]:03d}-{filename}'
             sources.append((video, relative))
             data[-1][key] = relative
+    for record in custom_styles.records():
+        base = custom_styles.inside(ROOT, record['folder'])
+        item = {k: record[k] for k in ('id', 'name', 'nameZh', 'family', 'familyZh', 'description')}
+        item['sourceCredit'] = record['sourceCredit']
+        for field, key, relative in [('poster', 'image', f'posters/{record["id"]:03d}.jpg'),
+                                     ('explainer', 'explainer', f'videos/{record["id"]:03d}-explainer.mp4'),
+                                     ('styleClip', 'styleClip', f'videos/{record["id"]:03d}-style-clip.mp4')]:
+            sources.append((custom_styles.inside(base, record[field]), relative))
+            item[key] = relative
+        data.append(item)
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c')
     # Updating is explicit and restricted to an existing gallery generated here.
     if destination.exists():

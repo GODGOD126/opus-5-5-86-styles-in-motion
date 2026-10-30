@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>马里奥剪辑台 · 20 秒</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="player.css">
+</head>
+<body>
+<main>
+  <div id="picture"><canvas id="stage" aria-label="立体剪辑台上的马里奥" role="img"></canvas><div id="loading">正在搭建剪辑台…</div></div>
+  <nav aria-label="动画播放器">
+    <button id="play" aria-label="播放" disabled>播放</button>
+    <button id="replay" aria-label="重播" disabled>重播</button>
+    <input id="timeline" aria-label="播放进度" type="range" min="0" max="20" step="0.01" value="0">
+    <output id="clock">00:00 / 00:20</output>
+    <button id="sound" aria-label="声音开启" aria-pressed="true">声音 开</button>
+    <button id="loop" aria-label="循环关闭" aria-pressed="false">循环 关</button>
+    <button id="full" aria-label="全屏">全屏</button>
+  </nav>
+  <a class="credit" href="assets/music-credits.txt" target="_blank" rel="noopener">音乐：Pinball Spring 160 · Kevin MacLeod · CC BY 4.0</a>
+  <p id="status" role="status" hidden></p>
+</main>
+<script src="sound-kit.js"></script>
+<script type="module" src="player.js"></script>
+</body>
+</html>

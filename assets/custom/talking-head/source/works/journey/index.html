@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>西行 · 水墨动画样片</title>
+<style>
+@font-face{font-family:JourneyKai;src:url('./kaiti.ttf') format('truetype');font-display:block}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#191b19;color:#e8e1d3;font-family:system-ui,'Microsoft YaHei',sans-serif}body{min-height:100vh;display:grid;place-items:center;padding:24px}main{width:min(1440px,100%)}header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px}h1{font-family:JourneyKai,KaiTi,serif;font-weight:400;font-size:28px;letter-spacing:.24em;margin:0}header span{font-size:12px;color:#96998e;letter-spacing:.15em}.stage{position:relative;background:#eee6d3;aspect-ratio:16/9;overflow:hidden;box-shadow:0 12px 60px #0004}canvas{display:block;width:100%;height:100%;cursor:pointer}.center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);border:1px solid #fff6;border-radius:50%;width:68px;height:68px;background:#191b19b3;color:#fff;display:grid;place-items:center;cursor:pointer;backdrop-filter:blur(5px)}.center svg{margin-left:4px}.center[hidden]{display:none}.controls{display:flex;align-items:center;gap:16px;padding:17px 0}button{background:none;color:inherit;border:0;cursor:pointer;min-width:30px;min-height:32px;padding:5px}button:hover{color:#fff}button:focus-visible,input:focus-visible{outline:2px solid #c4a87c;outline-offset:4px}svg{width:21px;height:21px;display:block}#progress{flex:1;accent-color:#b7966a;height:3px;cursor:pointer;min-width:60px}output{font:12px ui-monospace,monospace;color:#b7b7ab;white-space:nowrap}#error{color:#e7a99a;font-size:14px}footer{color:#8d9185;font-size:12px;letter-spacing:.04em} @media(max-width:600px){body{padding:12px}header{margin-bottom:12px}h1{font-size:23px}.controls{gap:8px}header span{font-size:10px}footer{font-size:11px}}
+</style>
+</head><body><main>
+<header><h1>西行</h1><span>水墨样片 · 二十秒</span></header>
+<div class="stage"><canvas id="film" width="1280" height="720" aria-label="唐僧师徒四人西天取经，水墨动画"></canvas><button class="center" id="start" aria-label="开始播放"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3l15 9-15 9z"/></svg></button></div>
+<div class="controls">
+<button id="play" aria-label="播放"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3l15 9-15 9z"/></svg></button>
+<button id="replay" aria-label="重播"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 9a8 8 0 1 1 0 7M4 3v6h6"/></svg></button>
+<input id="progress" aria-label="播放进度" type="range" min="0" max="20" step="0.01" value="0"><output id="time">00:00 / 00:20</output>
+<button id="sound" aria-label="关闭声音" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 4L5 9H2v6h3l6 5zM15 8q5 4 0 8M18 4q9 8 0 16"/></svg></button>
+</div><footer>约 20 秒风格样片 · 确认后继续完整故事</footer><p id="error" role="alert" hidden></p>
+</main><script src="harness.js"></script><script src="ink.js"></script><script src="story.js"></script><script src="film.js"></script></body></html>

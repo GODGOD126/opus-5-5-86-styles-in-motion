@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>减肥的真相 · 24 秒拆分动效样片</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="player">
+<div class="screen"><canvas id="scene" width="1920" height="1080" aria-label="减肥的真相：热量缺口与保留肌肉的等距动画"></canvas></div>
+<div class="controls" aria-label="动画播放控制">
+<button id="play" type="button" aria-label="播放">播放</button>
+<button id="replay" type="button" aria-label="从头重播">重播</button>
+<output id="time" aria-live="off">0:00 / 0:24</output>
+<input id="progress" type="range" min="0" max="24" step="0.01" value="0" aria-label="播放进度（秒）">
+<button id="sound" type="button" aria-label="关闭声音" aria-pressed="true">声音 开</button>
+<button id="fullscreen" type="button" aria-label="全屏播放">全屏</button>
+</div>
+<audio id="music" preload="auto" src="assets/bgm.mp3"></audio>
+</main>
+<script src="motion.js"></script>
+<script src="geometry.js"></script>
+<script src="models.js"></script>
+<script src="animation.js"></script>
+<script src="player.js"></script>
+</body></html>

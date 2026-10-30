@@ -1,0 +1,21 @@
+Music: "Pinball Spring 160" — Kevin MacLeod (incompetech.com)
+Official track: https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100742
+Official source audio: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pinball%20Spring%20160.mp3
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+License and track metadata verified at the official source on 2026-10-27 (Asia/Shanghai).
+
+Changes: extracted source 00:00.000–00:20.000; reduced gain by 3.5 dB;
+5 ms opening fade; 250 ms closing fade at 19.750; re-encoded MP3 256 kb/s.
+No tempo or pitch change. Original retained in research/music-source/.
+Official tempo: 160 BPM. Audio spectral-flux grid fit: 160.000 BPM.
+Beat interval: 0.375 seconds; eighth note: 0.1875 seconds; 4/4 bar: 1.5 seconds.
+Musical source start/downbeat: 0.000 seconds; spectral-flux attack peak approx +0.011 seconds.
+For animation impact sync use 0.011 + n * 0.375 seconds.
+Section increase near 12.000 seconds (eight 4/4 bars after the opening).
+
+Recommended public credit:
+"Pinball Spring 160" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+https://creativecommons.org/licenses/by/4.0/
+Excerpt edited for length, gain and fades.

@@ -1,0 +1,30 @@
+本片：手把手复刻 Vibe 知识大赏 · 完整 HTML 视频，150 秒。
+原声与人物：10月27日(1).mov 的既有129.033秒精剪媒体；Astra 修正版单行字幕。人声音轨增益设为+3 dB（相对于原口播音轨，送入既有混音限幅前）；口播剪辑和内容不变，结束时改为姓名与结语的大字排版。
+口播背景音乐：用户提供的 D:/AI启蒙课/营销/素材/通用bgm.mp3，使用前129.033333秒，素材增益+10.7 dB，开头0.65秒淡入，127.55–129.033333秒淡出；本地依赖 assets/bgm-voice-bed.wav，48kHz双声道PCM。该素材文件实测平均-19.0 dBFS、综合响度-17.8 LUFS、真峰值-4.4 dBFS；按最新试听反馈，播放时音乐轨再降低10 dB，送入混音前平均约-29.0 dBFS。此曲在口播结束时停止，129.9秒开始的完整马里奥演示不叠加此BGM。
+开场六作品与后续举例：本项目 Anthropic、西游记、奥卡姆剃刀、黑洞、减肥的真相、马里奥剪辑台。原项目不修改；奥卡姆、马里奥使用已有 960×540 / 30 fps 视频缓存。
+86种风格：Futurepedia / AI Style Atlas，来自所选 Skill 的已归档原始视频和封面。https://www.futurepedia.io/resources/ai-style-atlas/view
+86个真实视频分别缩小后合成一条 1920×720 / 30 fps、8秒动态素材；每张卡片对应独立原视频。最终只解码这一条视频，所有飞入位置由主时间轴控制。
+具体参考：013 Product Launch Reveal、046 Glassmorphism UI、083 International Typographic Style；内容演示还使用 021 Ukiyo-e Woodblock 的原始视频、提示词摘句、源代码片段和各风格原始封面。
+四张热度截图来自相邻项目 用codex做出opus5.5/素材；图中数字为爱心数，不作为已验证播放量。1000万是口播表达的概念动画，不是六个作品的实际指标。
+Codex 图标：依用户要求采用官方 ChatGPT 黑色结形图标。本机 OpenAI 官方应用 app.asar /webview/assets/openai_logo_regular-ceb75a1754fa.svg，原样保存为 assets/chatgpt-logo.svg。
+Codex 操作画面为重绘演示，非真实操作录屏。模型胶囊、向上展开菜单与输入框参照当前官方图；按口播显示 GPT-6 Astra · Max，不展示企业专属 Daybreak 开关。
+官方模型选择器：https://developers.openai.com/images/codex/daybreak/daybreak-model-picker-v2.webp
+官方界面资料：https://learn.chatgpt.com/use-cases/getting-started-with-daybreak-blue
+官方 Skills 入口与调用方式：https://learn.chatgpt.com/docs/build-skills
+官方桌面产品选择器：https://learn.chatgpt.com/docs/use-chatgpt
+GitHub 卡片为 2026-10-27 实际公开页面截图，原图保留；网址：https://github.com/GODGOD126/opus-5-5-86-styles-in-motion
+440 MB 沿用原口播对 Skill 大小的表达；选题段不使用虚构流量数据。
+壁纸：此前经确认的 Codex ImageGen 原生米白苹果风格壁纸，未重新生成或编辑。
+粗圆大字：阿里妈妈方圆体 VF 完整可变 TTF（1.001，7043 字形），wght 700 / BEVL 100，并用同色描边强化饱满度；未修改字体文件，口播字幕字体不变。
+字体官网：https://www.alibabafonts.com/#/more
+字体文件镜像：https://github.com/huiikeung/jsdelivr/blob/main/AlimamaFangYuanTiVF-Thin.ttf
+字体授权：https://www.yuque.com/alimama_ai-font/vfse9w/fco5g1gifud8lls2?singleDoc
+音效：本地 sound-kit.js 合成库；按甩出、落位、文件汇聚、点击与关键切换编写独立时间表。无逐字提示音、循环装饰音或逐个86卡片的敲击声。
+提示词翻页：前代 claude-opus-5-5-style 技能已归档的 Motion Engineering 制作提示词，作者 rari / @0xwhrrari；仅展示原文摘录，不将其表述为用户逐字输入的聊天记录。
+原文：https://x.com/0xwhrrari/status/2105643919119696297
+86种风格原始示例与源码：Futurepedia · AI Style Atlas。原归档版权标注 © 2026 Futurepedia LLC. All rights reserved. 片尾画面已署名。
+片尾完整马里奥：本地马里奥剪辑台原场景，1600×900 / 30 fps / 20秒，原始时间0–20秒完整导出，无变速；从全片129.9秒播放。包含原项目完整音乐与动作音效。
+片尾音乐："Pinball Spring 160" — Kevin MacLeod (incompetech.com)，CC BY 4.0。
+曲目：https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100742
+许可：https://creativecommons.org/licenses/by/4.0/
+沿用原项目的20秒节选、音量与淡入淡出，详细说明见 works/mario/assets/music-credits.txt。原项目未修改。
