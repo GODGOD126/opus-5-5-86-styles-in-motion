@@ -1,0 +1,1 @@
+window.FILM_CONFIG = {};

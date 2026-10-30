@@ -16,5 +16,43 @@
     "explainer": "explainer.mp4",
     "styleClip": "style-clip.mp4",
     "sourceEntry": "source/index.html"
+  },
+  {
+    "id": 88,
+    "name": "Vibe Knowledge Film",
+    "nameZh": "Vibe 知识讲解",
+    "family": "Knowledge Cinema",
+    "familyZh": "知识叙事",
+    "description": "夜曲 Nocturne 用深色仪器与连续实验解释抽象机制；寓言 Fable 用温暖插画和角色行动解释行为心理。含独立导演方法与本地 Canvas 引擎，仅选中后启用。",
+    "motionNotes": "同一对象贯穿连续运镜，因果动作先后明确；字幕跟随理解节奏，拒绝仅靠换页和装饰光点。",
+    "explainerNotes": "事实核查、文案与分镜联合设计；最难镜头先做，约20秒连续机制样片确认后扩展。",
+    "folder": "assets/custom/vibe-knowledge-film",
+    "guide": "references/vibe-knowledge-film.md",
+    "sourceCredit": "HeyChengC · vibe-knowledge-film",
+    "modelProvenance": "原作者开源示例；未独立核实由 Opus 5.5 制作",
+    "poster": "poster.jpg",
+    "explainer": "nocturne.mp4",
+    "styleClip": "fable.mp4",
+    "sourceEntry": "examples/fold_C/index.html",
+    "videoLabels": {
+      "explainer": "夜曲 / Nocturne",
+      "styleClip": "寓言 / Fable"
+    },
+    "variants": [
+      {
+        "id": "C",
+        "name": "夜曲 / Nocturne",
+        "videoField": "explainer",
+        "poster": "poster.jpg",
+        "sourceEntry": "examples/fold_C/index.html"
+      },
+      {
+        "id": "B",
+        "name": "寓言 / Fable",
+        "videoField": "styleClip",
+        "poster": "fable-poster.jpg",
+        "sourceEntry": "examples/pigeon_B/index.html"
+      }
+    ]
   }
 ]

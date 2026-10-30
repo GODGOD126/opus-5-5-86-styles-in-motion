@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>__TITLE__</title>
+<style>
+@font-face{font-family:"VK Serif";src:url("__ENGINE_BASE__/fonts/NotoSerifSC-VF.ttf");font-weight:200 900}
+@font-face{font-family:"VK Sans"; src:url("__ENGINE_BASE__/fonts/NotoSansSC-VF.ttf"); font-weight:100 900}
+@font-face{font-family:"VK Latin";src:url("__ENGINE_BASE__/fonts/CormorantGaramond.ttf");font-weight:300 700;font-style:normal;font-feature-settings:"lnum" 1}
+@font-face{font-family:"VK Latin";src:url("__ENGINE_BASE__/fonts/CormorantGaramond-Italic.ttf");font-weight:300 700;font-style:italic;font-feature-settings:"lnum" 1}
+@font-face{font-family:"VK Lora"; src:url("__ENGINE_BASE__/fonts/Lora.ttf");font-weight:400 700;font-style:normal}
+@font-face{font-family:"VK Lora"; src:url("__ENGINE_BASE__/fonts/Lora-Italic.ttf");font-weight:400 700;font-style:italic}
+@font-face{font-family:"VK Mono"; src:url("__ENGINE_BASE__/fonts/JetBrainsMono.ttf");font-weight:100 800}
+@font-face{font-family:"VK Type"; src:url("__ENGINE_BASE__/fonts/CourierPrime-Regular.ttf")}
+*{box-sizing:border-box}body{margin:0;background:#0c0d12;color:#eee;font-family:system-ui,sans-serif;height:100dvh;display:flex;align-items:center;justify-content:center;overflow:hidden}
+main{width:min(100%,calc((100dvh - 104px)*16/9));max-width:1920px}canvas{width:100%;height:auto;display:block;aspect-ratio:16/9;background:#010104}nav{display:flex;align-items:center;gap:14px;padding:14px 20px;background:#171920}button{background:#252934;color:#eee;border:1px solid #454b59;border-radius:6px;padding:9px 15px;cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,input:focus-visible{outline:2px solid #eec672}input{flex:1;min-width:40px;accent-color:#eec672}output{font-variant-numeric:tabular-nums;font-size:13px}#status{font-size:12px;color:#b5b9c4;padding:0 20px;min-height:18px;margin:8px 0}audio{display:none}@media(max-width:600px){nav{gap:8px;padding:10px}button{padding:8px}output{font-size:11px}}
+</style></head><body data-ready="false" data-playing="false"><main>
+<canvas id="stage" aria-label="知识讲解动画"></canvas>
+<nav aria-label="视频控制"><button id="play" disabled>播放</button><button id="replay" disabled>重播</button><input id="time" aria-label="播放进度" type="range" min="0" max="20" step="0.01" value="0" disabled><output id="stamp">0.0s</output></nav>
+<p id="status" role="status">加载本地字体…</p><audio id="sound" preload="auto"></audio>
+</main>
+<script>/* Own player replaces upstream private autoplay loop. */const cleanURL=new URL(location.href);if(cleanURL.searchParams.has('play')){cleanURL.searchParams.delete('play');history.replaceState(null,'',cleanURL);}</script>
+<script src="config.js"></script><script src="__ENGINE_BASE__/vk.js"></script><script src="__ENGINE_BASE__/vk-kit.js"></script>
+__EXTRA_SCRIPTS__
+<script src="film.js"></script><script src="__PLAYER_BASE__/player.js"></script>
+</body></html>

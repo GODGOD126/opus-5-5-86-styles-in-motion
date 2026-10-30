@@ -23,7 +23,7 @@
 <div class="tools"><input id="search" type="search" aria-label="搜索风格 / Search styles" placeholder="搜索名称、编号、分类 / Search styles"><select id="family" aria-label="风格分类 / Category"><option value="">全部分类 / All categories</option></select><span id="count" aria-live="polite"></span></div>
 </header>
 <main><div class="grid" id="grid"></div><p id="empty" hidden>没有匹配的风格 / No matching styles</p><noscript><p id="noscript">请启用 JavaScript / Please enable JavaScript.</p></noscript></main>
-<footer>风格示例来源 / Source: <a href="https://www.futurepedia.io/resources/ai-style-atlas/view" target="_blank" rel="noreferrer">Futurepedia AI Style Atlas</a> · © 2026 Futurepedia LLC · 口播类 / Talking Head: 阿朱</footer>
+<footer>风格示例来源 / Source: <a href="https://www.futurepedia.io/resources/ai-style-atlas/view" target="_blank" rel="noreferrer">Futurepedia AI Style Atlas</a> · © 2026 Futurepedia LLC · 口播类 / Talking Head: 阿朱 · Vibe Knowledge Film: <a href="https://github.com/HeyChengC/vibe-knowledge-film" target="_blank" rel="noreferrer">HeyChengC</a></footer>
 <dialog id="preview" aria-labelledby="large-title">
 <div class="modal-top"><h2 id="large-title"></h2><button id="close" type="button">关闭 / Close</button></div>
 <video id="example-video" controls playsinline preload="none" aria-label="风格案例视频 / Style example video"></video>
@@ -52,13 +52,13 @@ async function copyName(style,button){
 }
 function playExample(){
  if(!active)return;
- const sequence=++playSequence;video.pause();videoStatus.textContent='';video.poster=active.image;video.src=active[mode.value];video.load();
+ const sequence=++playSequence;video.pause();videoStatus.textContent='';video.poster=active.variantImages?.[mode.value]||active.image;video.src=active[mode.value];video.load();
  const pending=video.play();if(pending)pending.catch(error=>{if(sequence!==playSequence||!modal.open)return;videoStatus.textContent=error.name==='NotAllowedError'?'请点击视频播放按钮 / Click the video play button.':'视频暂时无法播放，请重试 / Unable to play. Please try again.'});
 }
 function openPreview(style,autoplay=true){
  active=style;const title=document.querySelector('#large-title');title.replaceChildren(document.createTextNode(style.nameZh));const english=document.createElement('span');english.textContent=style.name;title.append(english);
  document.querySelector('#large-category').textContent='#'+String(style.id).padStart(2,'0')+' · '+style.familyZh+' / '+style.family+(style.sourceCredit?' · '+style.sourceCredit:'');
- document.querySelector('#manual-wrap').hidden=true;const copy=document.querySelector('#large-copy');copy.textContent=COPY;copy.classList.remove('done');mode.value='explainer';if(!modal.open)modal.showModal();
+ document.querySelector('#manual-wrap').hidden=true;const copy=document.querySelector('#large-copy');copy.textContent=COPY;copy.classList.remove('done');for(const option of mode.options){option.textContent=style.videoLabels?.[option.value]||({explainer:'讲解示例 / Explainer',styleClip:'风格短片 / Style clip'}[option.value])}mode.value='explainer';if(!modal.open)modal.showModal();
  if(autoplay)playExample();else{++playSequence;video.pause();video.poster=style.image;video.src=style.explainer;video.load();videoStatus.textContent=''}
 }
 function stopExample(){++playSequence;video.pause();video.removeAttribute('src');video.load();videoStatus.textContent=''}

@@ -1,4 +1,4 @@
 interface:
   display_name: "Opus 5.5 — 86 Styles in Motion"
-  short_description: "86种风格加口播类，支持精剪与同步动效，先确认20秒样片再制作完整HTML视频"
+  short_description: "86种风格及口播、Vibe知识讲解扩展，选定风格后先做20秒HTML样片"
   default_prompt: "使用 $claude-opus-5-5-new 制作一期讲解奥卡姆剃刀的视频。"

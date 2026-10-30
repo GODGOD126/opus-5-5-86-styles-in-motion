@@ -1,0 +1,137 @@
+[
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/LICENSE",
+    "sha256": "88fdc6443b28865287754012191fb3925bd9b1255e68ed097c33b7714a5a759c"
+  },
+  {
+    "path": "engine/vk.js",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/engine/vk.js",
+    "sha256": "a8438d1eb29b1a300c68607cceaae629b9daf62a2cbabb3bb60325b67f238f4a"
+  },
+  {
+    "path": "engine/vk-kit.js",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/engine/vk-kit.js",
+    "sha256": "c5afef06ccbe5d1e21ecc9310a31599b4870e28ee28cd8d9b7ee18e827025ea3"
+  },
+  {
+    "path": "engine/audio.py",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/engine/audio.py",
+    "sha256": "afdee5fc5046df637506cbe1d1db71af8c6afda95c7191015341fc5900fba68c"
+  },
+  {
+    "path": "examples/fold_C/film.js",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/fold_C/film.js",
+    "sha256": "a1b39cc1b928ec2481e706e880476a00adb2fe257d94df1d4fe2e59787365e1d"
+  },
+  {
+    "path": "examples/fold_C/index.html",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/fold_C/index.html",
+    "sha256": "8fafa382ab203db58ea71af87b5af659a1da163741a819c6c4980e230fff01d5"
+  },
+  {
+    "path": "examples/fold_C/storyboard.md",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/fold_C/storyboard.md",
+    "sha256": "1cfdda656cb48f97ca83cddeab839b251df2ec18298d229198c1242edc2d664f"
+  },
+  {
+    "path": "examples/fold_C.gif",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/fold_C.gif",
+    "sha256": "08a597e7ebf5f824af5e9c3e822ec21ffe6532f3844776e9bb89589d771d3b86"
+  },
+  {
+    "path": "examples/pigeon_B/film.js",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/pigeon_B/film.js",
+    "sha256": "15a5b3d074ff825bfdbec3d2fb493f882221b3ace805a5e0e98f9764cecb774d"
+  },
+  {
+    "path": "examples/pigeon_B/index.html",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/pigeon_B/index.html",
+    "sha256": "71179764cf7f380400f33e6d1a7d5888e6872b0489e9a2077abe61920398677b"
+  },
+  {
+    "path": "examples/pigeon_B/storyboard.md",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/pigeon_B/storyboard.md",
+    "sha256": "6f27be713453188f6604b88632558870c49014c3a0071486ec6b947ae3b093d5"
+  },
+  {
+    "path": "examples/pigeon_B.gif",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/pigeon_B.gif",
+    "sha256": "58ed2e260f3b8f2bf3c9aae5fda06a0a44d5cb5ac51c59ff9fc608090e4c314c"
+  },
+  {
+    "path": "examples/fold_C/layout.js",
+    "url": "https://raw.githubusercontent.com/HeyChengC/vibe-knowledge-film/62d51508aad00003dc6209afa80c4b5dc540de59/examples/fold_C/layout.js",
+    "sha256": "e1fe9bdc12e9c225bb2841c2a7d7a38449106d3f4b799e138be797c77e479e92"
+  },
+  {
+    "path": "engine/fonts/NotoSerifSC-VF.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+    "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9"
+  },
+  {
+    "path": "engine/fonts/NotoSansSC-VF.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  {
+    "path": "engine/fonts/CormorantGaramond.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
+    "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+  },
+  {
+    "path": "engine/fonts/CormorantGaramond-Italic.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+    "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+  },
+  {
+    "path": "engine/fonts/Lora.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora%5Bwght%5D.ttf",
+    "sha256": "822a6621ccbe8d97d20ac88c1c41f5615c9c2c202eaa75f272cd452aac6475a7"
+  },
+  {
+    "path": "engine/fonts/Lora-Italic.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora-Italic%5Bwght%5D.ttf",
+    "sha256": "22d8d8854b53807aa664ca34f2031a9ed57a1d0dea296b8b96cdd3aad937a2b3"
+  },
+  {
+    "path": "engine/fonts/JetBrainsMono.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+    "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda"
+  },
+  {
+    "path": "engine/fonts/CourierPrime-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/CourierPrime-Regular.ttf",
+    "sha256": "72f793376f8e2841656bf21d77a5de010f2929bd6956a22ee848ad0c7eb978af"
+  },
+  {
+    "path": "engine/fonts/OFL-NotoSerifSC.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+    "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+  },
+  {
+    "path": "engine/fonts/OFL-NotoSansSC.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  {
+    "path": "engine/fonts/OFL-CormorantGaramond.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "path": "engine/fonts/OFL-Lora.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt",
+    "sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716"
+  },
+  {
+    "path": "engine/fonts/OFL-JetBrainsMono.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jetbrainsmono/OFL.txt",
+    "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+  },
+  {
+    "path": "engine/fonts/OFL-CourierPrime.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/courierprime/OFL.txt",
+    "sha256": "9a755af092b494944c99f471be6fddd19b006a448fefdc4717e4ee0aa09a97b0"
+  }
+]

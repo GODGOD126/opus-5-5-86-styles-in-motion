@@ -25,6 +25,18 @@ def records():
                 raise ValueError(f'Missing custom resource: {record["id"]} / {field}')
         if not inside(ROOT, record['guide']).is_file():
             raise ValueError(f'Missing custom style guide: {record["id"]}')
+        variants = record.get('variants', [])
+        variant_ids = [v['id'] for v in variants]
+        if len(variant_ids) != len(set(variant_ids)):
+            raise ValueError(f'Duplicate variants: {record["id"]}')
+        for variant in variants:
+            if variant['videoField'] not in ('explainer', 'styleClip'):
+                raise ValueError('Invalid variant video field')
+            for field in ('poster', 'sourceEntry'):
+                if not inside(base, variant[field]).is_file():
+                    raise ValueError(f'Missing variant resource: {record["id"]} / {field}')
+        if record.get('videoLabels') and set(record['videoLabels']) != {'explainer', 'styleClip'}:
+            raise ValueError('Both video labels are required')
     return data
 
 

@@ -1,0 +1,11 @@
+Vibe Knowledge Film / Vibe 知识讲解
+Source: HeyChengC https://github.com/HeyChengC/vibe-knowledge-film
+Revision: 62d51508aad00003dc6209afa80c4b5dc540de59
+Retrieved: 2026-10-30
+Bundled: MIT engine, optional audio synthesizer, author-created fold_C and pigeon_B code/storyboards and GIF-derived silent MP4 previews.
+Adaptations: portable player, local font packaging, project initializer, scoped production guide, and gallery metadata by this skill.
+Excluded: references/analysis.md, prompts.md, visualization.md, stim_B, info_C, upstream installer/server/render scripts. No third-party reference-film captions/designs bundled from those excluded files.
+Fonts: Google Fonts, SIL OFL; local licenses and download hashes included.
+The preview MP4s are converted from the author's GIFs, not original rendered full-resolution videos; they contain no audio. Original sample source duration is about 33 seconds. New user samples default to 20 seconds.
+Model attribution: not independently verified as Opus 5.5.
+Font license notices retain all wording; trailing whitespace normalized. download-provenance.json records original downloaded bytes, manifest.json records bundled bytes.

@@ -43,6 +43,14 @@ def export(destination, update=False):
         base = custom_styles.inside(ROOT, record['folder'])
         item = {k: record[k] for k in ('id', 'name', 'nameZh', 'family', 'familyZh', 'description')}
         item['sourceCredit'] = record['sourceCredit']
+        if record.get('videoLabels'):
+            item['videoLabels'] = record['videoLabels']
+        if record.get('variants'):
+            item['variantImages'] = {}
+            for variant in record['variants']:
+                relative = f'posters/{record["id"]:03d}-{variant["videoField"]}.jpg'
+                sources.append((custom_styles.inside(base, variant['poster']), relative))
+                item['variantImages'][variant['videoField']] = relative
         for field, key, relative in [('poster', 'image', f'posters/{record["id"]:03d}.jpg'),
                                      ('explainer', 'explainer', f'videos/{record["id"]:03d}-explainer.mp4'),
                                      ('styleClip', 'styleClip', f'videos/{record["id"]:03d}-style-clip.mp4')]:
